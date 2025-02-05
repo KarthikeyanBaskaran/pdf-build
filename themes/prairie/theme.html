@@ -1,0 +1,83 @@
+{%- macro format_str_date(str_date) -%}
+{{ strptime(str_date, '%Y-%m-%d').strftime('%b %Y') }}
+{%- endmacro -%}
+
+{%- macro format_date_range(exp) -%}
+{{ format_str_date(exp.startDate) }} - {% if exp.endDate %}{{ format_str_date(exp.endDate) }}{% else %}Present{% endif %}
+{%- endmacro -%}
+
+<head>
+<link rel="stylesheet" href="theme.css">
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header-name">
+            <span class="name-large">{{ basics.shortname }}</span>
+            <span class="name-small">({{ basics.name }})</span>
+        </div>
+        <ul class="header">
+            <li class="phone-number">{{ basics.phone }}</li>
+            <!-- <li>{{ basics.phone }}</li> -->
+            <li><a href="mailto:{{ basics.email }}">{{ basics.email }}</a></li>
+            {% for profile in basics.profiles %}
+            <li>
+                <a href="{{ profile.url }}">{{ profile.url }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+<h2>Summary</h2>
+<p> {{ basics.summary }} </p>
+
+<h2>Skills</h2>
+<ul class="keyval-list">
+    {% for skill in skills %}
+    <li><span class="key-title">{{ skill.name }}</span>: {{ skill.keywords|join(', ') }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Experience</h2>
+<ul class="work-list">
+    {% for exp in work %}
+    <li>
+        <div class="work-subheader">
+            <div class="work-title">{{ exp.position }}</div>
+            <div class="work-date">{{ format_date_range(exp) }}</div>
+        </div>
+        
+        <div class="work-company">{{ exp.name }}</div> 
+        
+        <ul class="work-description">
+            {% for desc_line in exp.highlights %}
+            <li>{{ desc_line }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+<h2>Projects</h2>
+<ul class="keyval-list-project">
+    {% for project in projects %}
+    <li><span class="key-title">{{ project.name }}</span>: {{ project.description }}
+        {% if project.url %} (<a href="{{ project.url }}">{{ project.url }}</a>){% endif %}
+        {% if project.keywords|length > 0 %} ({{ project.keywords|join(', ') }}){% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<h2>Education</h2>
+<ul class="work-list">
+    {% for exp in education %}
+    <li>
+        <div class="work-title">{{ exp.area }}</div>
+        <div class="work-subheader">
+            <div class="work-company">{{ exp.institution }}</div>
+            <div class="work-date">{{ format_date_range(exp) }}</div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+</body>
