@@ -13,7 +13,7 @@ from weasyprint import HTML  # type: ignore
 from weasyprint.document import DocumentMetadata  # type: ignore
 
 DATE_FORMAT = '%Y-%m-%d'
-DEFAULT_OUTPUT_FILENAME = r'C:\Users\karth\OneDrive\Documents\GitHub\resumy\out.pdf'
+DEFAULT_OUTPUT_FILENAME = r"C:\Users\karth\OneDrive\Documents\GitHub\pdf-build\resume.pdf"
 DEFAULT_CONFIG_FILENAME = 'myconfig.yaml'
 DEFAULT_MYTHEME_NAME = 'mytheme'
 DEFAULT_SCHEMAS_DIR = 'schemas'
@@ -83,11 +83,13 @@ def create_resume(config: Yaml,
         return
     
     html = HTML(string=html_resume, media_type='print', base_url='file://' + os.path.abspath(theme_path))
-    doc = html.render(
-        stylesheets=css_list)
+    doc = html.render(stylesheets=css_list)
     doc.metadata = metadata
     logger.info(f'export to {output_file}')
-    doc.write_pdf(output_file)
+    
+    # doc.write_pdf(output_file)
+
+    doc.write_pdf(output_file, zoom=1.0)
     # Verify if the PDF was successfully written
     if os.path.exists(output_file):
         print(f"SUCCESS: PDF created at {output_file}")
