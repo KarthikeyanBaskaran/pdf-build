@@ -1,0 +1,142 @@
+/* Include all CSS from skills_theme.css */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #0a75ad;
+}
+
+.phone-number {
+    font-weight: bold;
+    color: #0a75ad;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.name-large {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.name-small {
+    display: block;
+    font-weight: normal;
+    color: #666;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+ul.header {
+    text-align: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+ul.header > li {
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+h2 {
+    font-weight: bold;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0a75ad;
+    color: #0a75ad;
+}
+
+.projects{
+    font-weight: bold;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0a75ad;
+    color: #0a75ad;
+}
+.key-title {
+    font-weight: bold;
+}
+
+ul.keyval-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 8px;
+}
+
+/* Add styles for Experience section */
+ul.work-list > li {
+    margin-bottom: 12px;
+}
+
+.work-subheader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.work-company {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-style: italic;
+}
+
+.work-description {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #444;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #555;
+}

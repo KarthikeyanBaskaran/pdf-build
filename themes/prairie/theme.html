@@ -29,7 +29,10 @@
     </div>
 
 <h2>Summary</h2>
-<p> {{ basics.summary }} </p>
+<div class="summary">
+    {{ basics.summary }}
+</div>
+
 
 <h2>Skills</h2>
 <ul class="keyval-list">
@@ -58,7 +61,7 @@
     {% endfor %}
 </ul>
 
-<h2>Projects</h2>
+<p>Projects</p>
 <ul class="keyval-list-project">
     {% for project in projects %}
     <li><span class="key-title">{{ project.name }}</span>: {{ project.description }}

@@ -1,5 +1,5 @@
 @page {
-    size: 21.59cm 37cm;
+    size: 21.59cm 45cm;
     /* size: auto; */
     margin: 10mm; 
 } 
@@ -30,6 +30,23 @@ h2 {
     border-bottom: 2px solid #0a75ad;
     color: #0a75ad;
 }
+.summary {
+    line-height: 1.5;
+    color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+p {
+    /* font-weight: bold; */
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0a75ad;
+    color: #0a75ad;
+}
+
 
 ul {
     list-style: none;
@@ -140,6 +157,9 @@ ul.work-list > li {
     .work-description{
         font-size: 14px;
     }
+    p{
+        font-size: 17px;
+    }
 
     .work-company{
         font-size: 14px;
@@ -162,13 +182,12 @@ ul.work-list > li {
     .work-subheader {
         font-size: 14px;
     }
-    p{
-        font-size: 14px;
-    }
     a{
         font-size: 13px;
     }
     .phone-number{
         font-size: 14px;
     }
+    .summary {
+        font-size: 14px;}
 }
