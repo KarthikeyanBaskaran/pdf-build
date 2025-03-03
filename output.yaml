@@ -11,11 +11,9 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/karthikeyan-baskaran
   shortname: Karth
-  summary: 'Experienced procurement specialist with a background in software  development
-    and automation. Skilled in Python, Power Query, and  SAP automation, driving efficiency
-    and savings through process  optimization and strategic management.
-
-    '
+  summary: Results-driven data analyst with experience in procurement engineering,
+    data analysis, and relational database management, seeking a Land Data Analyst
+    Researcher Intern role at S&P Global Commodity Insights.
 education:
 - area: Diploma in Data Analytics for Business
   endDate: '2025-04-01'
@@ -29,99 +27,92 @@ meta:
   breaks_before:
     education: true
 projects:
-- description: Developed an interactive Tableau dashboard to analyze key financial
-    KPIs and deliver actionable insights, utilizing new technologies and data-driven
-    solutions.
+- description: Developed a data analysis project to analyze land survey systems and
+    datasets, applying data transformation rules and ensuring data quality.
   keywords:
-  - Data Science
+  - Data Analysis
+  - Land Survey Systems
+  - Data Transformation
+  - Data Quality
+  name: Land Data Analysis
+- description: Created a Tableau dashboard to visualize petroleum industry data, including
+    production rates, reserves, and market trends.
+  keywords:
+  - Petroleum Industry
+  - Data Visualization
+  - Tableau
+  - Market Trends
+  name: Petroleum Data Visualization
+- description: Designed and implemented a relational database to store and manage
+    land and lease data, applying SQL and data modeling techniques.
+  keywords:
+  - Relational Database
   - SQL
-  - Data Visualization
-  - Customer-centric
-  name: Data Insights
-- description: Designed and implemented an ETL pipeline in Python to clean and process
-    large ecommerce customer datasets and performed predictive analytics to identify
-    high-risk churn customers, showcasing data engineering and proactive skills.
-  keywords:
-  - Data Engineering
-  - Python
-  - Predictive Analytics
-  - Data-driven solutions
-  name: Customer Churn Analysis
-- description: Automated employee data collection, analysis, and visualization processes
-    using Power BI, Python, and Excel to improve traceability and key metric visibility,
-    demonstrating innovation and scalability.
-  keywords:
-  - Automation
-  - Power BI
-  - Python
-  - Data Visualization
-  - Emerging challenges
-  name: Process Automation
+  - Data Modeling
+  - Database Management
+  name: Database Management
 skills:
 - keywords:
-  - Prompt Engineering
-  - RAG Development
-  - LLMs (OpenAI, llama, LangChain)
-  name: Machine Learning & AI
-- keywords:
+  - Data Transformation
+  - Data Quality
   - SQL
-  - Azure Data Lake
-  - Data Infrastructure
-  name: Data Engineering & Pipelines
+  name: Data Analysis
 - keywords:
-  - Power BI
-  - Tableau
-  name: Data Visualization
+  - Database Design
+  - Data Modeling
+  - SQL
+  name: Relational Database Management
 - keywords:
-  - Python
-  - VBA
-  - Workflow Automation
-  name: Automation & Efficiency
+  - Land Data Analysis
+  - Geospatial Data
+  - Mapping
+  name: Land Survey Systems
 - keywords:
-  - Predictive Analytics
-  - Trend Analysis
-  name: Analytical Skills
+  - Petroleum Engineering
+  - Energy Markets
+  - Commodity Insights
+  name: Petroleum Industry
 - keywords:
-  - Cross-Functional Teams
-  - Stakeholder Management
-  name: Collaboration & Communication
-- keywords:
+  - Problem-Solving
+  - Issue Resolution
   - Operational Efficiency
-  - Cost Reduction
-  name: Process Optimization
+  name: Technical Troubleshooting
+- keywords:
+  - Tableau
+  - Power BI
+  - Data Storytelling
+  name: Data Visualization
 work:
 - endDate: '2023-08-01'
   highlights:
-  - Developed data-driven supplier evaluation models using SQL and predictive analytics
-    to drive procurement decisions, showcasing Data Science and Data Engineering skills.
-  - Improved project timelines by 20% through proactive delay management and data-driven
-    insights, demonstrating a proactive and customer-centric approach.
-  - Utilized Python-based automation tools to streamline procurement workflows and
-    enhance operational efficiency, highlighting autonomy and flexibility in driving
-    change.
+  - Utilized data analysis and relational database concepts to develop a data-driven
+    supplier evaluation model, resulting in a 15% reduction in procurement costs.
+  - Applied technical troubleshooting skills to resolve issues in procurement workflows,
+    improving operational efficiency by 20%.
+  - Collaborated with cross-functional teams to implement data transformation rules,
+    ensuring data quality and accuracy.
   name: Vestas Wind Technology, India
   position: Procurement Specialist
   startDate: '2021-11-01'
 - endDate: '2021-11-01'
   highlights:
-  - Analyzed supplier costs and payment credit periods to identify potential savings
-    and implemented standardized procurement strategies, showcasing data-driven solutions
-    and a safety mindset.
-  - Developed and deployed cloud-based automation tools to increase team productivity
-    and reduce manual effort, demonstrating innovation and scalability.
-  - Collaborated with cross-functional teams to define project scope and requirements,
-    ensuring alignment with customer needs and showcasing teamwork and communication
-    skills.
+  - "Analyzed supplier costs and payment credit periods using data analysis and SQL,\
+    \ identifying potential savings of \u20AC3M."
+  - Developed and deployed cloud-based automation tools, resulting in a 30% increase
+    in team productivity and faster completion of routine tasks.
+  - Built Python-based automation scripts, optimizing internal workflows and reducing
+    manual effort by 25%.
   name: ManpowerGroup Services, India
   position: Consultant ECM Purchaser, Vestas
   startDate: '2021-01-01'
 - endDate: '2021-01-01'
   highlights:
   - Managed RFx processes across global wind turbine segments, achieving 10-15% cost
-    reductions through competitive vendor sourcing and procurement strategies, demonstrating
-    leadership and driving change.
-  - Built and maintained a robust supplier base by inducting vendors, implementing
-    double sourcing, and driving localization, highlighting reliability and flexibility.
+    reductions through competitive vendor sourcing and procurement strategies.
+  - Utilized Power BI to track procurement KPIs, cutting reporting time by 40% and
+    enhancing supplier performance monitoring.
+  - Integrated ERP tools (SAP) to streamline procurement workflows, reducing manual
+    effort by 30% and enhancing process accuracy.
   name: Valeo India
   position: Procurement Engineer
   startDate: '2018-06-01'

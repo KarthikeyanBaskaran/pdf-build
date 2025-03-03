@@ -20,6 +20,7 @@ DEFAULT_SCHEMAS_DIR = 'schemas'
 DEFAULT_SCHEMA = 'jsonresume.yaml'
 DEFAULT_THEMES_DIR = 'themes'
 DEFAULT_THEME = 'prairie'
+css_path = r'C:\Users\karth\OneDrive\Documents\GitHub\pdf-build\themes\prairie\theme.css'
 
 # Type aliases
 Yaml = Dict[str, Any]
@@ -62,35 +63,45 @@ def create_resume(config: Yaml,
     # 2. Create a html from both the theme and the config file
     html_resume = template.render(config, strptime=datetime.strptime)
     print("Generated HTML content:")
-    # print(html_resume) 
+    print(output_file)
+    # Save the HTML content to a file (optional step)
+    html_output_file = 'template.html'  # Save HTML with the same name as PDF
+    with open(html_output_file, 'w', encoding='utf-8') as html_file:
+        html_file.write(html_resume)
+    print(f"HTML file saved as: {html_output_file}")
 
-    # 3. Add css automatically
-    css_list = []
-    theme_lsdir = os.listdir(theme_path)
-    for theme_file in theme_lsdir:
-        [_, ext] = os.path.splitext(theme_file)
-        if ext != '.css':
-            continue
-        css_list.append(os.path.join(theme_path, theme_file))
 
-    # 4. Export a pdf
-    print(f"Attempting to create resume PDF at: {output_file}")
-    # Check if output path is valid
-    output_dir = os.path.dirname(output_file)
-    print(f'the directory is {output_dir}')
-    if output_dir and not os.path.exists(output_dir):
-        print(f"ERROR: Output directory '{output_dir}' does not exist.")
-        return
+    html = HTML(html_output_file)
+    # doc = html.render(stylesheets=html_file)
+    html.write_pdf(output_file,stylesheets=[css_path])
+
+    # # 3. Add css automatically
+    # css_list = []
+    # theme_lsdir = os.listdir(theme_path)
+    # for theme_file in theme_lsdir:
+    #     [_, ext] = os.path.splitext(theme_file)
+    #     if ext != '.css':
+    #         continue
+    #     css_list.append(os.path.join(theme_path, theme_file))
+
+    # # 4. Export a pdf
+    # print(f"Attempting to create resume PDF at: {output_file}")
+    # # Check if output path is valid
+    # output_dir = os.path.dirname(output_file)
+    # print(f'the directory is {output_dir}')
+    # if output_dir and not os.path.exists(output_dir):
+    #     print(f"ERROR: Output directory '{output_dir}' does not exist.")
+    #     return
     
-    html = HTML(string=html_resume, media_type='print', base_url='file://' + os.path.abspath(theme_path))
-    doc = html.render(stylesheets=css_list)
-    doc.metadata = metadata
-    logger.info(f'export to {output_file}')
+    # html = HTML(string=html_resume, media_type='print', base_url='file://' + os.path.abspath(theme_path))
+    # doc = html.render(stylesheets=css_list)
+    # doc.metadata = metadata
+    # logger.info(f'export to {output_file}')
     
-    # doc.write_pdf(output_file)
+    # # doc.write_pdf(output_file)
 
-    doc.write_pdf(output_file, zoom=1.0)
-    # Verify if the PDF was successfully written
+    # doc.write_pdf(output_file, zoom=1.0)
+    # # Verify if the PDF was successfully written
     if os.path.exists(output_file):
         print(f"SUCCESS: PDF created at {output_file}")
     else:
