@@ -11,9 +11,9 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/karthikeyan-baskaran
   shortname: Karth
-  summary: Results-driven data analyst with experience in procurement engineering,
-    data analysis, and relational database management, seeking a Land Data Analyst
-    Researcher Intern role at S&P Global Commodity Insights.
+  summary: Results-driven data science professional with experience in NLP, machine
+    learning, and procurement optimization, leveraging expertise in Python, PyTorch,
+    and data visualization to drive business growth and improve operational efficiency.
 education:
 - area: Diploma in Data Analytics for Business
   endDate: '2025-04-01'
@@ -27,92 +27,94 @@ meta:
   breaks_before:
     education: true
 projects:
-- description: Developed a data analysis project to analyze land survey systems and
-    datasets, applying data transformation rules and ensuring data quality.
+- description: Developed a conversational AI chatbot using PyTorch, transformers,
+    and NLP techniques to analyze and respond to user queries.
   keywords:
-  - Data Analysis
-  - Land Survey Systems
-  - Data Transformation
-  - Data Quality
-  name: Land Data Analysis
-- description: Created a Tableau dashboard to visualize petroleum industry data, including
-    production rates, reserves, and market trends.
+  - NLP
+  - PyTorch
+  - Transformers
+  - Conversational AI
+  name: NLP-Based Chatbot
+- description: Designed and implemented a retrieval-augmented generation (RAG) model
+    using Python and machine learning to improve search results and user experience.
   keywords:
-  - Petroleum Industry
-  - Data Visualization
+  - Generative AI
+  - Retrieval-Augmented Generation
+  - Python
+  - Machine Learning
+  name: Generative AI for Search
+- description: Created a dynamic dashboard using Tableau and Python to visualize and
+    analyze information retrieval metrics, providing actionable insights for stakeholders.
+  keywords:
+  - Information Retrieval
   - Tableau
-  - Market Trends
-  name: Petroleum Data Visualization
-- description: Designed and implemented a relational database to store and manage
-    land and lease data, applying SQL and data modeling techniques.
-  keywords:
-  - Relational Database
-  - SQL
-  - Data Modeling
-  - Database Management
-  name: Database Management
+  - Python
+  - Data Visualization
+  name: Information Retrieval Dashboard
 skills:
 - keywords:
-  - Data Transformation
-  - Data Quality
-  - SQL
+  - NLP
+  - Machine Learning
+  - Data Visualization
+  name: Data Science
+- keywords:
+  - Supplier Evaluation
+  - Predictive Analytics
+  - Cost Reduction
+  name: Procurement Optimization
+- keywords:
+  - Cloud Automation
+  - Process Optimization
+  - Productivity Enhancement
+  name: Automation
+- keywords:
+  - Conversational AI
+  - Generative AI
+  - Text Analysis
+  name: Natural Language Processing
+- keywords:
+  - Data Mining
+  - Information Retrieval
+  - Business Intelligence
   name: Data Analysis
 - keywords:
-  - Database Design
-  - Data Modeling
-  - SQL
-  name: Relational Database Management
-- keywords:
-  - Land Data Analysis
-  - Geospatial Data
-  - Mapping
-  name: Land Survey Systems
-- keywords:
-  - Petroleum Engineering
-  - Energy Markets
-  - Commodity Insights
-  name: Petroleum Industry
-- keywords:
-  - Problem-Solving
-  - Issue Resolution
-  - Operational Efficiency
-  name: Technical Troubleshooting
-- keywords:
-  - Tableau
-  - Power BI
-  - Data Storytelling
-  name: Data Visualization
+  - PyTorch
+  - Transformers
+  - Python
+  name: Python Development
 work:
 - endDate: '2023-08-01'
   highlights:
-  - Utilized data analysis and relational database concepts to develop a data-driven
-    supplier evaluation model, resulting in a 15% reduction in procurement costs.
-  - Applied technical troubleshooting skills to resolve issues in procurement workflows,
-    improving operational efficiency by 20%.
-  - Collaborated with cross-functional teams to implement data transformation rules,
-    ensuring data quality and accuracy.
+  - Developed and implemented a data-driven supplier evaluation model using Python
+    and machine learning to optimize procurement costs and improve supplier performance.
+  - Designed and deployed a predictive analytics framework to forecast demand and
+    manage delays, resulting in a 20% reduction in project timelines and improved
+    operational efficiency.
+  - Collaborated with cross-functional teams to develop and implement automation tools,
+    streamlining procurement workflows and enhancing data accuracy.
   name: Vestas Wind Technology, India
   position: Procurement Specialist
   startDate: '2021-11-01'
 - endDate: '2021-11-01'
   highlights:
-  - "Analyzed supplier costs and payment credit periods using data analysis and SQL,\
-    \ identifying potential savings of \u20AC3M."
+  - Utilized data-driven insights and process optimization techniques to reduce production
+    costs by 10% and improve operational efficiency by 15%.
   - Developed and deployed cloud-based automation tools, resulting in a 30% increase
     in team productivity and faster completion of routine tasks.
-  - Built Python-based automation scripts, optimizing internal workflows and reducing
-    manual effort by 25%.
+  - Led RFx processes and negotiated competitive pricing with global vendors, achieving
+    an 8% reduction in procurement costs.
   name: ManpowerGroup Services, India
   position: Consultant ECM Purchaser, Vestas
   startDate: '2021-01-01'
 - endDate: '2021-01-01'
   highlights:
-  - Managed RFx processes across global wind turbine segments, achieving 10-15% cost
-    reductions through competitive vendor sourcing and procurement strategies.
-  - Utilized Power BI to track procurement KPIs, cutting reporting time by 40% and
-    enhancing supplier performance monitoring.
-  - Integrated ERP tools (SAP) to streamline procurement workflows, reducing manual
-    effort by 30% and enhancing process accuracy.
+  - Built and maintained a robust supplier base by inducting vendors, implementing
+    double sourcing, and driving localization, resulting in a 20% improvement in supply
+    chain efficiency.
+  - Executed supplier auctions using digital platforms, reducing overall part costs
+    by 8-12% while ensuring competitive pricing.
+  - Developed Power BI dashboards to track procurement KPIs, cutting reporting time
+    by 40% and enhancing supplier performance monitoring.
   name: Valeo India
   position: Procurement Engineer
   startDate: '2018-06-01'
