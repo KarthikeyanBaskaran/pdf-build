@@ -11,9 +11,9 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/karthikeyan-baskaran
   shortname: Karth
-  summary: Results-driven Data Engineer with experience in designing and developing
-    scalable data platforms, leveraging data analytics to drive business decision-making
-    and optimize operations.
+  summary: Results-driven data professional with experience in data analysis, visualization,
+    and process optimization, seeking to leverage skills in SQL, Python, and data-driven
+    decision making to drive business growth.
 education:
 - area: Diploma in Data Analytics for Business
   endDate: '2025-04-01'
@@ -27,106 +27,93 @@ meta:
   breaks_before:
     education: true
 projects:
-- description: Developed an automated data warehouse using Snowflake, Python, and
-    Airflow, focusing on data pipelines, ETL, and data quality, to support business
-    decision-making.
+- description: Developed an interactive Tableau dashboard to analyze key financial
+    KPIs, delivering actionable insights that improved financial decision-making.
   keywords:
-  - Data Warehouse
-  - Snowflake
-  - Python
-  - Airflow
+  - data analysis
+  - data visualization
+  - Tableau
+  - financial KPIs
+  name: Data Insight
+- description: Designed and implemented an ETL pipeline in Python to clean and process
+    large datasets, performing predictive analytics to identify high-risk customers.
+  keywords:
+  - data pipeline
   - ETL
-  - Data Pipelines
-  - Data Quality
-  name: Data Warehouse Automation
-- description: Designed and implemented real-time data pipelines using Python, SQL,
-    and distributed processing frameworks like Spark, focusing on data integration,
-    governance, and strategy.
-  keywords:
-  - Data Pipelines
   - Python
-  - SQL
-  - Spark
-  - Data Integration
-  - Data Governance
-  name: Real-Time Data Pipelines
-- description: Developed a cloud-based data governance framework using AWS, Python,
-    and SQL, focusing on data quality, security, and compliance, to support business
-    decision-making and ensure data accuracy.
+  - predictive analytics
+  name: Data Pipeline
+- description: Created a dynamic Tableau dashboard to visualize global metrics, integrating
+    multiple data sources and providing filters for regional and temporal analysis.
   keywords:
-  - Cloud
-  - AWS
-  - Data Governance
-  - Data Quality
-  - Python
-  - SQL
-  name: Cloud-Based Data Governance
+  - data visualization
+  - Tableau
+  - global metrics
+  - data integration
+  name: Data Visualization
 skills:
 - keywords:
-  - Data Pipelines
-  - Data Warehousing
+  - SQL
+  - Data Visualization
+  - Statistical Techniques
+  name: Data Analysis
+- keywords:
   - ETL
+  - Data Pipeline
+  - Python
   name: Data Engineering
 - keywords:
-  - Data Modeling
-  - Data Governance
-  - Data Quality
-  name: Data Analytics
+  - Tableau
+  - Power BI
+  - Data Insights
+  name: Data Visualization
 - keywords:
-  - AWS
-  - Snowflake
-  - Cloud Data Warehouses
-  name: Cloud Computing
+  - Predictive Analytics
+  - Data-Driven Decision Making
+  - Procurement
+  name: Process Optimization
 - keywords:
   - Python
-  - SQL
-  - Scala
+  - Automation
+  - Cloud-Based Tools
   name: Programming
 - keywords:
-  - Spark
-  - Flink
-  - Airflow
-  name: Data Processing
-- keywords:
-  - Data Lake
-  - Data Warehouse
   - Data Integration
-  name: Data Architecture
+  - Data Governance
+  - Microsoft Power Query
+  name: Business Intelligence
 work:
 - endDate: '2023-08-01'
   highlights:
-  - Designed and developed data-driven supplier evaluation models using Python and
-    SQL, leveraging data analytics to optimize procurement processes.
-  - Improved project timelines by 20% through predictive analytics for demand forecasting
-    and proactive delay management, utilizing data pipelines and ETL techniques.
-  - Developed and implemented automation tools using Python, streamlining procurement
-    workflows and enhancing operational efficiency, with a focus on data quality and
-    governance.
+  - Analyzed data using statistical techniques and SQL to optimize procurement processes,
+    resulting in a 15% reduction in procurement costs.
+  - Developed and implemented data-driven solutions using Python, improving project
+    timelines by 20% and saving $85M annually.
+  - Collaborated with cross-functional teams to integrate IT systems into procurement
+    processes, deploying Microsoft Power Query and SharePoint to automate reporting
+    and improve data accuracy.
   name: Vestas Wind Technology, India
   position: Procurement Specialist
   startDate: '2021-11-01'
 - endDate: '2021-11-01'
   highlights:
-  - Utilized data-driven insights to optimize procurement strategies, achieving a
-    10% reduction in production costs and improving operational efficiency by 15%.
+  - Utilized data analysis and visualization techniques to identify potential savings
+    of 3M EUR, implementing standardized and efficient procurement strategies.
   - Developed and deployed cloud-based automation tools, resulting in a 30% increase
-    in team productivity and faster completion of routine tasks, with a focus on data
-    integration and pipelines.
-  - Collaborated with cross-functional teams to define project scope and requirements,
-    ensuring alignment with customer needs and delivering projects 10% faster, using
-    data analytics and visualization techniques.
+    in team productivity and faster completion of routine tasks.
+  - Built Python-based automation scripts, optimizing internal workflows and reducing
+    manual effort by 25%.
   name: ManpowerGroup Services, India
   position: Consultant ECM Purchaser, Vestas
   startDate: '2021-01-01'
 - endDate: '2021-01-01'
   highlights:
-  - Designed and developed scalable data pipelines using Python, SQL, and distributed
-    processing frameworks like Spark, focusing on data quality, governance, and strategy.
-  - Built and maintained data warehouses using Snowflake, leveraging data modeling
-    and architecture techniques to support business decision-making.
-  - Developed and implemented data quality and governance frameworks, ensuring data
-    accuracy, security, and compliance with business policies and requirements, using
-    tools like Airflow and AWS.
+  - Managed RFx processes using digital platforms, reducing overall part costs by
+    8-12% while ensuring competitive pricing.
+  - Performed zero-based costing using advanced Excel and analytical tools, enabling
+    15% cost savings through data-driven negotiations.
+  - Developed Power BI dashboards to track procurement KPIs, cutting reporting time
+    by 40% and enhancing supplier performance monitoring.
   name: Valeo India
   position: Procurement Engineer
   startDate: '2018-06-01'
