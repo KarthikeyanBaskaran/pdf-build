@@ -1,5 +1,5 @@
 @page {
-    size: 30cm 45cm;
+    size: 25cm 45cm;
     margin: 10mm; 
 } 
 
@@ -31,11 +31,11 @@ h2 {
 }
 .summary {
     line-height: 1.5;
-    color: #333;
+    color: #df0e0e;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
     /* background-color: #f9f9f9; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 p {
