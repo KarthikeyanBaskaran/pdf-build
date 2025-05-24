@@ -1,6 +1,5 @@
 @page {
-    size: 21.59cm 45cm;
-    /* size: auto; */
+    size: 30cm 45cm;
     margin: 10mm; 
 } 
 
@@ -18,7 +17,7 @@ a {
 }
 
 .phone-number{  
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #0a75ad;
     
 }
@@ -35,7 +34,7 @@ h2 {
     color: #333;
     padding: 10px;
     margin: 10px 0;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     border-radius: 5px;
 }
 
@@ -62,12 +61,22 @@ ul {
     flex-wrap: wrap; /* Allow content to wrap */
 }
 
-.header-name {
+/* .header-name {
     display: flex;
     flex-direction: column; /* Stack the name vertically */
-    text-align: left;
+    /* text-align: left;
     flex-grow: 1; /* Allow this section to take available space */
-    min-width: 0; /* Prevent collapse */
+    /* min-width: 0; Prevent collapse */ 
+/* } */ 
+
+.header-name {
+    flex-basis: 35%; /* Start with a percentage for the name section */
+    max-width: 35%; /* Ensure it doesn't grow too wide */
+    flex-grow: 1; /* Allow it to grow if space is available */
+    min-width: 0; /* Allow shrinking */
+    /* Ensure text breaking within the name */
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .name-large {
@@ -86,12 +95,21 @@ ul {
     overflow-wrap: break-word; /* Ensure long words break */
 }
 
-ul.header {
+/* ul.header {
     text-align: right;
     display: block;
     margin: 0;
     padding: 0;
     width: fit-content;
+} */
+
+ul.header {
+    flex-basis: 65%; /* Start with a percentage for the contact info */
+    max-width: 65%; /* Ensure it doesn't grow too wide */
+    flex-grow: 1; /* Allow it to grow if space is available */
+    min-width: 0; /* Allow shrinking */
+    text-align: right; /* Keep alignment */
+    /* Remove width: fit-content; if present, as flex-basis handles it */
 }
 
 ul.header > li {
@@ -107,9 +125,9 @@ ul.header > li {
 }
 
 ul.keyval-list {
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
-    gap: 8px;
+    gap: 2px;
 }
 
 .keyval-list-project li {
@@ -186,7 +204,7 @@ ul.work-list > li {
         font-size: 13px;
     }
     .phone-number{
-        font-size: 14px;
+        font-size: 7px;
     }
     .summary {
         font-size: 14px;}

@@ -33,19 +33,6 @@ Professional Experience:
 •	Collaborated on ERP system enhancements, reducing procurement cycle times by 20% and improving data accessibility for stakeholders.
 •	Sourced globally from cost-effective suppliers to meet production demands, ensuring 100% on-time delivery and adherence to quality standards.
 
-Analytics
-• Developed and deployed Microsoft Power Query & SharePoint integration mailing system, resulting in a 30% increase in team productivity and faster completion of routine tasks.
-• Utilized data analysis and visualization techniques to identify potential savings of 3M EUR, implementing
-standardized and efficient procurement strategies.
-• Built Python automation scripts, optimizing internal workflows and reducing manual effort by 25%.
-
-Technical
-• Managed the RFx process across segments like Bearings, Gearbox& components, Plastics and Foams for global requirement with supplier base across the globe, to achieve a competitive pricing.
-• Maintained positive relationships with stakeholders by managing their expectations as well as the desired outcome of the project through planning & effective multi-disciplinary interaction
-
-
-
-
 
 3. Procurement Engineer, Valeo India, India (Jun 2018 – Jan 2021):
 •	Managed RFx processes across castings, sheet metal and plastic segments in achieving 10-15% cost reductions through competitive vendor sourcing and procurement strategies.
@@ -64,32 +51,29 @@ Technical
 
 
 Education:
- Diploma in Data Analytics for Business, St. Clair College (2024):
+ Post Graduate Certificate in Data Analytics for Business, St. Clair College (2024):
  GPA: 4.0
-    Relevant coursework: Data Mining, Predictive Analytics, Database Management, and Machine Learning.s
+ Relevant coursework: Data Mining, Predictive Analytics, Database Management, and Machine Learning
 
  Bachelor of Engineering, Mechanical,  St. Joseph’s institute of Technology (2024):
-   GPA: 3.5
+ GPA: 3.5
 
 Certifications:
- SQL for Data Science (Coursera)
- Python for Data Analysis (Udemy)
- Tableau Desktop Specialist Certification
 
-#### Projects:
-1. Meta Financial Dashboard
-•	Developed an interactive Tableau dashboard to analyze key financial KPIs such as P/E Ratio, Current Ratio, and Debt to Equity.
-•	Delivered actionable insights that improved financial decisionmaking, enhancing reporting accuracy and strategic planning.
-2. Customer Churn Analysis
-•	Designed and implemented an ETL pipeline in Python to clean and process large ecommerce customer datasets.
-•	Performed predictive analytics to identify highrisk churn customers, leading to targeted retention strategies and a measurable reduction in churn rates.
-3. Vestas Process Automation
-•	Automated employee data collection, analysis, and visualization processes using Power BI, Python, and Excel.
-•	Leveraged Microsoft Power Query for streamlined internal data gathering, improving traceability and key metric visibility, significantly benefiting senior management decisionmaking.
-4.  SAP Data Automation
-•	Developed automation solutions to streamline data management between Excel and SAP systems using Excel VBA and SAP automation features.
-•	Enabled seamless updates of Excel data into SAP, enhancing operational efficiency and data accuracy across departments.
-5. Plastic Pollution Overview Dashboard
-•	Created a dynamic Tableau dashboard to visualize global plastic pollution metrics, including waste generation, recycling rates, and environmental impacts.
-•	Integrated multiple data sources and provided filters for regional and temporal analysis, offering actionable insights for stakeholders and supporting sustainability efforts.
+Applied Data Science I Scientific Computing & Python - Sep 2021
+WorldQuant University
 
+Projects:
+1. Meta Financial Dashboard: Developed an interactive Tableau dashboard to analyze key financial KPIs such as P/E Ratio, Current Ratio, and Debt to Equity. Delivered actionable insights that improved financial decision making, enhancing reporting accuracy and strategic planning.
+
+2. Customer Churn Analysis: Churn Risk Pipeline: Analysed and processed raw input  to clean customer data, applied machine learning to predict churn risk, and visualized insights to guide retention strategies. (Python, predictive modeling, customer analytics, machine learning) 
+
+3. Vestas KPI Tracking: Automated employee data collection, analysis, and visualization processes using Power BI, Python, and Excel and improved traceability and key metric visibility, significantly benefiting senior management decision-making.
+
+4.  SAP Data Automation: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features enabled seamless updates enhancing operational efficiency and data accuracy across departments.
+
+5. Plastic Pollution Overview Dashboard: Created a dynamic Tableau dashboard to visualize global plastic pollution metrics, including waste generation, recycling rates, and environmental impacts by Integrating multiple data sources offering actionable insights for potential stakeholders supporting sustainability efforts.
+
+6. FAANG Forecast Framework: Built machine learning models to forecast FAANG stock performance using financial indicators; performed data collection, cleaning, and transformation; deployed results to Azure cloud storage for scalable access and reporting. (machine learning, financial analysis, Python, cloud deployment, data transformation) 
+
+7. Speech Form Automation: Developed a speech-to-structured-data tool using Google Speech API to transcribe patient voice queries and leveraged a large language model (LLM) to extract key information and store into SQL Server deployed the interface using Streamlit for real-time visualization. (speech recognition, data automation, LLM, Python, Streamlit, SQL)
