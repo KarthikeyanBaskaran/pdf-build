@@ -31,9 +31,9 @@ h2 {
 }
 .summary {
     line-height: 1.5;
-    color: #df0e0e;
+    color: #333;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0;
     /* background-color: #f9f9f9; */
     /* border-radius: 5px; */
 }
