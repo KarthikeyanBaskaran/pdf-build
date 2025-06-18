@@ -1,4 +1,5 @@
-boto3
+python-dotenv
 groq
 PyYAML
 weasyprint
+Jinja2

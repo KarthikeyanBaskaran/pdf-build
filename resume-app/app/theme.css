@@ -1,0 +1,193 @@
+@page {
+    size: 21.59cm 45cm;
+    /* size: auto; */
+    margin: 10mm; 
+} 
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #0a75ad;
+}
+
+.phone-number{  
+    font-weight: bold;
+    color: #0a75ad;
+    
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0a75ad;
+    color: #0a75ad;
+}
+.summary {
+    line-height: 1.5;
+    color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    /* background-color: #f9f9f9; */
+    border-radius: 5px;
+}
+
+p {
+    /* font-weight: bold; */
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0a75ad;
+    color: #0a75ad;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 5px;
+    flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column; /* Stack the name vertically */
+    text-align: left;
+    flex-grow: 1; /* Allow this section to take available space */
+    min-width: 0; /* Prevent collapse */
+}
+
+.name-large {
+    display: block; /* Ensures it takes full width */
+    font-weight: bold;
+    color: #333;
+    white-space: normal; /* Allow name to break naturally */
+    overflow-wrap: break-word; /* Ensure long words break */
+}
+
+.name-small {
+    display: block;
+    font-weight: normal;
+    color: #666;
+    white-space: normal; /* Allow name to break naturally */
+    overflow-wrap: break-word; /* Ensure long words break */
+}
+
+ul.header {
+    text-align: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+ul.header > li {
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.key-title {
+    font-weight: bold;
+}
+
+ul.keyval-list {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    gap: 8px;
+}
+
+.keyval-list-project li {
+    margin-bottom: 1em; /* Adjust spacing as needed */
+}
+
+ul.work-list > li {
+    margin-bottom: 12px;
+}
+
+.work-subheader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.work-company{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    /* font-weight: bold; */
+    font-style: italic;
+}
+
+
+.work-description {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #444;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+
+@media print {
+
+    h2 {
+        font-size: 17px;
+    }
+    .header {
+        font-size:14px;
+    }
+    .work-description{
+        font-size: 14px;
+    }
+    p{
+        font-size: 17px;
+    }
+
+    .work-company{
+        font-size: 14px;
+    }  
+    ul {
+        font-size: 14px;
+    }
+    .name-large {
+        font-size: 28px;
+    }
+    .name-small {
+            font-size: 18px;
+    }
+    ul.header > li {
+        font-size: 14px;
+    }
+    .work-list > li {
+        font-size: 14px;
+    }
+    .work-subheader {
+        font-size: 14px;
+    }
+    a{
+        font-size: 13px;
+    }
+    .phone-number{
+        font-size: 14px;
+    }
+    .summary {
+        font-size: 14px;}
+}

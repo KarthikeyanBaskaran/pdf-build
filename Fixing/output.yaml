@@ -1,0 +1,126 @@
+Here is the final, tailored resume in the specified YAML format: null
+basics:
+  email: karthikeyanbaskarca@gmail.com
+  location:
+    city: Windsor
+    countryCode: CA
+  name: Karthikeyan Baskaran
+  shortname: Karth
+  phone: +1 437-665-6654
+  profiles:
+  - network: Github
+    url: https://github.com/KarthikeyanBaskaran
+  - network: Linkedin
+    url: https://www.linkedin.com/in/karthikeyan-baskaran
+  summary: 'Experienced procurement specialist with a strong background in data analysis
+    and automation, skilled in Python, Power Query, and SQL, driving efficiency and
+    savings through process optimization and strategic management, with a keen eye
+    for supply chain optimization and demand forecasting.
+
+    '
+education:
+- area: Post Graduate Certificate in Data Analytics for Business
+  institution: St. Clair College, Canada
+  startDate: '2024-01-01'
+  endDate: '2024-12-31'
+  gpa: 4.0
+- area: Bachelor of Engineering in Mechanical
+  institution: St. Joseph's Institute of Technology, India
+  startDate: '2014-06-01'
+  endDate: '2018-06-01'
+  gpa: 3.5
+meta:
+  breaks_before:
+    education: true
+projects:
+- name: Meta Financial Dashboard
+  description: Developed an interactive Tableau dashboard analyzing key financial
+    KPIs such as P/E Ratio, Current Ratio, and Debt to Equity.
+  keywords:
+  - Tableau
+  - Financial Analytics
+- name: Customer Churn Analysis
+  description: Analyzed and processed raw input to clean customer data, applied machine
+    learning to predict churn risk, and visualized insights to guide retention strategies.
+  keywords:
+  - Python
+  - Predictive Modeling
+  - Customer Analytics
+  - Machine Learning
+- name: Vestas KPI Tracking
+  description: Automated employee data collection, analysis, and visualization processes
+    using Power BI, Python, and Excel.
+  keywords:
+  - Power BI
+  - Python
+  - Excel
+- name: SAP Data Automation
+  description: Developed automation solutions to streamline data management of SAP
+    using Excel VBA and SAP automation features.
+  keywords:
+  - Excel
+  - VBA
+skills:
+- name: Supply Chain Optimization
+  keywords:
+  - Supply Chain Analysis
+  - Demand Forecasting
+  - Inventory Planning
+  - Process Automation
+- name: Data Analytics
+  keywords:
+  - SQL
+  - Python
+  - pandas
+  - NumPy
+- name: Automation and Efficiency
+  keywords:
+  - Python
+  - VBA
+  - Workflow Automation
+- name: Communication and Collaboration
+  keywords:
+  - Cross-Functional Teams
+  - Stakeholder Management
+  - Data Visualization
+work:
+- name: Procurement Engineer
+  position: Procurement Engineer
+  company: Vestas Wind Technology, India
+  startDate: '2021-11-01'
+  endDate: '2023-08-01'
+  highlights:
+  - Achieved a 15% reduction in procurement costs by developing data-driven supplier
+    evaluation and conducting detailed cost analysis.
+  - Accelerated project timelines by 20% by implementing predictive analytics for
+    demand forecasting.
+  - Delivered savings of $35M by developing and deploying Python-based automation
+    tools that streamlined procurement workflows and enhanced operational efficiency.
+  - Elevated supplier performance monitoring through the implementation of vendor
+    scorecards using Excel and Power BI, providing actionable data visualizations
+    for improved decision-making.
+- name: Consultant ECM Purchaser
+  company: ManpowerGroup Services, India
+  position: Consultant ECM Purchaser
+  startDate: '2021-01-01'
+  endDate: '2021-11-01'
+  highlights:
+  - Reduced production costs by 10% through process optimization analyses, utilizing
+    data-driven insights to streamline operations.
+  - Identified potential savings of 3M EUR by analyzing supplier costs and payment
+    credit periods, implementing standardized and efficient procurement strategies.
+  - Improved operational efficiency by 15% by leading cross-functional collaboration
+    and deploying Lean methodologies.
+  - Enhanced project delivery capacity by 20% through process improvements that freed
+    up resources for handling additional projects.
+- name: Procurement Engineer
+  company: Valeo India
+  position: Procurement Engineer
+  startDate: '2018-06-01'
+  endDate: '2021-01-01'
+  highlights:
+  - Managed RFx processes across castings, sheet metal, and plastic segments, achieving
+    10-15% cost reductions through competitive vendor sourcing and procurement strategies.
+  - Built and maintained a robust supplier base by inducting vendors, implementing
+    double sourcing, and driving localization, resulting in a 20% improvement in supply
+    chain efficiency.

@@ -1,0 +1,127 @@
+basics:
+  email: karthikeyanbaskarca@gmail.com
+  location:
+    city: Windsor
+    countryCode: CA
+  name: Karthikeyan Baskaran
+  phone: +1 437-665-6654
+  profiles:
+  - network: Github
+    url: https://github.com/KarthikeyanBaskaran
+  - network: Linkedin
+    url: https://www.linkedin.com/in/karthikeyan-baskaran
+  shortname: Karth
+  summary: Results-driven Strategic Sourcing Specialist with 4+ years of experience
+    in procurement, vendor management, and data-driven decision-making, leveraging
+    analytical skills to drive cost savings, process improvements, and supplier performance
+    optimization.
+education:
+- area: Diploma in Data Analytics for Business
+  endDate: '2025-04-01'
+  institution: St. Clair College, Canada
+  startDate: '2023-09-01'
+- area: Bachelor of Mechanical Engineering
+  endDate: '2018-06-01'
+  institution: St. Joseph's Institute of Technology, India
+  startDate: '2014-06-01'
+meta:
+  breaks_before:
+    education: true
+projects:
+- description: Developed an interactive Tableau dashboard to analyze key sourcing
+    KPIs, such as spend analysis, supplier scorecards, and contract compliance tracking.
+  keywords:
+  - Tableau
+  - Sourcing Analytics
+  - Spend Analysis
+  - Supplier Scorecards
+  - Contract Compliance
+  name: Sourcing Dashboard
+- description: Built a Python-based automation tool to streamline RFx processes, reducing
+    manual effort and improving response analysis and award decision support.
+  keywords:
+  - Python
+  - RFx Automation
+  - Procurement Automation
+  - Supplier Management
+  name: RFx Automation
+- description: Created a dynamic Power BI dashboard to visualize supplier performance
+    metrics, including on-time delivery, quality ratings, and compliance tracking,
+    enabling data-driven decision-making and supplier evaluation.
+  keywords:
+  - Power BI
+  - Supplier Performance
+  - On-time Delivery
+  - Quality Ratings
+  - Compliance Tracking
+  name: Supplier Performance
+skills:
+- keywords:
+  - RFx Management
+  - Supplier Onboarding
+  - Contract Lifecycle Management
+  name: Procurement
+- keywords:
+  - Spend Analysis
+  - Pricing Benchmarks
+  - Supplier Scorecards
+  name: Data Analysis
+- keywords:
+  - Python
+  - Procurement Automation
+  - Workflow Optimization
+  name: Automation
+- keywords:
+  - Supplier Performance
+  - Contract Compliance
+  - Risk Assessment
+  name: Vendor Management
+- keywords:
+  - Power BI
+  - Tableau
+  - Data Visualization
+  name: Business Intelligence
+- keywords:
+  - Cost Savings
+  - Process Improvements
+  - Cross-Functional Collaboration
+  name: Strategic Sourcing
+work:
+- endDate: '2023-08-01'
+  highlights:
+  - Managed RFx processes, achieving a 20% reduction in project timelines through
+    predictive analytics and demand forecasting, resulting in enhanced project delivery
+    capacity.
+  - Developed and deployed Python-based automation tools, streamlining procurement
+    workflows and delivering $35M in savings through operational efficiency improvements.
+  - Implemented vendor scorecards using Excel and Power BI, providing actionable data
+    visualizations for improved decision-making and elevating supplier performance
+    monitoring.
+  name: Vestas Wind Technology, India
+  position: Purchaser
+  startDate: '2021-11-01'
+- endDate: '2021-11-01'
+  highlights:
+  - Conducted process optimization analyses, reducing production costs by 10% and
+    improving operational efficiency by 15% through data-driven insights and Lean
+    methodologies.
+  - Led cross-functional collaboration, deploying cloud-based automation tools and
+    resulting in a 30% increase in team productivity and faster completion of routine
+    tasks.
+  - Developed and deployed dashboards and reporting tools using Python and Power BI,
+    monitoring KPIs and improving decision-making accuracy by 18%.
+  name: ManpowerGroup Services, India
+  position: Consultant ECM Purchaser, Vestas
+  startDate: '2021-01-01'
+- endDate: '2021-01-01'
+  highlights:
+  - Executed RFx processes, achieving 10-15% cost reductions through competitive vendor
+    sourcing and procurement strategies, and improving supply chain efficiency by
+    20%.
+  - Built interactive dashboards to monitor procurement KPIs and supplier performance,
+    resulting in a 40% decrease in reporting time and faster decision-making.
+  - Performed cost benchmarking, identifying outliers and informing pricing strategies
+    through data-driven insights.
+  name: Valeo India
+  position: Procurement Engineer (Intern)
+  startDate: '2019-06-01'

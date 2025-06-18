@@ -1,0 +1,22 @@
+# Configuration for the Resume Generator
+
+paths:
+  # Directory where your theme files (HTML, CSS) are located.
+  # Use a relative path from where you run the script.
+  theme_dir: "." 
+
+  # The name of your base resume YAML file.
+  base_resume_yaml: "karthik.yaml"
+
+  # The name of the final, tailored YAML file that will be saved.
+  output_yaml: "output.yaml"
+  
+  # The name of the final PDF file that will be generated.
+  output_pdf: "Karthikeyan_Baskaran_Resume.pdf"
+
+  # The name of the main HTML template file inside your theme_dir.
+  html_template: "template.html"
+
+  # The name of the main CSS file inside your theme_dir.
+  css_theme: "theme.css"
+
