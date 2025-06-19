@@ -1,0 +1,79 @@
+Professional Experience:
+1. Procurement Engineer, Vestas Wind Technology, India (Nov 2021 – Aug 2023):
+•	Achieved a 15% reduction in procurement costs by developing a data-driven supplier evaluation and conducting detailed cost analysis.
+•	Accelerated project timelines by 20% by implementing predictive analytics for demand forecasting enhancing project delivery capacity.
+•	Delivered savings of $35M by developing and deploying Python-based automation tools that streamlined procurement workflows and enhanced operational efficiency.
+•	Elevated supplier performance monitoring through the implementation of vendor scorecards using Excel and Power BI, providing actionable data visualizations for improved decision-making.
+•	Integrated internal systems and procurement processes, leveraging Microsoft Power Query and SharePoint to automate operations and improve data accuracy, leading to a 30% reduction in manual efforts.
+•	Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities.
+•	Optimized material master data accuracy through VBA automation and SAP, improving data consistency and reducing errors by 25%.
+•	Collaborated with cross-functional teams to develop scalable software solutions for supply chain monitoring, ensuring seamless integration with existing systems.
+•	Mitigated supply chain risks by analyzing data and identifying alternative sourcing options, addressing potential delivery bottlenecks.
+•	Streamlined RFQ processes using advanced quote comparison tools and automation, cutting processing time by 40%.
+•	Negotiated supplier contracts to achieve significant cost savings and ensure compliance with government policies.
+•	Improved KPI tracking by automating SLA adherence reporting, increasing stakeholder transparency and reducing manual intervention.
+•	Identifying opportunities for process automation and implementing solutions that enhanced scalability and flexibility across procurement functions.
+
+
+
+2. Consultant ECM Purchaser, Vestas, ManpowerGroup Services, India (Jan 2021 – Nov 2021):
+
+•	Reduced production costs by 10% through process optimization analyses, utilizing data-driven insights to streamline operations.
+•	Identified potential savings of 3M EUR by analyzing supplier costs and payment credit periods, implementing standardized and efficient procurement strategies.
+•	Improved operational efficiency by 15% by leading cross-functional collaboration and deploying Lean methodologies.
+•	Enhanced project delivery capacity by 20% through process improvements that freed up resources for handling additional projects.
+•	Developed and deployed cloud-based automation tools, resulting in a 30% increase in team productivity and faster completion of routine tasks.
+•	Led RFx processes across wind turbine segments, negotiating competitive pricing with global vendors and achieving an 8% reduction in procurement costs.
+•	Collaborated with product management and design teams to define project scope and requirements, ensuring alignment with customer needs and delivering projects 10% faster.
+•	Built Python automation scripts, optimizing internal workflows and reducing manual effort by 25%, enhancing team efficiency.
+•	Strengthened stakeholder relationships by implementing efficient communication strategies, improving supplier and sponsor engagement by 12%.
+•	Developed dashboards and reporting tools using Python and PowerBI s to monitor KPIs, improving decision-making accuracy by 18%.
+
+•	Integrated ERP tools (SAP) to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
+•	Collaborated on ERP system enhancements, reducing procurement cycle times by 20% and improving data accessibility for stakeholders.
+•	Sourced globally from cost-effective suppliers to meet production demands, ensuring 100% on-time delivery and adherence to quality standards.
+
+
+3. Procurement Engineer, Valeo India, India (Jun 2018 – Jan 2021):
+•	Managed RFx processes across castings, sheet metal and plastic segments in achieving 10-15% cost reductions through competitive vendor sourcing and procurement strategies.
+•	Built and maintained a robust supplier base by inducting vendors, implementing double sourcing, and driving localization, resulting in a 20% improvement in supply chain efficiency.
+•	Executed supplier auctions using digital platforms, reducing overall part costs by 8-12% while ensuring competitive pricing through negotiations.
+•	Performed zero-based costing using advanced Excel (macros, pivot tables) and analytical tools, enabling 15% cost savings through data-driven negotiations.
+•	Gained expertise in manufacturing techniques, achieving a 10% reduction in project costs by aligning processes with best-cost practices.
+•       Conducted over 5 supplier auctions, achieving up to average of 15% cost savings by fostering competitive bidding among preferred vendors.
+•	Led data-driven RFx processes on digital platforms, achieving an 8–12% reduction in part costs by leveraging competitive analysis and strategic sourcing.
+•	Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
+•	Executed e-auctions and sourcing strategies that optimized supplier selection and drove cost efficiency across categories.
+•	Performed cost benchmarking for casting and plastic parts, using market data to identify outliers and inform pricing strategies.
+•	Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier liquidity and streamlining invoice discounting workflows.
+•	Analyzed Linear Pricing Patterns (LPP) across key materials to identify cost anomalies and support standardized pricing frameworks.
+
+
+
+Education:
+ Post Graduate Certificate in Data Analytics for Business, St. Clair College (2024):
+ GPA: 4.0
+ Relevant coursework: Data Mining, Predictive Analytics, Database Management, and Machine Learning
+
+ Bachelor of Engineering, Mechanical,  St. Joseph’s institute of Technology (2024):
+ GPA: 3.5
+
+Certifications:
+
+Applied Data Science I Scientific Computing & Python - Sep 2021
+WorldQuant University
+
+Projects:
+1. Meta Financial Dashboard: Developed an interactive Tableau dashboard to analyze key financial KPIs such as P/E Ratio, Current Ratio, and Debt to Equity. Delivered actionable insights that improved financial decision making, enhancing reporting accuracy and strategic planning.
+
+2. Customer Churn Analysis: Churn Risk Pipeline: Analysed and processed raw input  to clean customer data, applied machine learning to predict churn risk, and visualized insights to guide retention strategies. (Python, predictive modeling, customer analytics, machine learning) 
+
+3. Vestas KPI Tracking: Automated employee data collection, analysis, and visualization processes using Power BI, Python, and Excel and improved traceability and key metric visibility, significantly benefiting senior management decision-making.
+
+4.  SAP Data Automation: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features enabled seamless updates enhancing operational efficiency and data accuracy across departments.
+
+5. Plastic Pollution Overview Dashboard: Created a dynamic Tableau dashboard to visualize global plastic pollution metrics, including waste generation, recycling rates, and environmental impacts by Integrating multiple data sources offering actionable insights for potential stakeholders supporting sustainability efforts.
+
+6. FAANG Forecast Framework: Built machine learning models to forecast FAANG stock performance using financial indicators; performed data collection, cleaning, and transformation; deployed results to Azure cloud storage for scalable access and reporting. (machine learning, financial analysis, Python, cloud deployment, data transformation) 
+
+7. Speech Form Automation: Developed a speech-to-structured-data tool using Google Speech API to transcribe patient voice queries and leveraged a large language model (LLM) to extract key information and store into SQL Server deployed the interface using Streamlit for real-time visualization. (speech recognition, data automation, LLM, Python, Streamlit, SQL)
