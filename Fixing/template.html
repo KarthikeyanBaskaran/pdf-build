@@ -1,3 +1,11 @@
+{%- macro format_str_date(str_date) -%}
+{{ strptime(str_date, '%Y-%m-%d').strftime('%b %Y') }}
+{%- endmacro -%}
+
+{%- macro format_date_range(exp) -%}
+{{ format_str_date(exp.startDate) }} - {% if exp.endDate %}{{ format_str_date(exp.endDate) }}{% else %}Present{% endif %}
+{%- endmacro -%}
+
 <head>
 <link rel="stylesheet" href="theme.css">
 </head>
@@ -5,158 +13,74 @@
 
     <div class="header-container">
         <div class="header-name">
-            <span class="name-large">Karth</span>
-            <span class="name-small">(Karthikeyan Baskaran)</span>
+            <span class="name-large">{{ basics.shortname }}</span>
+            <span class="name-small">({{ basics.name }})</span>
         </div>
         <ul class="header">
-            <li><a>+1 437-665-6654</a></li>
-            <!-- <li>+1 437-665-6654</li> -->
-            <li><a href="mailto:karthikeyanbaskarca@gmail.com">karthikeyanbaskarca@gmail.com</a></li>
-            
+            <li><a>{{ basics.phone }}</a></li>
+            <!-- <li>{{ basics.phone }}</li> -->
+            <li><a href="mailto:{{ basics.email }}">{{ basics.email }}</a></li>
+            {% for profile in basics.profiles %}
             <li>
-                <a href="https://github.com/KarthikeyanBaskaran">https://github.com/KarthikeyanBaskaran</a>
+                <a href="{{ profile.url }}">{{ profile.url }}</a>
             </li>
-            
-            <li>
-                <a href="https://www.linkedin.com/in/karthikeyan-baskaran">https://www.linkedin.com/in/karthikeyan-baskaran</a>
-            </li>
-            
+            {% endfor %}
         </ul>
     </div>
 
 <h2>Summary</h2>
 <div class="summary">
-    Results-driven data analyst with experience in financial analysis, business operations, and automation, leveraging advanced technical skills to drive data-driven decision making and process improvement.
+    {{ basics.summary }}
 </div>
 
 
 <h2>Skills</h2>
 <ul class="keyval-list">
-    
-    <li><span class="key-title">Data Analysis and Visualization</span>: Power BI, Data Mining, Predictive Analytics</li>
-    
-    <li><span class="key-title">Financial Modeling and Analysis</span>: Financial Statements, Accounting Principles, Financial KPIs</li>
-    
-    <li><span class="key-title">Automation and Process Improvement</span>: Python, VBA, Automation</li>
-    
-    <li><span class="key-title">Business Operations and Collaboration</span>: Cross-functional, Supply Chain, Stakeholder Management</li>
-    
-    <li><span class="key-title">Technical Skills</span>: Excel, Power Query, Data Visualization</li>
-    
-    <li><span class="key-title">Cloud and Machine Learning</span>: Azure, Machine Learning, Tableau</li>
-    
+    {% for skill in skills %}
+    <li><span class="key-title">{{ skill.name }}</span>: {{ skill.keywords|join(', ') }}</li>
+    {% endfor %}
 </ul>
 
 <h2>Experience</h2>
 <ul class="work-list">
-    
+    {% for exp in work %}
     <li>
         <div class="work-subheader">
-            <div class="work-title">Purchaser</div>
-            <div class="work-date">Nov 2021 - Aug 2023</div>
+            <div class="work-title">{{ exp.position }}</div>
+            <div class="work-date">{{ format_date_range(exp) }}</div>
         </div>
         
-        <div class="work-company">Vestas Wind Technology, India</div> 
+        <div class="work-company">{{ exp.name }}</div> 
         
         <ul class="work-description">
-            
-            <li>Achieved a 15% reduction in procurement costs by developing Python-based automation tools for workflows.</li>
-            
-            <li>Improved supplier evaluation using advanced SQL and Power BI dashboards.</li>
-            
-            <li>Integrated ML Flow and Python-based tools to automate RFQ processes, reducing processing time by 40%.</li>
-            
+            {% for desc_line in exp.highlights %}
+            <li>{{ desc_line }}</li>
+            {% endfor %}
         </ul>
     </li>
-    
-    <li>
-        <div class="work-subheader">
-            <div class="work-title">Consultant ECM Purchaser, Vestas</div>
-            <div class="work-date">Jan 2021 - Nov 2021</div>
-        </div>
-        
-        <div class="work-company">ManpowerGroup Services, India</div> 
-        
-        <ul class="work-description">
-            
-            <li>Developed predictive analytics models for demand forecasting, improving delivery timelines by 20%.</li>
-            
-            <li>Automated internal workflows using Python and Power Query, enhancing team efficiency by 30%.</li>
-            
-            <li>Designed a procurement dashboard using Power BI and Cloud Storage.</li>
-            
-        </ul>
-    </li>
-    
-    <li>
-        <div class="work-subheader">
-            <div class="work-title">Procurement Engineer (Intern)</div>
-            <div class="work-date">Jun 2019 - Jan 2021</div>
-        </div>
-        
-        <div class="work-company">Valeo India</div> 
-        
-        <ul class="work-description">
-            
-            <li>Achieved 15% cost reductions through strategic vendor sourcing and procurement strategies.</li>
-            
-            <li>Built Power BI dashboards for real-time KPI tracking, reducing reporting time by 40%.</li>
-            
-            <li>Developed Python-based tools for cost analysis, saving $500K annually.</li>
-            
-        </ul>
-    </li>
-    
+    {% endfor %}
 </ul>
 
 <p>Projects</p>
 <ul class="keyval-list-project">
-    
-    <li><span class="key-title">LLM-Powered Insights Generator</span>: Built a retrieval-augmented generation (RAG) solution using LangChain and Azure AISearch for advanced data insights. Developed agentic workflows (GraphRAG) to streamline large-scale report generation, reducing manual efforts by 50%.
-        
-         (LangChain, Azure AISearch, GraphRAG)
+    {% for project in projects %}
+    <li><span class="key-title">{{ project.name }}</span>: {{ project.description }}
+        {% if project.url %} (<a href="{{ project.url }}">{{ project.url }}</a>){% endif %}
+        {% if project.keywords|length > 0 %} ({{ project.keywords|join(', ') }}){% endif %}
     </li>
-    
-    <li><span class="key-title">Meta Financial Dashboard</span>: Designed a Tableau dashboard analyzing KPIs like P/E Ratio and Debt to Equity, improving decision-making accuracy for stakeholders.
-        
-         (Tableau, Financial Analytics)
-    </li>
-    
-    <li><span class="key-title">Customer Churn Prediction</span>: Implemented ML algorithms to predict customer churn using Python and Power BI, integrating data transformation workflows with ML Flow.
-        
-         (Python, Power BI, ML Flow)
-    </li>
-    
-    <li><span class="key-title">SAP Data Automation</span>: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features, enhancing operational efficiency and data accuracy.
-        
-         (SAP, Excel VBA, Automation)
-    </li>
-    
-    <li><span class="key-title">FAANG Forecast Framework</span>: Built machine learning models to forecast FAANG stock performance using financial indicators, deploying results to Azure cloud storage for scalable access and reporting.
-        
-         (Machine Learning, FAANG Stock, Financial Indicators, Azure Cloud)
-    </li>
-    
+    {% endfor %}
 </ul>
 
 <h2>Education</h2>
 <ul class="work-list">
-    
+    {% for exp in education %}
     <li>
-        <div class="work-title">Diploma in Data Analytics for Business</div>
+        <div class="work-title">{{ exp.area }}</div>
         <div class="work-subheader">
-            <div class="work-company">St. Clair College, Canada</div>
-            <div class="work-date">Sep 2023 - Apr 2025</div>
+            <div class="work-company">{{ exp.institution }}</div>
+            <div class="work-date">{{ format_date_range(exp) }}</div>
         </div>
     </li>
-    
-    <li>
-        <div class="work-title">Bachelor of Mechanical Engineering</div>
-        <div class="work-subheader">
-            <div class="work-company">St. Joseph's Institute of Technology, India</div>
-            <div class="work-date">Jun 2014 - Jun 2018</div>
-        </div>
-    </li>
-    
+    {% endfor %}
 </ul>
 </body>
