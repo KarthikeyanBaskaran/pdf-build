@@ -11,9 +11,9 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/karthikeyan-baskaran
   shortname: Karth
-  summary: Results-driven professional with expertise in data analysis, process improvement,
-    and customer experience, seeking to leverage skills in a dynamic role that drives
-    business growth and customer satisfaction.
+  summary: Results-driven Data Engineer with 5+ years of experience in designing and
+    implementing data pipelines, leveraging Microsoft Azure, Databricks, and Python
+    to drive business growth and inform data-driven decision-making.
 education:
 - area: Diploma in Data Analytics for Business
   endDate: '2025-04-01'
@@ -27,98 +27,102 @@ meta:
   breaks_before:
     education: true
 projects:
-- description: Analyzed and processed raw customer data, applied machine learning
-    to predict churn risk, and visualized insights to guide retention strategies.
+- description: Developed a data pipeline to ingest and process large datasets from
+    various sources, including Salesforce and social media campaigns, using Azure
+    Data Factory and Databricks.
   keywords:
-  - Machine Learning
+  - Data Engineering
+  - Data Pipelines
+  - Azure
+  - Databricks
+  - Salesforce
+  - Data Ingestion
+  name: Data Lake Automation
+- description: Created an interactive dashboard to analyze customer behavior and predict
+    churn risk using Python, machine learning, and data visualization tools.
+  keywords:
   - Data Analysis
-  - Customer Churn
-  - Predictive Analytics
-  name: Customer Churn Analysis
-- description: Developed an interactive Tableau dashboard to analyze key financial
-    KPIs, delivering actionable insights that improved financial decision-making and
-    strategic planning.
-  keywords:
-  - Tableau
-  - Financial Analysis
-  - Data Visualization
-  - KPI Tracking
-  name: Meta Financial Dashboard
-- description: Automated employee data collection, analysis, and visualization processes
-    using Power BI, Python, and Excel, improving traceability and key metric visibility
-    for senior management decision-making.
-  keywords:
-  - Power BI
   - Python
-  - Excel
-  - Automation
+  - Machine Learning
   - Data Visualization
-  - KPI Tracking
-  name: Vestas KPI Tracking
+  - Customer Analytics
+  name: Customer Analytics Dashboard
+- description: Designed and implemented a data integration pipeline to send and pull
+    data from Salesforce, using Azure services and optimizing data workflows for improved
+    performance.
+  keywords:
+  - Data Integration
+  - Azure
+  - Salesforce
+  - Data Pipelines
+  - Data Engineering
+  name: Salesforce Data Integration
 skills:
 - keywords:
-  - Predictive Analytics
-  - Data Visualization
+  - Data Pipelines
+  - Azure
+  - Databricks
+  name: Data Engineering
+- keywords:
+  - Python
   - Machine Learning
+  - Data Visualization
   name: Data Analysis
 - keywords:
-  - Supply Chain Operations
-  - Cost Reduction
-  - Automation
-  name: Procurement
+  - Azure Services
+  - Cloud-based Automation
+  - Data Integration
+  name: Cloud Computing
 - keywords:
-  - Customer Service
-  - Relationship Building
-  - Retention Strategies
-  name: Customer Experience
-- keywords:
-  - Process Improvement
-  - Team Collaboration
-  - Stakeholder Management
-  name: Project Management
-- keywords:
-  - Tableau
   - Power BI
-  - Data Visualization
-  name: Business Intelligence
+  - Data Dashboards
+  - KPI Tracking
+  name: Data Visualization
 - keywords:
-  - Automation
-  - Productivity Enhancement
-  - Cost Savings
-  name: Operational Efficiency
+  - Supplier Performance
+  - Category Spend
+  - Operational Efficiency
+  name: Procurement Analytics
+- keywords:
+  - Salesforce
+  - Social Media
+  - Customer Behavior
+  name: Digital Marketing Analytics
 work:
 - endDate: '2023-08-01'
   highlights:
-  - Analyzed customer needs and developed data-driven solutions to improve procurement
-    processes, resulting in a 15% reduction in costs and a 20% increase in project
-    delivery capacity.
-  - Utilized predictive analytics to forecast demand and optimize supply chain operations,
-    achieving a 30% reduction in manual efforts and enhancing operational efficiency.
-  - Collaborated with cross-functional teams to develop and deploy automation tools,
-    streamlining procurement workflows and resulting in $35M in savings.
+  - Designed and implemented data pipelines to streamline procurement workflows, resulting
+    in a 30% reduction in manual efforts and improving data accuracy by 25% using
+    Microsoft Power Query and SharePoint.
+  - Developed and deployed Python-based automation tools, which increased team productivity
+    by 30% and reduced procurement costs by $35M.
+  - Created a comprehensive Power BI procurement dashboard to track KPIs, supplier
+    performance, and category spend, enabling informed decision-making and improving
+    stakeholder transparency by 18%.
   name: Vestas Wind Technology, India
   position: Purchaser
   startDate: '2021-11-01'
 - endDate: '2021-11-01'
   highlights:
-  - Applied data-driven insights to optimize procurement processes, reducing production
-    costs by 10% and improving operational efficiency by 15%.
-  - Developed and deployed cloud-based automation tools, increasing team productivity
-    by 30% and reducing manual effort by 25%.
-  - Built and maintained a robust supplier base, achieving a 20% improvement in supply
-    chain efficiency and ensuring 100% on-time delivery.
+  - Improved operational efficiency by 15% through process optimization analyses,
+    utilizing data-driven insights to streamline operations and reduce production
+    costs by 10%.
+  - Developed and deployed cloud-based automation tools, resulting in a 30% increase
+    in team productivity and faster completion of routine tasks, with a 25% reduction
+    in manual effort.
+  - Collaborated with cross-functional teams to define project scope and requirements,
+    ensuring alignment with customer needs and delivering projects 10% faster.
   name: ManpowerGroup Services, India
   position: Consultant ECM Purchaser, Vestas
   startDate: '2021-01-01'
 - endDate: '2021-01-01'
   highlights:
-  - Conducted data analysis to identify cost-saving opportunities, achieving a 10-15%
-    reduction in costs through competitive vendor sourcing and procurement strategies.
-  - Developed and deployed interactive dashboards to monitor procurement KPIs and
-    supplier performance, reducing reporting time by 40% and improving decision-making
-    accuracy.
-  - Executed e-auctions and sourcing strategies, optimizing supplier selection and
-    driving cost efficiency across categories.
+  - Managed RFx processes across multiple segments, achieving 10-15% cost reductions
+    through competitive vendor sourcing and procurement strategies, with a 20% improvement
+    in supply chain efficiency.
+  - Built and maintained a robust supplier base, implementing double sourcing and
+    driving localization, resulting in a 20% improvement in supply chain efficiency
+    and 100% on-time delivery.
   name: Valeo India
   position: Procurement Engineer (Intern)
   startDate: '2019-06-01'

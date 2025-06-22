@@ -260,18 +260,18 @@ def main():
         #     logging.error("LLM correction failed. Aborting.")
         #     return
 
-        try:
-            # Second attempt to parse the corrected YAML
-            resume_data = yaml.safe_load(corrected_yaml_str)
-            logging.info("Successfully parsed the corrected YAML.")
-            # Overwrite the bad YAML with the good one for saving later
-            # tailored_yaml_str = corrected_yaml_str 
-        except yaml.YAMLError as e2:
-            logging.error(f"FATAL: Failed to parse the YAML even after self-correction: {e2}")
-            logging.error("--- Final Invalid LLM Response ---")
-            # print(corrected_yaml_str)
-            # logging.error("--- End LLM Response ---")
-            return
+        # try:
+        #     # Second attempt to parse the corrected YAML
+        #     resume_data = yaml.safe_load(corrected_yaml_str)
+        #     logging.info("Successfully parsed the corrected YAML.")
+        #     # Overwrite the bad YAML with the good one for saving later
+        #     # tailored_yaml_str = corrected_yaml_str 
+        # except yaml.YAMLError as e2:
+        #     logging.error(f"FATAL: Failed to parse the YAML even after self-correction: {e2}")
+        #     logging.error("--- Final Invalid LLM Response ---")
+        #     # print(corrected_yaml_str)
+        #     # logging.error("--- End LLM Response ---")
+        #     return
 
     if resume_data:
         output_yaml_path = config['paths']['output_yaml']
