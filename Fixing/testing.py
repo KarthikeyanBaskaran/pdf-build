@@ -63,18 +63,8 @@ def get_llm_response(prompt: str) -> str:
         logging.error(f"An error occurred while communicating with the Groq API: {e}")
         return ""
 
-def get_tailored_resume_content(base_resume_text: str, job_description: str) -> str:
-    """
-    Uses the Groq LLM to convert a text resume into a tailored YAML resume.
-    
-    Args:
-        base_resume_text: The unstructured text content of the base resume.
-        job_description: The text content of the job description.
-        base_yaml_structure: A string showing the desired YAML structure.
-
-    Returns:
-        A string containing the resume in YAML format.
-    """
+def get_tailored_resume_content(base_resume_text: str, job_description: str) -> str: # 
+ 
     logging.info("Contacting Groq API to generate tailored resume content...")
     prompt = (f"""
     Instruction:
@@ -88,14 +78,14 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
         * Rewrite them using **strong action verbs** and **quantifiable results** (e.g., "Increased sales by 15%", "Reduced costs by $10K", "Managed a team of 5").
         * Ensure these points clearly demonstrate transferable skills.
 
-    2.  **Projects (If Applicable):**
-        * If the job description requires specific technologies or skills missing from my work experience, generate up to **3 new, easy-level projects**.
+    2.  **Projects :**
+    You can generate new projects with difficulty level easy when some mandatory keywords or technology is missing in my work experience. 
         * Each project title should be **short and precise (max 3 words)**.
         * Provide a **single-line description** for each project.
         * Include relevant keywords for each project.
 
-    3.  **Professional Summary:**
-        * Write a **concise, impactful 1-line professional summary** (under 10 seconds to read) that highlights my most relevant skills and experience for this job.
+    3.  Professional Summary:**
+        *Write a powerful 1-line professional summary that that highlights my most relevant skills and experience for this job.  based on resume and job description and hooks a recruiter in under 10 seconds. 
 
     4.  **Skills:**
         * List up to **6 key skill categories**.
@@ -122,13 +112,13 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
     - title: <Your Job Title>
         company: <Your Company Name>
         dates: <Start Date - End Date (e.g., "Jan 2020 - Dec 2022")>
-        highlights:
+        achievements:
         - <Action Verb> + <What you did> + <Quantifiable Result, e.g., "Achieved X by Y">
         - <Action Verb> + <What you did> + <Quantifiable Result>
         - <Action Verb> + <What you did> + <Quantifiable Result>
     - # Add more work experience entries as needed
     projects: # Optional: only if new projects are generated as per guidelines
-    - name: <Project Title>
+    - project_name: <Project Title>
         description: <Short idea in one line>
         keywords: [<keyword1>, <keyword2>, <keyword3>]
     - # Add more project entries as needed
@@ -151,30 +141,6 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
       with open("llmoutput.txt", "w", encoding="utf-8") as file:
           file.write(yaml_output)
     return yaml_output
-
-# def correct_yaml_with_llm(bad_yaml: str, error_message: str) -> str:
-#     """
-#     Asks the LLM to correct a piece of malformed YAML.
-    
-#     Args:
-#         bad_yaml: The YAML string that failed to parse.
-#         error_message: The exception message from the YAML parser.
-
-#     Returns:
-#         A new, corrected YAML string from the LLM.
-#     """
-#     logging.warning("Attempting to self-correct the invalid YAML with another LLM call...")
-#     prompt = (
-#         "You are a YAML correction expert. The following YAML code block is invalid and failed to parse. "
-#         "Your task is to fix the error and return only the corrected, valid YAML code block. Do not add any commentary or extra text.\n\n"
-#         f"ERROR MESSAGE:\n---\n{error_message}\n---\n\n"
-#         f"INVALID YAML:\n---\n{bad_yaml}\n---"
-#     )
-    
-#     corrected_yaml = get_llm_response(prompt)
-#     if corrected_yaml:
-#         logging.info("Received corrected YAML from LLM.")
-#     return corrected_yaml
 
 def generate_pdf_from_yaml(resume_data: dict, config: dict):
     """
@@ -213,7 +179,7 @@ def main():
 
     try:
         input_resume_path = "Resume.txt"
-        base_yaml_path = config['paths']['base_resume_yaml']
+        # base_yaml_path = config['paths']['base_resume_yaml']
         
         logging.info(f"Loading raw resume text from '{input_resume_path}'...")
         with open(input_resume_path, 'r', encoding='utf-8') as f:

@@ -5,9 +5,6 @@ paths:
   # Use a relative path from where you run the script.
   theme_dir: "." 
 
-  # The name of your base resume YAML file.
-  base_resume_yaml: "karthik.yaml"
-
   # The name of the final, tailored YAML file that will be saved.
   output_yaml: "output.yaml"
   

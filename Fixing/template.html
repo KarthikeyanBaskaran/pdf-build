@@ -44,7 +44,7 @@
     {% endfor %}
 </ul>
 
-<h2>Experience</h2>
+<h2>Work Experience</h2>
 <ul class="work-list">
     
     <li>
@@ -56,7 +56,7 @@
         <div class="work-company">Vestas Wind Technology, India</div> 
         
         <ul class="work-description">
-            {% for highlight in work_experience[0].highlights %}
+            {% for highlight in work_experience[0].achievements %}
             <li>{{ highlight }}</li>
             {% endfor %}
         </ul>
@@ -71,7 +71,7 @@
         <div class="work-company">ManpowerGroup Services, India</div> 
         
         <ul class="work-description">
-            {% for highlight in work_experience[1].highlights %}
+            {% for highlight in work_experience[1].achievements %}
             <li>{{ highlight }}</li>
             {% endfor %}
         </ul>
@@ -86,7 +86,7 @@
         <div class="work-company">Valeo India</div> 
         
         <ul class="work-description">
-            {% for highlight in work_experience[2].highlights %}
+            {% for highlight in work_experience[2].achievements %}
             <li>{{ highlight }}</li>
             {% endfor %}
         </ul>
@@ -98,7 +98,7 @@
 <h2>Projects</h2>
 <ul class="keyval-list-project">
     {% for project in projects %}
-    <li><span class="key-title">{{ project.name }}</span>: {{ project.description }}
+    <li><span class="key-title">{{ project.project_name }}</span>: {{ project.description }}
         {% if project.url %} (<a href="{{ project.url }}">{{ project.url }}</a>){% endif %}
         {% if project.keywords|length > 0 %} ({{ project.keywords|join(', ') }}){% endif %}
     </li>

@@ -1,53 +1,52 @@
-summary: Results-driven Data Engineer with 5+ years of experience in designing and
-  implementing complex data pipelines, leveraging expertise in Azure Databricks, Azure
-  Data Factory, and Unity Catalog to drive business growth through data-driven decision
-  making.
+summary: Results-driven data engineer with expertise in designing scalable data pipelines,
+  developing data models, and ensuring data quality, leveraging skills in Python,
+  SQL, Apache Spark, and cloud platforms to drive business growth and innovation.
 skills:
-- name: Cloud Platforms
-  keywords:
-  - Azure
-  - Databricks
-  - Data Factory
 - name: Programming Languages
   keywords:
   - Python
-  - PySpark
   - SQL
+  - Java
 - name: Data Engineering Tools
   keywords:
-  - Unity Catalog
-  - Azure BI
-  - SparkMLib
-- name: Data Analysis
+  - Apache Spark
+  - Hadoop
+  - Airflow
+- name: Cloud Platforms
   keywords:
-  - ETL
-  - ELT
-  - Data Modeling
-- name: Collaboration Tools
+  - AWS
+  - Azure
+  - GCP
+- name: Databases
   keywords:
-  - Agile
-  - Salesforce
-  - Access Control Lists
-- name: Industry Experience
+  - PostgreSQL
+  - MySQL
+  - MongoDB
+- name: AI & Analytics Tools
   keywords:
-  - Retail
-  - Digital Customer Marketing
-  - Data Security
+  - TensorFlow
+  - PyTorch
+  - scikit-learn
+- name: Data Visualization
+  keywords:
+  - Power BI
+  - Tableau
+  - matplotlib
 work_experience:
 - title: Procurement Engineer
   company: Vestas Wind Technology, India
   dates: Nov 2021 - Aug 2023
-  highlights:
+  achievements:
   - Achieved a 15% reduction in procurement costs by developing a data-driven supplier
     evaluation and conducting detailed cost analysis.
   - Accelerated project timelines by 20% by implementing predictive analytics for
     demand forecasting, enhancing project delivery capacity.
   - Delivered savings of $35M by developing and deploying Python-based automation
-    tools, streamlining procurement workflows and enhancing operational efficiency.
+    tools that streamlined procurement workflows and enhanced operational efficiency.
 - title: Consultant ECM Purchaser
   company: Vestas, ManpowerGroup Services, India
   dates: Jan 2021 - Nov 2021
-  highlights:
+  achievements:
   - Reduced production costs by 10% through process optimization analyses, utilizing
     data-driven insights to streamline operations.
   - Identified potential savings of 3M EUR by analyzing supplier costs and payment
@@ -57,7 +56,7 @@ work_experience:
 - title: Procurement Engineer
   company: Valeo India, India
   dates: Jun 2018 - Jan 2021
-  highlights:
+  achievements:
   - Managed RFx processes across castings, sheet metal, and plastic segments, achieving
     10-15% cost reductions through competitive vendor sourcing and procurement strategies.
   - Built and maintained a robust supplier base by inducting vendors, implementing
@@ -66,25 +65,27 @@ work_experience:
   - Executed supplier auctions using digital platforms, reducing overall part costs
     by 8-12% while ensuring competitive pricing through negotiations.
 projects:
-- name: Meta Financial Dashboard
+- project_name: Meta Financial Dashboard
   description: Developed an interactive Tableau dashboard to analyze key financial
-    KPIs, delivering actionable insights that improved financial decision making.
+    KPIs, delivering actionable insights for strategic planning.
   keywords:
   - Tableau
-  - Financial Analytics
-  - Dashboard
-- name: Customer Churn Analysis
-  description: Analyzed and processed raw customer data, applied machine learning
-    to predict churn risk, and visualized insights to guide retention strategies.
+  - financial analytics
+  - data visualization
+- project_name: Customer Churn Analysis
+  description: Analyzed and processed customer data to predict churn risk, applying
+    machine learning and visualization techniques to guide retention strategies.
   keywords:
   - Python
-  - Predictive Modeling
-  - Customer Analytics
-- name: Vestas KPI Tracking
-  description: Automated employee data collection, analysis, and visualization processes
-    using Power BI, Python, and Excel, improving traceability and key metric visibility.
+  - predictive modeling
+  - customer analytics
+  - machine learning
+- project_name: SAP Data Automation
+  description: Developed automation solutions to streamline data management of SAP
+    using Excel VBA and SAP automation features, enhancing operational efficiency
+    and data accuracy.
   keywords:
-  - Power BI
-  - Python
-  - Excel
-  - KPI Tracking
+  - SAP
+  - automation
+  - data management
+  - Excel VBA
