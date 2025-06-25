@@ -28,7 +28,6 @@ Professional Experience:
 •	Built Python automation scripts, optimizing internal workflows and reducing manual effort by 25%, enhancing team efficiency.
 •	Strengthened stakeholder relationships by implementing efficient communication strategies, improving supplier and sponsor engagement by 12%.
 •	Developed dashboards and reporting tools using Python and PowerBI s to monitor KPIs, improving decision-making accuracy by 18%.
-
 •	Integrated ERP tools (SAP) to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
 •	Collaborated on ERP system enhancements, reducing procurement cycle times by 20% and improving data accessibility for stakeholders.
 •	Sourced globally from cost-effective suppliers to meet production demands, ensuring 100% on-time delivery and adherence to quality standards.
@@ -68,12 +67,20 @@ Projects:
 
 2. Customer Churn Analysis: Churn Risk Pipeline: Analysed and processed raw input  to clean customer data, applied machine learning to predict churn risk, and visualized insights to guide retention strategies. (Python, predictive modeling, customer analytics, machine learning) 
 
-3. Vestas KPI Tracking: Automated employee data collection, analysis, and visualization processes using Power BI, Python, and Excel and improved traceability and key metric visibility, significantly benefiting senior management decision-making.
+3. Procurement Analytics: Created a Power BI dashboard to track procurement KPIs, supplier performance, and category spend, providing actionable insights for informed decision-making. (Power BI, Procurement, Analytics, KPIs) 
 
-4.  SAP Data Automation: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features enabled seamless updates enhancing operational efficiency and data accuracy across departments.
+4. SAP Data Automation: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features enabled seamless updates enhancing operational efficiency and data accuracy across departments.
 
 5. Plastic Pollution Overview Dashboard: Created a dynamic Tableau dashboard to visualize global plastic pollution metrics, including waste generation, recycling rates, and environmental impacts by Integrating multiple data sources offering actionable insights for potential stakeholders supporting sustainability efforts.
 
-6. FAANG Forecast Framework: Built machine learning models to forecast FAANG stock performance using financial indicators; performed data collection, cleaning, and transformation; deployed results to Azure cloud storage for scalable access and reporting. (machine learning, financial analysis, Python, cloud deployment, data transformation) 
+6. FAANG Forecast Pipeline: Built machine learning models to forecast FAANG stock performance using financial indicators; performed data collection, cleaning, and transformation; deployed results to Azure cloud storage for scalable access and reporting in PowerBi. (machine learning, financial analysis, Python, cloud deployment, PowerBI)
 
 7. Speech Form Automation: Developed a speech-to-structured-data tool using Google Speech API to transcribe patient voice queries and leveraged a large language model (LLM) to extract key information and store into SQL Server deployed the interface using Streamlit for real-time visualization. (speech recognition, data automation, LLM, Python, Streamlit, SQL)
+
+8. Financial Simulation Modeling: Developed a hybrid ML-financial model integrating Monte Carlo simulations, CAPM, and technical indicators to generate data-driven, risk-aware investment insights. (Python, financial modeling, Monte Carlo simulation, CAPM, technical analysis, machine learning)
+
+9. Perception & Sentiment Analysis: Led a data-driven study analyzing META's financial performance and public sentiment using NLP, EDA, and dynamic visualizations to uncover market-driven insights.(Python, NLP, Pandas, NLTK, Seaborn, Tableau, EDA, Sentiment Analysis, Financial Analysis, Data Visualization, Data Storytelling)
+
+10. Supply Chain Intelligence: Optimized food delivery logistics and rider efficiency by applying ML forecasting, operational analytics, and real-time dashboards to drive data-backed performance improvements. (Supply Chain Analytics, Python, Machine Learning, Tableau, Operational Efficiency, Forecasting, Performance Optimization, Data Visualization)
+
+

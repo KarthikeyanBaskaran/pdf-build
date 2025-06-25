@@ -79,7 +79,7 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
         * Ensure these points clearly demonstrate transferable skills.
 
     2.  **Projects :**
-    You can generate new projects with difficulty level easy when some mandatory keywords or technology is missing in my work experience. 
+        * You can generate new projects with difficulty level easy when some mandatory keywords or technology is missing in my work experience. 
         * Each project title should be **short and precise (max 3 words)**.
         * Provide a **single-line description** for each project.
         * Include relevant keywords for each project.

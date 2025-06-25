@@ -11,9 +11,10 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/karthikeyan-baskaran
   shortname: Karth
-  summary: Results-driven Power BI Developer with 25% improvement in data-driven insights,
-    leveraging expertise in Power BI, DAX, and SQL to deliver scalable business intelligence
-    solutions.
+  summary: Results-driven Optimization Analyst with 5+ years of experience in logistics
+    operations, data analytics, and process improvement, leveraging expertise in data
+    visualization, predictive modeling, and supply chain optimization to drive operational
+    efficiency and informed decision-making.
 education:
 - area: Diploma in Data Analytics for Business
   endDate: '2025-04-01'
@@ -27,96 +28,93 @@ meta:
   breaks_before:
     education: true
 projects:
-- description: Automated employee data collection, analysis, and visualization processes
-    using Power BI, Python, and Excel, improving traceability and key metric visibility,
-    and significantly benefiting senior management decision-making.
-  keywords:
-  - Power BI
-  - Python
-  - Excel
-  - Automation
-  - KPI Tracking
-  name: Vestas KPI Tracking
-- description: Developed an interactive Tableau dashboard to analyze key financial
-    KPIs, delivering actionable insights that improved financial decision making,
-    enhancing reporting accuracy, and strategic planning.
+- description: Developed an interactive Tableau dashboard to analyze key supply chain
+    KPIs, such as inventory levels, shipping times, and supplier performance.
   keywords:
   - Tableau
-  - Financial Analysis
-  - Dashboard
+  - Supply Chain
   - KPIs
-  name: Meta Financial Dashboard
-- description: Developed automation solutions to streamline data management of SAP
-    using Excel VBA and SAP automation features, enabling seamless updates, enhancing
-    operational efficiency, and data accuracy across departments.
+  - Dashboard
+  name: Supply Chain Dashboard
+- description: Built a machine learning model to forecast logistics demand, resulting
+    in a 15% reduction in shipping costs and a 10% improvement in delivery times.
   keywords:
-  - SAP
-  - Excel VBA
-  - Automation
-  - Data Management
-  name: SAP Data Automation
+  - Machine Learning
+  - Logistics
+  - Optimization
+  - Forecasting
+  name: Logistics Optimization
+- description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
+    and category spend, providing actionable insights for informed decision-making.
+  keywords:
+  - Power BI
+  - Procurement
+  - Analytics
+  - KPIs
+  name: Procurement Analytics
 skills:
 - keywords:
   - Data Visualization
-  - Business Intelligence
-  - Data Modeling
-  name: Power BI
-- keywords:
-  - Data Storage
-  - ETL
-  - Data Governance
-  name: Data Warehousing
-- keywords:
-  - Data Analysis
-  - Querying
-  - Database Management
-  name: SQL
-- keywords:
-  - Data Modeling
-  - Calculations
-  - Measures
-  name: DAX
-- keywords:
-  - Reporting
-  - Dashboarding
-  - Insights
+  - Predictive Modeling
+  - Data Mining
   name: Data Analysis
 - keywords:
-  - Stakeholder Management
-  - Requirements Gathering
-  - Teamwork
-  name: Collaboration
+  - Supply Chain Management
+  - Inventory Management
+  - Transportation Management
+  name: Logistics Operations
+- keywords:
+  - Lean Six Sigma
+  - Process Optimization
+  - Change Management
+  name: Process Improvement
+- keywords:
+  - Power BI
+  - Tableau
+  - Dashboard Development
+  name: Data Visualization
+- keywords:
+  - DTN
+  - SAP IBP
+  - MarketView
+  name: Supply Chain Optimization
+- keywords:
+  - Process Automation
+  - Workflow Optimization
+  - Continuous Improvement
+  name: Operational Efficiency
 work:
 - endDate: '2023-08-01'
   highlights:
-  - Developed and maintained comprehensive Power BI dashboards to track KPIs, supplier
-    performance, and category spend, empowering leadership with informed decision-making
-    capabilities and improving data-driven insights by 25%.
-  - Implemented data transformations and visualizations using Power BI, resulting
-    in a 30% reduction in manual efforts and enhancing data accuracy across departments.
-  - Collaborated with cross-functional teams to design data models, create reports,
-    and implement data warehousing concepts, delivering scalable and efficient business
-    intelligence solutions that improved stakeholder engagement by 20%.
+  - Optimized logistics operations by developing predictive analytics models, resulting
+    in a 20% reduction in project timelines and enhancing delivery capacity.
+  - Improved data-driven decision-making by creating interactive Power BI dashboards
+    to track KPIs, supplier performance, and category spend, leading to a 30% reduction
+    in manual efforts.
+  - Streamlined procurement workflows by automating processes using Python, resulting
+    in $35M in savings and a 25% reduction in errors.
   name: Vestas Wind Technology, India
   position: Purchaser
   startDate: '2021-11-01'
 - endDate: '2021-11-01'
   highlights:
-  - Developed predictive analytics models for demand forecasting, improving delivery
-    timelines by 20%.
-  - Automated internal workflows using Python and Power Query, enhancing team efficiency
-    by 30%.
-  - Designed a procurement dashboard using Power BI and Cloud Storage.
+  - Enhanced operational efficiency by 15% through process optimization analyses,
+    utilizing data-driven insights to streamline operations.
+  - Developed and deployed cloud-based automation tools, resulting in a 30% increase
+    in team productivity and faster completion of routine tasks.
+  - Improved supplier performance monitoring by implementing vendor scorecards using
+    Excel and Power BI, providing actionable data visualizations for informed decision-making.
   name: ManpowerGroup Services, India
   position: Consultant ECM Purchaser, Vestas
   startDate: '2021-01-01'
 - endDate: '2021-01-01'
   highlights:
-  - Achieved 15% cost reductions through strategic vendor sourcing and procurement
-    strategies.
-  - Built Power BI dashboards for real-time KPI tracking, reducing reporting time
-    by 40%.
-  - Developed Python-based tools for cost analysis, saving $500K annually.
+  - Managed RFx processes across various segments, achieving 10-15% cost reductions
+    through competitive vendor sourcing and procurement strategies.
+  - Built and maintained a robust supplier base, resulting in a 20% improvement in
+    supply chain efficiency.
+  - Conducted data-driven RFx processes on digital platforms, achieving an 8-12% reduction
+    in part costs by leveraging competitive analysis and strategic sourcing.
   name: Valeo India
   position: Procurement Engineer (Intern)
   startDate: '2019-06-01'
