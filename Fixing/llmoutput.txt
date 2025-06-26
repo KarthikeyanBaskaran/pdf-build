@@ -1,49 +1,47 @@
-summary: Results-driven procurement specialist with 6+ years of experience in procurement implementation, supplier relationship management, and contract negotiation, leveraging data analysis and industry trends to drive cost-efficiency and informed decision-making.
-
+---
+summary: Results-driven business analyst with 5+ years of experience in IT projects, leveraging data analytics and process improvement expertise to drive business transformation initiatives.
 skills:
 - name: Data Analysis Tools
-  keywords: [Excel, Power BI, Tableau]
-- name: Procurement Software
-  keywords: [SAP, ERP, Oracle]
+  keywords: [Tableau, Power BI, Excel]
 - name: Programming Languages
-  keywords: [Python, VBA, SQL]
-- name: Industry Knowledge
-  keywords: [Water/Wastewater Treatment, Infrastructure, Supply Chain]
-- name: Business Skills
-  keywords: [Contract Negotiation, Vendor Management, Stakeholder Engagement]
+  keywords: [Python, VBA]
+- name: Business Analysis
+  keywords: [Requirements Elicitation, Business Process Analysis, PMI-PBA]
+- name: Cloud Platforms
+  keywords: [Azure, Google Cloud]
+- name: Methodologies
+  keywords: [Agile, Lean, IIBA-CBAP]
 - name: Soft Skills
-  keywords: [Communication, Presentation, Time Management]
-
+  keywords: [Communication, Collaboration, Stakeholder Management]
 work_experience:
 - title: Procurement Engineer
   company: Vestas Wind Technology, India
   dates: Nov 2021 - Aug 2023
   achievements:
-  - Achieved a 15% reduction in procurement costs by developing a data-driven supplier evaluation and conducting detailed cost analysis.
-  - Accelerated project timelines by 20% by implementing predictive analytics for demand forecasting and enhancing project delivery capacity.
-  - Delivered savings of $35M by developing and deploying Python-based automation tools that streamlined procurement workflows and enhanced operational efficiency.
+  - Developed and deployed Python-based automation tools, resulting in $35M in savings and a 30% reduction in manual efforts.
+  - Implemented predictive analytics for demand forecasting, accelerating project timelines by 20% and enhancing project delivery capacity.
+  - Created a comprehensive Power BI procurement dashboard to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities.
 - title: Consultant ECM Purchaser
   company: Vestas, ManpowerGroup Services, India
   dates: Jan 2021 - Nov 2021
   achievements:
   - Reduced production costs by 10% through process optimization analyses, utilizing data-driven insights to streamline operations.
-  - Identified potential savings of 3M EUR by analyzing supplier costs and payment credit periods, implementing standardized and efficient procurement strategies.
+  - Developed and deployed cloud-based automation tools, resulting in a 30% increase in team productivity and faster completion of routine tasks.
   - Improved operational efficiency by 15% by leading cross-functional collaboration and deploying Lean methodologies.
 - title: Procurement Engineer
   company: Valeo India, India
   dates: Jun 2018 - Jan 2021
   achievements:
   - Managed RFx processes across castings, sheet metal, and plastic segments, achieving 10-15% cost reductions through competitive vendor sourcing and procurement strategies.
-  - Built and maintained a robust supplier base by inducting vendors, implementing double sourcing, and driving localization, resulting in a 20% improvement in supply chain efficiency.
-  - Executed supplier auctions using digital platforms, reducing overall part costs by 8-12% while ensuring competitive pricing through negotiations.
-
+  - Built and maintained a robust supplier base, resulting in a 20% improvement in supply chain efficiency.
+  - Conducted zero-based costing using advanced Excel and analytical tools, enabling 15% cost savings through data-driven negotiations.
 projects:
+- project_name: Meta Financial Dashboard
+  description: Developed an interactive Tableau dashboard to analyze key financial KPIs and provide actionable insights for informed decision-making.
+  keywords: [Tableau, Financial Analysis, KPIs]
+- project_name: Customer Churn Analysis
+  description: Analyzed and processed customer data to predict churn risk and guide retention strategies using machine learning and Python.
+  keywords: [Python, Predictive Modeling, Customer Analytics]
 - project_name: Procurement Analytics
-  description: Developed a Power BI dashboard to track procurement KPIs, supplier performance, and category spend, providing actionable insights for informed decision-making.
+  description: Created a Power BI dashboard to track procurement KPIs, supplier performance, and category spend, providing actionable insights for informed decision-making.
   keywords: [Power BI, Procurement, Analytics, KPIs]
-- project_name: SAP Data Automation
-  description: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features, enabling seamless updates and enhancing operational efficiency.
-  keywords: [SAP, Excel VBA, Automation]
-- project_name: Financial Simulation Modeling
-  description: Developed a hybrid ML-financial model integrating Monte Carlo simulations, CAPM, and technical indicators to generate data-driven, risk-aware investment insights.
-  keywords: [Python, Financial Modeling, Monte Carlo Simulation, CAPM]

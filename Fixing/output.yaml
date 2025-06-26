@@ -1,37 +1,37 @@
-summary: Results-driven procurement specialist with 6+ years of experience in procurement
-  implementation, supplier relationship management, and contract negotiation, leveraging
-  data analysis and industry trends to drive cost-efficiency and informed decision-making.
+summary: Results-driven procurement professional with expertise in data-driven procurement,
+  strategic sourcing, and supply chain management, leveraging analytical skills to
+  drive cost savings and process improvements.
 skills:
 - name: Data Analysis Tools
   keywords:
-  - Excel
+  - Python
   - Power BI
   - Tableau
 - name: Procurement Software
   keywords:
   - SAP
   - ERP
-  - Oracle
-- name: Programming Languages
+  - Microsoft Power Query
+- name: Cloud Platforms
   keywords:
-  - Python
-  - VBA
-  - SQL
-- name: Industry Knowledge
+  - Azure
+  - Google Cloud
+  - Streamlit
+- name: Machine Learning
   keywords:
-  - Water/Wastewater Treatment
-  - Infrastructure
-  - Supply Chain
-- name: Business Skills
+  - Predictive Modeling
+  - Monte Carlo Simulations
+  - Natural Language Processing
+- name: Supply Chain Management
   keywords:
-  - Contract Negotiation
+  - Inventory Management
+  - Logistics
   - Vendor Management
-  - Stakeholder Engagement
-- name: Soft Skills
+- name: Business Intelligence
   keywords:
-  - Communication
-  - Presentation
-  - Time Management
+  - Data Visualization
+  - Data Mining
+  - Financial Analysis
 work_experience:
 - title: Procurement Engineer
   company: Vestas Wind Technology, India
@@ -40,7 +40,7 @@ work_experience:
   - Achieved a 15% reduction in procurement costs by developing a data-driven supplier
     evaluation and conducting detailed cost analysis.
   - Accelerated project timelines by 20% by implementing predictive analytics for
-    demand forecasting and enhancing project delivery capacity.
+    demand forecasting, enhancing project delivery capacity.
   - Delivered savings of $35M by developing and deploying Python-based automation
     tools that streamlined procurement workflows and enhanced operational efficiency.
 - title: Consultant ECM Purchaser
@@ -66,27 +66,19 @@ work_experience:
     by 8-12% while ensuring competitive pricing through negotiations.
 projects:
 - project_name: Procurement Analytics
-  description: Developed a Power BI dashboard to track procurement KPIs, supplier
-    performance, and category spend, providing actionable insights for informed decision-making.
+  description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
+    and category spend, providing actionable insights for informed decision-making.
   keywords:
   - Power BI
   - Procurement
   - Analytics
   - KPIs
-- project_name: SAP Data Automation
-  description: Developed automation solutions to streamline data management of SAP
-    using Excel VBA and SAP automation features, enabling seamless updates and enhancing
-    operational efficiency.
+- project_name: Supply Chain Intelligence
+  description: Optimized food delivery logistics and rider efficiency by applying
+    ML forecasting, operational analytics, and real-time dashboards to drive data-backed
+    performance improvements.
   keywords:
-  - SAP
-  - Excel VBA
-  - Automation
-- project_name: Financial Simulation Modeling
-  description: Developed a hybrid ML-financial model integrating Monte Carlo simulations,
-    CAPM, and technical indicators to generate data-driven, risk-aware investment
-    insights.
-  keywords:
+  - Supply Chain Analytics
   - Python
-  - Financial Modeling
-  - Monte Carlo Simulation
-  - CAPM
+  - Machine Learning
+  - Tableau

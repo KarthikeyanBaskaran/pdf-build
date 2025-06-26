@@ -78,14 +78,14 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
         * Rewrite them using **strong action verbs** and **quantifiable results** (e.g., "Increased sales by 15%", "Reduced costs by $10K", "Managed a team of 5").
         * Ensure these points clearly demonstrate transferable skills.
 
-    2.  **Projects:**
-        * If the job description requires specific technologies or skills missing from my work experience, generate up to **3 new, easy-level projects**.
+    2.  **Projects :**
+        * You can generate new projects with difficulty level easy when some mandatory keywords or technology is missing in my work experience. 
         * Each project title should be **short and precise (max 3 words)**.
         * Provide a **single-line description** for each project.
         * Include relevant keywords for each project.
 
-    3.  **Professional Summary:**
-        * Write a **concise, impactful 1-line professional summary** (under 10 seconds to read) that highlights my most relevant skills and experience for this job.
+    3.  Professional Summary:**
+        *Write a powerful 1-line professional summary that that highlights my most relevant skills and experience for this job.  based on resume and job description and hooks a recruiter in under 10 seconds. 
 
     4.  **Skills:**
         * List up to **6 key skill categories**.
@@ -112,13 +112,13 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
     - title: <Your Job Title>
         company: <Your Company Name>
         dates: <Start Date - End Date (e.g., "Jan 2020 - Dec 2022")>
-        highlights:
+        achievements:
         - <Action Verb> + <What you did> + <Quantifiable Result, e.g., "Achieved X by Y">
         - <Action Verb> + <What you did> + <Quantifiable Result>
         - <Action Verb> + <What you did> + <Quantifiable Result>
     - # Add more work experience entries as needed
     projects: # Optional: only if new projects are generated as per guidelines
-    - name: <Project Title>
+    - project_name: <Project Title>
         description: <Short idea in one line>
         keywords: [<keyword1>, <keyword2>, <keyword3>]
     - # Add more project entries as needed
@@ -179,7 +179,7 @@ def main():
 
     try:
         input_resume_path = "Resume.txt"
-        base_yaml_path = config['paths']['base_resume_yaml']
+        # base_yaml_path = config['paths']['base_resume_yaml']
         
         logging.info(f"Loading raw resume text from '{input_resume_path}'...")
         with open(input_resume_path, 'r', encoding='utf-8') as f:
