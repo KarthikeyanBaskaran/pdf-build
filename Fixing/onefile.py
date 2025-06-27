@@ -164,13 +164,17 @@ def generate_pdf_from_yaml(resume_data: dict, config: dict):
         html_renderer.write_pdf(output_pdf_file, stylesheets=[css_path])
         
         logging.info(f"SUCCESS: PDF resume generated at '{output_pdf_file}'")
+        return output_pdf_file # Return the path on success
 
     except jinja2.exceptions.TemplateNotFound:
         logging.error(f"Template '{html_template_file}' not found in '{theme_path}'.")
+        return None # Return None on error
     except FileNotFoundError:
         logging.error(f"CSS file '{css_file}' not found in '{theme_path}'.")
+        return None # Return None on error
     except Exception as e:
         logging.error(f"An error occurred during PDF generation: {e}")
+        return None # Return None on error
 
 # ----------- Main Execution Block -----------
 def main():

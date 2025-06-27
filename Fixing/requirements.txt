@@ -3,3 +3,5 @@ groq
 PyYAML
 weasyprint
 Jinja2
+streamlit
+requests
