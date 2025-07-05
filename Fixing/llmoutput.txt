@@ -1,18 +1,18 @@
-summary: Results-driven business analyst and procurement professional with 5+ years of experience in IT projects, business process analysis, and data-driven decision making, leveraging certifications in data analytics and business administration to drive operational efficiency and strategic growth.
+summary: Results-driven procurement and data analytics professional with 5+ years of experience in driving business growth through data-driven decision-making, process optimization, and strategic procurement initiatives, leveraging expertise in data analysis, machine learning, and project management to deliver high-impact solutions.
 
 skills:
 - name: Data Analysis Tools
-  keywords: [Tableau, Power BI, Excel]
+  keywords: [Tableau, Power BI, Excel, Python]
 - name: Programming Languages
   keywords: [Python, VBA, SQL]
-- name: Business Analysis
-  keywords: [Requirements Elicitation, Process Analysis, Business Transformation]
-- name: Project Management
-  keywords: [Agile, PMI-PBA, IIBA-CBAP]
 - name: Cloud Platforms
-  keywords: [Azure, Google Cloud]
-- name: Operational Efficiency
-  keywords: [Process Optimization, Cost Reduction, Supply Chain Management]
+  keywords: [Azure, Google Cloud, SharePoint]
+- name: Project Management
+  keywords: [Project Coordination, Proposal Writing, Team Collaboration]
+- name: Methodologies
+  keywords: [Lean, Agile, Data-Driven Decision Making]
+- name: Soft Skills
+  keywords: [Communication, Problem-Solving, Time Management]
 
 work_experience:
 - title: Procurement Engineer
@@ -20,7 +20,7 @@ work_experience:
   dates: Nov 2021 - Aug 2023
   achievements:
   - Achieved a 15% reduction in procurement costs by developing a data-driven supplier evaluation and conducting detailed cost analysis.
-  - Accelerated project timelines by 20% by implementing predictive analytics for demand forecasting and enhancing project delivery capacity.
+  - Accelerated project timelines by 20% by implementing predictive analytics for demand forecasting, enhancing project delivery capacity.
   - Delivered savings of $35M by developing and deploying Python-based automation tools that streamlined procurement workflows and enhanced operational efficiency.
 - title: Consultant ECM Purchaser
   company: Vestas, ManpowerGroup Services, India
@@ -38,12 +38,12 @@ work_experience:
   - Executed supplier auctions using digital platforms, reducing overall part costs by 8-12% while ensuring competitive pricing through negotiations.
 
 projects:
-- project_name: Meta Financial Dashboard
-  description: Developed an interactive Tableau dashboard to analyze key financial KPIs, improving reporting accuracy and strategic planning.
-  keywords: [Tableau, Financial Analysis, KPIs]
-- project_name: Customer Churn Analysis
-  description: Analyzed and processed customer data, applied machine learning to predict churn risk, and visualized insights to guide retention strategies.
-  keywords: [Python, Predictive Modeling, Customer Analytics]
 - project_name: Procurement Analytics
   description: Created a Power BI dashboard to track procurement KPIs, supplier performance, and category spend, providing actionable insights for informed decision-making.
   keywords: [Power BI, Procurement, Analytics, KPIs]
+- project_name: Supply Chain Intelligence
+  description: Optimized food delivery logistics and rider efficiency by applying ML forecasting, operational analytics, and real-time dashboards to drive data-backed performance improvements.
+  keywords: [Supply Chain Analytics, Python, Machine Learning, Tableau]
+- project_name: FAANG Forecast Pipeline
+  description: Built machine learning models to forecast FAANG stock performance using financial indicators, performed data collection, cleaning, and transformation, and deployed results to Azure cloud storage for scalable access and reporting in PowerBI.
+  keywords: [Machine Learning, Financial Analysis, Python, Cloud Deployment, PowerBI]

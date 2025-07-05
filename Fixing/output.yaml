@@ -1,37 +1,39 @@
-summary: Results-driven procurement professional with expertise in data-driven procurement,
-  strategic sourcing, and supply chain management, leveraging analytical skills to
-  drive cost savings and process improvements.
+summary: Results-driven procurement and data analytics professional with 5+ years
+  of experience in driving business growth through data-driven decision-making, process
+  optimization, and strategic procurement initiatives, leveraging expertise in data
+  analysis, machine learning, and project management to deliver high-impact solutions.
 skills:
 - name: Data Analysis Tools
   keywords:
-  - Python
-  - Power BI
   - Tableau
-- name: Procurement Software
+  - Power BI
+  - Excel
+  - Python
+- name: Programming Languages
   keywords:
-  - SAP
-  - ERP
-  - Microsoft Power Query
+  - Python
+  - VBA
+  - SQL
 - name: Cloud Platforms
   keywords:
   - Azure
   - Google Cloud
-  - Streamlit
-- name: Machine Learning
+  - SharePoint
+- name: Project Management
   keywords:
-  - Predictive Modeling
-  - Monte Carlo Simulations
-  - Natural Language Processing
-- name: Supply Chain Management
+  - Project Coordination
+  - Proposal Writing
+  - Team Collaboration
+- name: Methodologies
   keywords:
-  - Inventory Management
-  - Logistics
-  - Vendor Management
-- name: Business Intelligence
+  - Lean
+  - Agile
+  - Data-Driven Decision Making
+- name: Soft Skills
   keywords:
-  - Data Visualization
-  - Data Mining
-  - Financial Analysis
+  - Communication
+  - Problem-Solving
+  - Time Management
 work_experience:
 - title: Procurement Engineer
   company: Vestas Wind Technology, India
@@ -82,3 +84,14 @@ projects:
   - Python
   - Machine Learning
   - Tableau
+- project_name: FAANG Forecast Pipeline
+  description: Built machine learning models to forecast FAANG stock performance using
+    financial indicators, performed data collection, cleaning, and transformation,
+    and deployed results to Azure cloud storage for scalable access and reporting
+    in PowerBI.
+  keywords:
+  - Machine Learning
+  - Financial Analysis
+  - Python
+  - Cloud Deployment
+  - PowerBI
