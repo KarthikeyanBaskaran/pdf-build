@@ -75,7 +75,7 @@ def semantic_search(jd_embedding,bullets,num=3):
     scored_bullets = list(zip(similarities, bullets))
     # Sort by similarity (descending)
     sorted_bullets = sorted(scored_bullets, key=lambda x: x[0], reverse=True)
-    # Top 3 most relevant bullets
+    # Retuen top 3 most relevant points
     return sorted_bullets[:num]
 
 def get_tailored_resume_content(base_resume_text: str, job_description: str) -> str: # 
@@ -269,24 +269,6 @@ def main():
     except yaml.YAMLError as e:
         logging.error(f"Failed to parse the initial YAML response from the LLM: {e}")
         
-        # # If parsing fails, ask the LLM to correct its own mistake
-        # corrected_yaml_str = correct_yaml_with_llm(tailored_yaml_str, str(e))
-        # if not corrected_yaml_str:
-        #     logging.error("LLM correction failed. Aborting.")
-        #     return
-
-        # try:
-        #     # Second attempt to parse the corrected YAML
-        #     resume_data = yaml.safe_load(corrected_yaml_str)
-        #     logging.info("Successfully parsed the corrected YAML.")
-        #     # Overwrite the bad YAML with the good one for saving later
-        #     # tailored_yaml_str = corrected_yaml_str 
-        # except yaml.YAMLError as e2:
-        #     logging.error(f"FATAL: Failed to parse the YAML even after self-correction: {e2}")
-        #     logging.error("--- Final Invalid LLM Response ---")
-        #     # print(corrected_yaml_str)
-        #     # logging.error("--- End LLM Response ---")
-        #     return
 
     if resume_data:
         output_yaml_path = config['paths']['output_yaml']
