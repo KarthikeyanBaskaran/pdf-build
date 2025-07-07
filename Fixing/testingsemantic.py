@@ -1,3 +1,4 @@
+#importing libraries
 import os
 import yaml
 import jinja2
@@ -10,18 +11,17 @@ from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
 # --- Basic Setup ---
-# Set up a logger for clear, informative output
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') # Set up a logger for clear
 
-# Load environment variables from a .env file (for the API key)
-load_dotenv()
-GROQ_API_KEY = os.getenv("grok_api") # Recommended .env variable name
-
-model = SentenceTransformer('all-MiniLM-L6-v2')  # Lightweight and good enough for semantic search
-
+load_dotenv() # Load environment variables from a .env file (for the API key)
+GROQ_API_KEY = os.getenv("grok_api") # Load grok api
 if not GROQ_API_KEY:
     logging.error("FATAL: GROQ_API_KEY environment variable not found.")
     exit()
+
+model = SentenceTransformer('all-MiniLM-L6-v2')  # Model for embedding semantic search
+
+
 
 # --- Core Functions ---
 
