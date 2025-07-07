@@ -66,6 +66,17 @@ def get_llm_response(prompt: str) -> str:
     except Exception as e:
         logging.error(f"An error occurred while communicating with the Groq API: {e}")
         return ""
+    
+def semantic_search(jd_embedding,bullets,num=3):  
+    bullet_embeddings = model.encode(bullets, convert_to_tensor=True)
+    # Compute cosine similarity scores
+    similarities = util.pytorch_cos_sim(jd_embedding, bullet_embeddings)[0].cpu().numpy()
+    # Pair scores with bullets
+    scored_bullets = list(zip(similarities, bullets))
+    # Sort by similarity (descending)
+    sorted_bullets = sorted(scored_bullets, key=lambda x: x[0], reverse=True)
+    # Top 3 most relevant bullets
+    return sorted_bullets[:num]
 
 def get_tailored_resume_content(base_resume_text: str, job_description: str) -> str: # 
  
