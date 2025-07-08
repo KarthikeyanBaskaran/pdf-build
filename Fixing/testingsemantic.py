@@ -236,20 +236,28 @@ def main():
     """Main function to run the resume generation process."""
     config = load_config()
 
+
+    # Load initial base resume
     try:
         input_resume_path = "Resume.yaml"
-        feedllm_path = 'feedllm.yaml'
         
         logging.info(f"Loading raw resume text from '{input_resume_path}'...")
         with open(input_resume_path, 'r') as f:
             resume_data = yaml.safe_load(f)
+    
+    except FileNotFoundError as e:
+        logging.error(f"FATAL: A required base resume file was not found: {e.filename}")
+        return
+    
 
+    #Parse the base file
+    try:
         vestas_bullets  = resume_data['Professional Experience']['Vestas Wind Technology']
         manpower_bullets = resume_data['Professional Experience']['ManpowerGroup Services']
         valeo_bullets=resume_data['Professional Experience']['Valeo India']
     
-    except FileNotFoundError as e:
-        logging.error(f"FATAL: A required base resume file was not found: {e.filename}")
+    except:
+        logging.error(f"FATAL: A required base resume is not in parsable YAML format")
         return
 
     print("\nPaste the Job Description below. Press Ctrl+D (Linux/Mac) or Ctrl+Z (Windows) on a new line when done.")
@@ -290,7 +298,7 @@ def main():
 
     
     # adding projects in the yaml output
-    
+
         
 
     if resume_data:
