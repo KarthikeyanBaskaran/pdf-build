@@ -1,4 +1,41 @@
-Professional Experience:
+summary: Results-driven procurement and data analytics professional with 5+ years
+  of experience in driving business growth through data-driven decision-making, process
+  optimization, and strategic procurement initiatives, leveraging expertise in data
+  analysis, machine learning, and project management to deliver high-impact solutions.
+skills:
+- name: Data Analysis Tools
+  keywords:
+  - Tableau
+  - Power BI
+  - Excel
+  - Python
+- name: Programming Languages
+  keywords:
+  - Python
+  - VBA
+  - SQL
+- name: Cloud Platforms
+  keywords:
+  - Azure
+  - Google Cloud
+  - SharePoint
+- name: Project Management
+  keywords:
+  - Project Coordination
+  - Proposal Writing
+  - Team Collaboration
+- name: Methodologies
+  keywords:
+  - Lean
+  - Agile
+  - Data-Driven Decision Making
+- name: Soft Skills
+  keywords:
+  - Communication
+  - Problem-Solving
+  - Time Management
+  
+  Professional Experience:
   Vestas Wind Technology:
   - Collaborated with cross-functional teams to build scalable tools for requirements
     management and defect tracking, ensuring alignment with system baselines.
