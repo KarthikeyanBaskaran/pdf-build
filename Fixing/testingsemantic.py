@@ -67,9 +67,6 @@ def get_llm_response(prompt: str) -> str:
         logging.error(f"An error occurred while communicating with the Groq API: {e}")
         return ""
 
-def yaml_check():
-    return None
-
     
 def semantic_search(jd_embedding,bullets,num=3):  
     bullet_embeddings = model.encode(bullets, convert_to_tensor=True)
@@ -255,7 +252,7 @@ def main():
         vestas_bullets  = resume_data['Professional Experience']['Vestas Wind Technology']
         manpower_bullets = resume_data['Professional Experience']['ManpowerGroup Services']
         valeo_bullets=resume_data['Professional Experience']['Valeo India']
-    
+        projects_bullets = resume_data['projects']
     except:
         logging.error(f"FATAL: A required base resume is not in parsable YAML format")
         return
@@ -277,13 +274,19 @@ def main():
     try:
         logging.info("Sematic matching in progress")
         jd_embedding = model.encode(job_description, convert_to_tensor=True)
-        vestas = semantic_search(jd_embedding, vestas_bullets)
-        manpower = semantic_search(jd_embedding, manpower_bullets)
-        valeo = semantic_search(jd_embedding, valeo_bullets)
+        sem_vestas = semantic_search(jd_embedding, vestas_bullets)
+        sem_manpower = semantic_search(jd_embedding, manpower_bullets)
+        sem_valeo = semantic_search(jd_embedding, valeo_bullets)
+        sem_projects = semantic_search(jd_embedding, projects_bullets)
+
+        vestas = [j for i,j in sem_vestas]
+        manpower = [j for i,j in sem_manpower]
+        valeo = [j for i,j in sem_valeo]
+        projects = [j for i,j in projects]
+        
     except:
         logging.error("Semantic matching failed")
-
-
+        return
 
 
 
@@ -304,7 +307,7 @@ def main():
 
     
     # adding projects in the yaml output
-
+    llm_tailored_projects = tailored_projects(resume_data, job_description,projects)
         
 
     if resume_data:
