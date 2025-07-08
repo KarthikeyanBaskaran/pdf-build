@@ -66,6 +66,10 @@ def get_llm_response(prompt: str) -> str:
     except Exception as e:
         logging.error(f"An error occurred while communicating with the Groq API: {e}")
         return ""
+
+def yaml_check():
+    return None
+
     
 def semantic_search(jd_embedding,bullets,num=3):  
     bullet_embeddings = model.encode(bullets, convert_to_tensor=True)
@@ -78,7 +82,7 @@ def semantic_search(jd_embedding,bullets,num=3):
     # Retuen top 3 most relevant points
     return sorted_bullets[:num]
 
-def get_tailored_resume_content(base_resume_text: str, job_description: str) -> str: # 
+def get_tailored_resume_content(vestas: str, manpower:str, valeo:str, job_description: str) -> str: # 
  
     logging.info("Contacting Groq API to generate tailored resume expreience content...")
     prompt = (f"""
@@ -126,7 +130,12 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
         - <Action Verb> + <What you did> + <Quantifiable Result>
     ---
     My Resume:
-    {base_resume_text}
+    Professional Experience:  ManpowerGroup Services:
+    Vestas Wind Technology:{vestas}
+
+    ManpowerGroup Services: {manpower}
+
+    Valeo India: {valeo}
 
     ---
     Job Description:
@@ -138,8 +147,8 @@ def get_tailored_resume_content(base_resume_text: str, job_description: str) -> 
     
     yaml_output = get_llm_response(prompt)
     if yaml_output:
-      logging.info("Successfully received initial tailored content from Groq.")
-      with open("llmoutput.txt", "w", encoding="utf-8") as file:
+      logging.info("Successfully received initial experience content from Groq.")
+      with open("llmexp.txt", "w", encoding="utf-8") as file:
           file.write(yaml_output)
     return yaml_output
 
@@ -221,24 +230,26 @@ def generate_pdf_from_yaml(resume_data: dict, config: dict):
         logging.error(f"An error occurred during PDF generation: {e}")
         return None # Return None on error
 
+
 # ----------- Main Execution Block -----------
 def main():
     """Main function to run the resume generation process."""
     config = load_config()
 
     try:
-        input_resume_path = "Resume.txt"
-        # base_yaml_path = config['paths']['base_resume_yaml']
+        input_resume_path = "Resume.yaml"
+        feedllm_path = 'feedllm.yaml'
         
         logging.info(f"Loading raw resume text from '{input_resume_path}'...")
-        with open(input_resume_path, 'r', encoding='utf-8') as f:
-            resume_text = f.read()
-            
-        # logging.info(f"Loading base YAML structure from '{base_yaml_path}'...")
-        # with open(base_yaml_path, 'r', encoding='utf-8') as f:
-        #     base_yaml_structure = f.read()
+        with open(input_resume_path, 'r') as f:
+            resume_data = yaml.safe_load(f)
+
+        vestas_bullets  = resume_data['Professional Experience']['Vestas Wind Technology']
+        manpower_bullets = resume_data['Professional Experience']['ManpowerGroup Services']
+        valeo_bullets=resume_data['Professional Experience']['Valeo India']
+    
     except FileNotFoundError as e:
-        logging.error(f"FATAL: A required resume file was not found: {e.filename}")
+        logging.error(f"FATAL: A required base resume file was not found: {e.filename}")
         return
 
     print("\nPaste the Job Description below. Press Ctrl+D (Linux/Mac) or Ctrl+Z (Windows) on a new line when done.")
@@ -254,20 +265,32 @@ def main():
     if not job_description.strip():
         logging.warning("Job description is empty. Exiting.")
         return
+    
+    jd_embedding = model.encode(job_description, convert_to_tensor=True)
+    vestas = semantic_search(jd_embedding, vestas_bullets)
+    manpower = semantic_search(jd_embedding, manpower_bullets)
+    valeo = semantic_search(jd_embedding, valeo_bullets)
+
+
 
     # --- Generation and Self-Correction Logic ---
-    tailored_yaml_str = get_tailored_resume_content(resume_text, job_description)
-    if not tailored_yaml_str:
+    tailored_yaml = get_tailored_resume_content(vestas,manpower,valeo, job_description)
+    if not tailored_yaml:
         logging.error("Could not get initial content from LLM. Aborting PDF generation.")
         return
         
     resume_data = None
+
     try:
         # First attempt to parse the YAML
-        resume_data = yaml.safe_load(tailored_yaml_str)
+        resume_data = yaml.safe_load(tailored_yaml)
         logging.info("Initial YAML from LLM is valid.")
     except yaml.YAMLError as e:
         logging.error(f"Failed to parse the initial YAML response from the LLM: {e}")
+
+    
+    # adding projects in the yaml output
+    
         
 
     if resume_data:
