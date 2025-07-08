@@ -59,7 +59,7 @@ projects:
       - Dashboarding
       - Strategic Planning
 
-  - project_name: Customer Churn Analysis: Churn Risk Pipeline
+  - project_name: Customer Churn Analysis
     description: Analysed and processed raw input to clean customer data, applied machine learning to predict churn risk, and visualized insights to guide retention strategies.
     keywords:
       - Python
