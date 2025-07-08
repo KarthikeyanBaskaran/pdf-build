@@ -274,10 +274,16 @@ def main():
         logging.warning("Job description is empty. Exiting.")
         return
     
-    jd_embedding = model.encode(job_description, convert_to_tensor=True)
-    vestas = semantic_search(jd_embedding, vestas_bullets)
-    manpower = semantic_search(jd_embedding, manpower_bullets)
-    valeo = semantic_search(jd_embedding, valeo_bullets)
+    try:
+        logging.info("Sematic matching in progress")
+        jd_embedding = model.encode(job_description, convert_to_tensor=True)
+        vestas = semantic_search(jd_embedding, vestas_bullets)
+        manpower = semantic_search(jd_embedding, manpower_bullets)
+        valeo = semantic_search(jd_embedding, valeo_bullets)
+    except:
+        logging.error("Semantic matching failed")
+
+
 
 
 
