@@ -50,5 +50,95 @@ Professional Experience:
     - Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier liquidity and streamlining invoice discounting workflows.
     - Analyzed Linear Pricing Patterns (LPP) across key materials to identify cost anomalies and support standardized pricing frameworks.
 
+projects:
+  - project_name: Meta Financial Dashboard
+    description: Developed an interactive Tableau dashboard to analyze key financial KPIs such as P/E Ratio, Current Ratio, and Debt to Equity. Delivered actionable insights that improved financial decision making, enhancing reporting accuracy and strategic planning.
+    keywords:
+      - Tableau
+      - Financial KPIs
+      - Dashboarding
+      - Strategic Planning
+
+  - project_name: Customer Churn Analysis: Churn Risk Pipeline
+    description: Analysed and processed raw input to clean customer data, applied machine learning to predict churn risk, and visualized insights to guide retention strategies.
+    keywords:
+      - Python
+      - Predictive Modeling
+      - Customer Analytics
+      - Machine Learning
+
+  - project_name: Procurement Analytics
+    description: Created a Power BI dashboard to track procurement KPIs, supplier performance, and category spend, providing actionable insights for informed decision-making.
+    keywords:
+      - Power BI
+      - Procurement
+      - Analytics
+      - KPIs
+
+  - project_name: SAP Data Automation
+    description: Developed automation solutions to streamline data management of SAP using Excel VBA and SAP automation features. Enabled seamless updates enhancing operational efficiency and data accuracy across departments.
+    keywords:
+      - SAP
+      - Excel VBA
+      - Data Automation
+      - Operational Efficiency
+
+  - project_name: Plastic Pollution Overview Dashboard
+    description: Created a dynamic Tableau dashboard to visualize global plastic pollution metrics, including waste generation, recycling rates, and environmental impacts. Integrated multiple data sources offering actionable insights for potential stakeholders supporting sustainability efforts.
+    keywords:
+      - Tableau
+      - Environmental Analytics
+      - Sustainability
+      - Data Visualization
+
+  - project_name: FAANG Forecast Pipeline
+    description: Built machine learning models to forecast FAANG stock performance using financial indicators. Performed data collection, cleaning, and transformation. Deployed results to Azure cloud storage for scalable access and reporting in Power BI.
+    keywords:
+      - Machine Learning
+      - Financial Analysis
+      - Python
+      - Azure
+      - Power BI
+
+  - project_name: Speech Form Automation
+    description: Developed a speech-to-structured-data tool using Google Speech API to transcribe patient voice queries and leveraged a large language model (LLM) to extract key information and store into SQL Server. Deployed the interface using Streamlit for real-time visualization.
+    keywords:
+      - Speech Recognition
+      - Python
+      - Streamlit
+      - SQL
+      - LLM
+      - Data Automation
+
+  - project_name: Financial Simulation Modeling
+    description: Developed a hybrid ML-financial model integrating Monte Carlo simulations, CAPM, and technical indicators to generate data-driven, risk-aware investment insights.
+    keywords:
+      - Python
+      - Monte Carlo Simulation
+      - CAPM
+      - Technical Analysis
+      - Financial Modeling
+      - Machine Learning
+
+  - project_name: Perception & Sentiment Analysis
+    description: Led a data-driven study analyzing META's financial performance and public sentiment using NLP, EDA, and dynamic visualizations to uncover market-driven insights.
+    keywords:
+      - NLP
+      - Sentiment Analysis
+      - Python
+      - Tableau
+      - Financial Analysis
+      - Data Storytelling
+
+  - project_name: Supply Chain Intelligence
+    description: Optimized food delivery logistics and rider efficiency by applying ML forecasting, operational analytics, and real-time dashboards to drive data-backed performance improvements.
+    keywords:
+      - Supply Chain Analytics
+      - Machine Learning
+      - Python
+      - Tableau
+      - Forecasting
+      - Operational Efficiency
+
 
 
