@@ -156,25 +156,24 @@ def get_tailored_resume_content(vestas: str, manpower:str, valeo:str, job_descri
 def tailored_projects(resume, job_description,projects):
     logging.info("2. Contacting Groq API to generate tailored project content...")
     prompt = (f"""
-    Instruction:
-    Generate an ATS-friendly resume tailored to the job description, using keywords from both the job description and my resume. The output must be in valid YAML format, with no markdown backticks, and follow the structure provided.
-
-    ---
-    Resume Generation Guidelines:
-
-
-        2.  **Projects :**
-        * Generate 2 new projects with difficulty level easy when some mandatory keywords or technology is missing in my work experience and projects. 
-        * Each project title should be **short and precise (max 3 words)**.
-        * Provide a **single-line description** for each project.
-        * Include relevant keywords for each project.
               
+    **Projects :**
+    * Generate 2 ATS friednly new projects when some mandatory keywords or technology from the job decription is missing in my work experience and projects. 
+     
+    
+    Project Generation Guidelines:
+        Instructions:
+        1.The project can be built from data freely avaiable content online by a college graduate.
+        2. The graduate has ability to learn new technology from online turorials such as youtube
+        3. projects with difficulty level easy
+       
+       
         ---
         Output Format (YAML - directly parsable):       
-        projects: # Optional: only if new projects are generated as per guidelines
-        - project_name: <Project Title>
+        projects: 
+        - project_name: <Project Title in 3 words>
             description: <Short idea in one line>
-            keywords: [<keyword1>, <keyword2>, <keyword3>]
+            keywords: [<keyword1>, <keyword2>, <keyword3>] # Include relevant keywords for each project.
               
         My Resume:
         {resume}
@@ -190,6 +189,8 @@ def tailored_projects(resume, job_description,projects):
         NO PREAMBLE only yaml
 
         """)
+    yaml_output = get_llm_response(prompt)
+    return yaml_output
 
 
 
@@ -290,7 +291,7 @@ def main():
 
 
 
-    # --- Generation and Self-Correction Logic ---
+    # --- Initial Tailored Resume Generation  ---
     tailored_yaml = get_tailored_resume_content(vestas,manpower,valeo, job_description)
     if not tailored_yaml:
         logging.error("Could not get initial content from LLM. Aborting PDF generation.")
@@ -303,11 +304,21 @@ def main():
         resume_data = yaml.safe_load(tailored_yaml)
         logging.info("Initial YAML from LLM is valid.")
     except yaml.YAMLError as e:
-        logging.error(f"Failed to parse the initial YAML response from the LLM: {e}")
+        logging.error(f"The llm output is not in suitable YAML format {e}")
 
     
     # adding projects in the yaml output
     llm_tailored_projects = tailored_projects(resume_data, job_description,projects)
+
+
+    # --- Initial Tailored Projects Generation  ---
+    try:
+        # First attempt to parse the YAML
+        projects_data = yaml.safe_load(llm_tailored_projects)
+        logging.info("Initial YAML from LLM is valid.")
+    except yaml.YAMLError as e:
+        logging.error(f"The llm output is not in suitable YAML format {e}")
+
         
 
     if resume_data:
