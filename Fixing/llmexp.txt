@@ -1,0 +1,36 @@
+summary: Results-driven Data Analyst with 5+ years of experience in driving business growth through data-driven insights, proficient in statistical analysis, machine learning, and data visualization, with a strong background in SQL, Python, and cloud-based automation tools.
+skills:
+- name: Programming Languages
+  keywords: [Python, R, SQL]
+- name: Data Analysis Tools
+  keywords: [Tableau, Power BI, Excel]
+- name: Cloud Platforms
+  keywords: [AWS, Azure, Google Cloud]
+- name: Methodologies
+  keywords: [Agile, Scrum, Waterfall]
+- name: Data Science
+  keywords: [Machine Learning, Deep Learning, Natural Language Processing]
+- name: Soft Skills
+  keywords: [Communication, Team Management, Time Management]
+work_experience:
+- title: Data Analyst
+  company: ManpowerGroup Services
+  dates: Jan 2020 - Dec 2022
+  achievements:
+  - Developed and deployed Python-based automation tools, resulting in $35M in savings and a 25% reduction in manual effort.
+  - Collaborated with cross-functional teams to develop scalable software solutions, enhancing operational efficiency and supply chain monitoring.
+  - Built interactive dashboards to monitor procurement KPIs, resulting in a 40% decrease in reporting time and faster decision-making.
+- title: Data Analyst
+  company: ManpowerGroup Services
+  dates: Jan 2018 - Dec 2019
+  achievements:
+  - Developed and deployed cloud-based automation tools, resulting in a 30% increase in team productivity and faster completion of routine tasks.
+  - Collaborated with product management and design teams to define project scope and requirements, delivering projects 10% faster.
+  - Built Python automation scripts, optimizing internal workflows and reducing manual effort by 25%.
+- title: Data Analyst
+  company: Valeo India
+  dates: Jan 2015 - Dec 2017
+  achievements:
+  - Gained expertise in manufacturing techniques, achieving a 10% reduction in project costs by aligning processes with best-cost practices.
+  - Built and maintained a robust supplier base, resulting in a 20% improvement in supply chain efficiency.
+  - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
