@@ -283,7 +283,7 @@ def main():
         vestas = [j for i,j in sem_vestas]
         manpower = [j for i,j in sem_manpower]
         valeo = [j for i,j in sem_valeo]
-        projects = [j for i,j in projects]
+        projects = [j for i,j in sem_projects]
         
     except:
         logging.error("Semantic matching failed")
@@ -315,12 +315,15 @@ def main():
     try:
         # First attempt to parse the YAML
         projects_data = yaml.safe_load(llm_tailored_projects)
+        new_projects = projects_data['projects']
         logging.info("Initial YAML from LLM is valid.")
     except yaml.YAMLError as e:
         logging.error(f"The llm output is not in suitable YAML format {e}")
 
-        
-
+    SemProjectFinalList = semantic_search(jd_embedding, new_projects + projects)
+    ProjectFinalList = [j for i,j in SemProjectFinalList]
+    resume_data['projects'] = ProjectFinalList
+    
     if resume_data:
         output_yaml_path = config['paths']['output_yaml']
         logging.info(f"Saving final tailored YAML to '{output_yaml_path}'...")

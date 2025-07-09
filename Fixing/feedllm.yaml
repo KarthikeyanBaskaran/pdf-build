@@ -34,8 +34,7 @@ skills:
   - Communication
   - Problem-Solving
   - Time Management
-  
-  Professional Experience:
+  Professional Experience: null
   Vestas Wind Technology:
   - Collaborated with cross-functional teams to build scalable tools for requirements
     management and defect tracking, ensuring alignment with system baselines.
@@ -58,3 +57,30 @@ skills:
     to a 30% reduction in manual efforts.
   - Optimized material master data accuracy through VBA automation and SAP, improving
     data consistency and reducing errors by 25%.
+projects:
+- project_name: Requirements Tracker
+  description: Built a requirements management tool using Excel VBA and DOORS to capture,
+    modify, manage, and trace requirements, enhancing collaboration and efficiency
+    in system engineering.
+  keywords:
+  - Requirements Management
+  - Excel VBA
+  - DOORS
+  - System Engineering
+- project_name: System Interface
+  description: Designed and developed a system interface management dashboard using
+    Python and Tableau to analyze and visualize internal and external system interfaces.
+  keywords:
+  - System Interface
+  - Python
+  - Tableau
+  - Dashboarding
+- project_name: SAP Data Automation
+  description: Developed automation solutions to streamline data management of SAP
+    using Excel VBA and SAP automation features. Enabled seamless updates enhancing
+    operational efficiency and data accuracy across departments.
+  keywords:
+  - SAP
+  - Excel VBA
+  - Data Automation
+  - Operational Efficiency
