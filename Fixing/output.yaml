@@ -1,70 +1,80 @@
-summary: Results-driven Data Analyst with 5+ years of experience in driving business
-  growth through data-driven insights, proficient in statistical analysis, machine
-  learning, and data visualization, with a strong background in SQL, Python, and cloud-based
-  automation tools.
+summary: Results-driven procurement specialist with 5+ years of experience in managing
+  and optimizing procurement processes, utilizing strong analytical skills to drive
+  efficiency and cost savings, with expertise in procurement systems, vendor management,
+  and performance tracking.
 skills:
-- name: Programming Languages
-  keywords:
-  - Python
-  - R
-  - SQL
 - name: Data Analysis Tools
   keywords:
-  - Tableau
   - Power BI
   - Excel
+  - Procurement Software
+- name: Procurement Systems
+  keywords:
+  - SAP
+  - ZIP
+  - ERP
 - name: Cloud Platforms
   keywords:
-  - AWS
-  - Azure
-  - Google Cloud
-- name: Methodologies
+  - SaaS
+  - Digital Platforms
+  - RXIL TReDS
+- name: Project Management
   keywords:
   - Agile
-  - Scrum
-  - Waterfall
-- name: Data Science
+  - Procurement Workflows
+  - Stakeholder Collaboration
+- name: Methodologies
   keywords:
-  - Machine Learning
-  - Deep Learning
-  - Natural Language Processing
+  - Process Automation
+  - Scalability
+  - Operational Efficiency
 - name: Soft Skills
   keywords:
   - Communication
-  - Team Management
+  - Troubleshooting
   - Time Management
 work_experience:
-- title: Data Analyst
+- title: Procurement Specialist
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Developed and deployed Python-based automation tools, resulting in $35M in savings
-    and a 25% reduction in manual effort.
-  - Collaborated with cross-functional teams to develop scalable software solutions,
-    enhancing operational efficiency and supply chain monitoring.
-  - Built interactive dashboards to monitor procurement KPIs, resulting in a 40% decrease
-    in reporting time and faster decision-making.
-- title: Data Analyst
-  company: ManpowerGroup Services
+  - Delivered savings of $35M by developing and deploying Python-based automation
+    tools that streamlined procurement workflows and enhanced operational efficiency.
+  - Reduced manual effort by 30% and enhanced process accuracy by integrating ERP
+    tools (SAP) to streamline procurement workflows.
+  - Collaborated on ERP system enhancements, reducing procurement cycle times by 20%
+    and improving data accessibility for stakeholders.
+- title: Procurement Analyst
+  company: Valeo India
   dates: Jan 2018 - Dec 2019
   achievements:
-  - Developed and deployed cloud-based automation tools, resulting in a 30% increase
-    in team productivity and faster completion of routine tasks.
-  - Collaborated with product management and design teams to define project scope
-    and requirements, delivering projects 10% faster.
-  - Built Python automation scripts, optimizing internal workflows and reducing manual
-    effort by 25%.
-- title: Data Analyst
-  company: Valeo India
-  dates: Jan 2015 - Dec 2017
-  achievements:
-  - Gained expertise in manufacturing techniques, achieving a 10% reduction in project
-    costs by aligning processes with best-cost practices.
-  - Built and maintained a robust supplier base, resulting in a 20% improvement in
-    supply chain efficiency.
+  - Reduced overall part costs by 8-12% by executing supplier auctions using digital
+    platforms and ensuring competitive pricing through negotiations.
   - Built interactive dashboards to monitor procurement KPIs and supplier performance,
     leading to a 40% decrease in reporting time and faster decision-making.
+  - Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier
+    liquidity and streamlining invoice discounting workflows.
+- title: Procurement Operations
+  company: Vestas Wind Technology
+  dates: Jan 2015 - Dec 2017
+  achievements:
+  - Identified opportunities for process automation and implemented solutions that
+    enhanced scalability and flexibility across procurement functions.
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier
+    performance, and category spend, empowering leadership with informed decision-making
+    capabilities.
+  - Collaborated with product management and design teams to define project scope
+    and requirements, ensuring alignment with customer needs and delivering projects
+    10% faster.
 projects:
+- project_name: Procurement Analytics
+  description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
+    and category spend, providing actionable insights for informed decision-making.
+  keywords:
+  - Power BI
+  - Procurement
+  - Analytics
+  - KPIs
 - project_name: Supply Chain Intelligence
   description: Optimized food delivery logistics and rider efficiency by applying
     ML forecasting, operational analytics, and real-time dashboards to drive data-backed
@@ -76,16 +86,6 @@ projects:
   - Tableau
   - Forecasting
   - Operational Efficiency
-- project_name: User Behavior
-  description: Analyzed customer journey phases and identified key trends to inform
-    personalized segmentation strategies and optimize product revenue.
-  keywords:
-  - Customer Journey
-  - User Behavior
-  - Segmentation
-  - Propensity Models
-  - Python
-  - SQL
 - project_name: SAP Data Automation
   description: Developed automation solutions to streamline data management of SAP
     using Excel VBA and SAP automation features. Enabled seamless updates enhancing
