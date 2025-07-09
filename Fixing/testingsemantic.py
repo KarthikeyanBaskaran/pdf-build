@@ -319,6 +319,7 @@ def main():
         logging.info("Initial YAML from LLM is valid.")
     except yaml.YAMLError as e:
         logging.error(f"The llm output is not in suitable YAML format {e}")
+        return
 
     SemProjectFinalList = semantic_search(jd_embedding, new_projects + projects)
     ProjectFinalList = [j for i,j in SemProjectFinalList]
