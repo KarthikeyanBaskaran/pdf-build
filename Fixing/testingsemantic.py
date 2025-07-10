@@ -9,12 +9,14 @@ from groq import Groq
 from weasyprint import HTML
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
+import shutil
 
 # --- Basic Setup ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') # Set up a logger for clear
 
 load_dotenv() # Load environment variables from a .env file (for the API key)
 GROQ_API_KEY = os.getenv("grok_api") # Load grok api
+loc = os.getenv("FultimeLocation") # location of the fulltime folder
 if not GROQ_API_KEY:
     logging.error("FATAL: GROQ_API_KEY environment variable not found.")
     exit()
@@ -227,6 +229,54 @@ def generate_pdf_from_yaml(resume_data: dict, config: dict):
     except Exception as e:
         logging.error(f"An error occurred during PDF generation: {e}")
         return None # Return None on error
+    
+def mkfolder(loc,company,position):
+    safe_position = position.replace("/", " _")
+    CompPath = os.path.join(loc, company)
+    os.makedirs(CompPath, exist_ok=True)
+    PosPath = os.path.join(CompPath, safe_position)
+    os.makedirs(PosPath, exist_ok=True)
+
+    print(f"Directory created at: {PosPath}")
+
+    return PosPath
+
+def apply_hist(job_description,loc,company,position, config):
+    logging.info("Making Folder with Company Name")
+    prompt = f"""What is the name of the company based on the below job description? If it does not contain a name return null
+
+        {job_description}
+        
+        Output format as valid yaml format
+       company: 
+        - company name
+       position_name:
+        - position name
+        
+        NO PREAMBLE 
+        """
+    output = get_llm_response(prompt)
+    compos = yaml.safe_load(output)
+
+    #Check for company name
+    if compos['company'] is None:
+        company = input("Enter the position name manually")
+    else:
+        company = compos['company'][0]
+
+    #Check for position name
+
+    if compos['position_name'] is None:
+        position = input("Enter the position name manually")
+    else:
+        position = compos['position_name'][0]
+
+    DestPath = mkfolder(loc,company,position)
+    SouPath = config
+
+
+
+
 
 
 # ----------- Main Execution Block -----------
