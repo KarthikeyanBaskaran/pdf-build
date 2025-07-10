@@ -231,17 +231,16 @@ def generate_pdf_from_yaml(resume_data: dict, config: dict):
         return None # Return None on error
     
 def mkfolder(loc,company,position):
-    safe_position = position.replace("/", " _")
     CompPath = os.path.join(loc, company)
     os.makedirs(CompPath, exist_ok=True)
-    PosPath = os.path.join(CompPath, safe_position)
+    PosPath = os.path.join(CompPath, position)
     os.makedirs(PosPath, exist_ok=True)
 
     print(f"Directory created at: {PosPath}")
 
     return PosPath
 
-def apply_hist(job_description,loc,company,position, config):
+def apply_hist(job_description,loc, config):
     logging.info("Making Folder with Company Name")
     prompt = f"""What is the name of the company based on the below job description? If it does not contain a name return null
 
@@ -269,10 +268,20 @@ def apply_hist(job_description,loc,company,position, config):
     if compos['position_name'] is None:
         position = input("Enter the position name manually")
     else:
-        position = compos['position_name'][0]
+        position = compos['position_name'][0].replace("/", "_")
 
     DestPath = mkfolder(loc,company,position)
     SouPath = config
+    new_filename = position+"_Resume.pdf"
+    os.makedirs(DestPath, exist_ok=True)  # Ensure destination exists
+    
+    # Construct full destination path
+    destination_path = os.path.join(DestPath, new_filename)
+
+    # Copy and rename
+    shutil.copy2(SouPath, destination_path)
+
+    print(f"File copied and renamed to: {destination_path}")
 
 
 
@@ -382,6 +391,8 @@ def main():
             yaml.dump(resume_data, f, sort_keys=False, default_flow_style=False)
         
         generate_pdf_from_yaml(resume_data, config)
+
+    apply_hist(job_description,loc, config)
 
 if __name__ == "__main__":
     main()
