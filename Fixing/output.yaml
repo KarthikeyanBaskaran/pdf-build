@@ -1,96 +1,83 @@
-summary: Results-driven data analyst and engineer with 5+ years of experience in driving
-  business growth through predictive analytics, process improvement, and technical
-  expertise, passionate about leveraging blockchain and crypto technologies to update
-  the financial system.
+summary: Results-driven accounting professional with 3+ years of experience in financial
+  reporting, analysis, and process improvement, leveraging expertise in accounting
+  principles, data analysis, and stakeholder management to drive business growth and
+  ensure compliance.
 skills:
-- name: Programming Languages
+- name: Accounting and Finance
   keywords:
-  - Python
-  - JavaScript
-  - SQL
+  - US GAAP
+  - Financial Reporting
+  - Accounting Principles
 - name: Data Analysis Tools
   keywords:
   - Power BI
   - Excel
-  - Tableau
-- name: Blockchain Technologies
+  - Data Visualization
+- name: Business Process Improvement
   keywords:
-  - Blockchain Node Management
-  - Crypto
-  - Decoupling
-- name: Cloud Platforms
+  - Process Optimization
+  - Financial Analysis
+  - Cost Savings
+- name: Communication and Stakeholder Management
   keywords:
-  - Amazon Web Services
-  - Microsoft Azure
-  - Google Cloud
-- name: Methodologies
+  - Stakeholder Engagement
+  - Supplier Relations
+  - Auditing
+- name: Project Management
   keywords:
-  - Agile
-  - Lean
-  - Zero-Based Costing
-- name: Soft Skills
+  - Deadline Management
+  - Independent Work
+  - Fast-Paced Environment
+- name: Technical Skills
   keywords:
-  - Communication
-  - Collaboration
-  - Problem-Solving
+  - SAP
+  - ERP
+  - Macros
 work_experience:
-- title: Data Analyst
-  company: ManpowerGroup Services - Vestas Wind Technology
-  dates: Jan 2020 - Dec 2022
-  achievements:
-  - Enhanced Agile team efficiency by integrating predictive analytics for backlog
-    prioritization, accelerating sprint delivery by 15%.
-  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier
-    performance, and category spend, empowering leadership with informed decision-making
-    capabilities.
-  - Mitigated supply chain risks by analyzing data and identifying alternative sourcing
-    options, addressing potential delivery bottlenecks.
-- title: Data Analyst
+- title: Senior Procurement Analyst
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Collaborated with product management and design teams to define project scope
-    and requirements, ensuring alignment with customer needs and delivering projects
-    10% faster.
-  - Strengthened stakeholder relationships by implementing efficient communication
-    strategies, improving supplier and sponsor engagement by 12%.
-  - Improved operational efficiency by 15% by leading cross-functional collaboration
-    and deploying Lean methodologies.
-- title: Data Analyst
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, resulting
+    in informed decision-making capabilities for leadership.
+  - Improved KPI tracking by automating SLA adherence reporting, increasing stakeholder
+    transparency by 12% and reducing manual intervention by 30%.
+  - Identified potential savings of 3M EUR by analyzing supplier costs and payment
+    credit periods, implementing standardized and efficient procurement strategies.
+- title: Procurement Analyst
   company: Valeo India
   dates: Jan 2018 - Dec 2019
   achievements:
-  - Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier
-    liquidity and streamlining invoice discounting workflows.
-  - Gained expertise in manufacturing techniques, achieving a 10% reduction in project
-    costs by aligning processes with best-cost practices.
-  - Performed zero-based costing using advanced Excel (macros, pivot tables) and analytical
-    tools, enabling 15% cost savings through data-driven negotiations.
+  - Performed zero-based costing using advanced Excel, enabling 15% cost savings through
+    data-driven negotiations.
+  - Achieved a 10% reduction in project costs by aligning processes with best-cost
+    practices and manufacturing techniques.
+  - Built interactive dashboards to monitor procurement KPIs and supplier performance,
+    resulting in a 40% decrease in reporting time and faster decision-making.
 projects:
-- project_name: Crypto Automation
-  description: Developed automated scripts to streamline cryptocurrency transactions,
-    reducing manual effort and increasing efficiency.
+- project_name: Accounting Insight
+  description: Developed a data visualization project using publicly available financial
+    data to analyze and identify trends in accounting principles and financial reporting.
   keywords:
-  - Crypto Automation
-  - Transaction Efficiency
-  - Scripting
-  - Blockchain
-- project_name: Blockchain Node
-  description: Designed and implemented a scalable blockchain node management system
-    to ensure high availability and reliability.
+  - US GAAP
+  - Financial Reporting
+  - Data Visualization
+- project_name: Financial Data Analysis
+  description: Created a project to analyze and reconcile financial data using Python
+    and pandas, identifying inconsistencies and recommending adjustments to ensure
+    compliance with accounting principles.
   keywords:
-  - Blockchain Node Management
-  - Scalability
-  - High Availability
-  - Reliability
-- project_name: Supply Chain Intelligence
-  description: Optimized food delivery logistics and rider efficiency by applying
-    ML forecasting, operational analytics, and real-time dashboards to drive data-backed
-    performance improvements.
-  keywords:
-  - Supply Chain Analytics
-  - Machine Learning
   - Python
+  - Pandas
+  - Financial Analysis
+  - Accounting Principles
+- project_name: Meta Financial Dashboard
+  description: Developed an interactive Tableau dashboard to analyze key financial
+    KPIs such as P/E Ratio, Current Ratio, and Debt to Equity. Delivered actionable
+    insights that improved financial decision making, enhancing reporting accuracy
+    and strategic planning.
+  keywords:
   - Tableau
-  - Forecasting
-  - Operational Efficiency
+  - Financial KPIs
+  - Dashboarding
+  - Strategic Planning

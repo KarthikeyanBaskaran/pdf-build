@@ -279,7 +279,7 @@ def apply_hist(job_description,loc, config):
     
     # Construct full destination path
     destination_path = os.path.join(DestPath, new_filename)
-    jd  = 'job_description'
+    jd  = 'job_description.txt'
     JdPath = os.path.join(DestPath, jd)
 
 
