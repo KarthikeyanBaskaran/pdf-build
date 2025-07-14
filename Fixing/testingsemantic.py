@@ -256,6 +256,8 @@ def apply_hist(job_description,loc, config):
         """
     output = get_llm_response(prompt)
     compos = yaml.safe_load(output)
+    output_pdf_file = config['paths']['output_pdf']
+
 
     #Check for company name
     if compos['company'] is None:
@@ -271,7 +273,7 @@ def apply_hist(job_description,loc, config):
         position = compos['position_name'][0].replace("/", "_")
 
     DestPath = mkfolder(loc,company,position)
-    SouPath = config
+    SouPath = output_pdf_file
     new_filename = position+"_Resume.pdf"
     os.makedirs(DestPath, exist_ok=True)  # Ensure destination exists
     

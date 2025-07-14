@@ -1,80 +1,69 @@
-summary: Results-driven procurement specialist with 5+ years of experience in managing
-  and optimizing procurement processes, utilizing strong analytical skills to drive
-  efficiency and cost savings, with expertise in procurement systems, vendor management,
-  and performance tracking.
+summary: Results-driven procurement professional with 5+ years of experience in indirect
+  spend management, supplier relations, and inventory control, leveraging analytical
+  and negotiation skills to drive cost savings and process improvements.
 skills:
-- name: Data Analysis Tools
+- name: Procurement and Supply Chain
   keywords:
-  - Power BI
+  - Supply Chain Management
+  - Purchasing
+  - Indirect Spend
+- name: Data Analysis and Tools
+  keywords:
   - Excel
+  - Power BI
+  - Data Visualization
+- name: Communication and Collaboration
+  keywords:
+  - Stakeholder Engagement
+  - Cross-Functional Teamwork
+  - Negotiation
+- name: Inventory Management and Control
+  keywords:
+  - Inventory Optimization
+  - MRO Management
+  - Kanban
+- name: Project Management and Coordination
+  keywords:
+  - Project Planning
+  - PO Creation
+  - Contract Management
+- name: Technical Skills
+  keywords:
+  - ERP Systems
   - Procurement Software
-- name: Procurement Systems
-  keywords:
-  - SAP
-  - ZIP
-  - ERP
-- name: Cloud Platforms
-  keywords:
-  - SaaS
-  - Digital Platforms
-  - RXIL TReDS
-- name: Project Management
-  keywords:
-  - Agile
-  - Procurement Workflows
-  - Stakeholder Collaboration
-- name: Methodologies
-  keywords:
-  - Process Automation
-  - Scalability
-  - Operational Efficiency
-- name: Soft Skills
-  keywords:
-  - Communication
-  - Troubleshooting
-  - Time Management
+  - Microsoft Office
 work_experience:
-- title: Procurement Specialist
+- title: Procurement Professional
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Delivered savings of $35M by developing and deploying Python-based automation
-    tools that streamlined procurement workflows and enhanced operational efficiency.
-  - Reduced manual effort by 30% and enhanced process accuracy by integrating ERP
-    tools (SAP) to streamline procurement workflows.
-  - Collaborated on ERP system enhancements, reducing procurement cycle times by 20%
-    and improving data accessibility for stakeholders.
-- title: Procurement Analyst
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, achieving
+    15% reduction in procurement cycle time.
+  - Negotiated supplier contracts, resulting in 10% cost savings and 12% improvement
+    in supplier performance.
+  - Implemented efficient communication strategies, enhancing stakeholder relationships
+    by 15%.
+- title: Supply Chain Specialist
   company: Valeo India
   dates: Jan 2018 - Dec 2019
   achievements:
-  - Reduced overall part costs by 8-12% by executing supplier auctions using digital
-    platforms and ensuring competitive pricing through negotiations.
-  - Built interactive dashboards to monitor procurement KPIs and supplier performance,
-    leading to a 40% decrease in reporting time and faster decision-making.
-  - Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier
-    liquidity and streamlining invoice discounting workflows.
-- title: Procurement Operations
+  - Built and maintained a robust supplier base, driving 20% improvement in supply
+    chain efficiency and 10% reduction in project costs.
+  - Collaborated with cross-functional teams to define project scope and requirements,
+    delivering projects 10% faster.
+  - Managed RFx processes, achieving 10-15% cost reductions through competitive vendor
+    sourcing and procurement strategies.
+- title: Procurement Coordinator
   company: Vestas Wind Technology
   dates: Jan 2015 - Dec 2017
   achievements:
-  - Identified opportunities for process automation and implemented solutions that
-    enhanced scalability and flexibility across procurement functions.
-  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier
-    performance, and category spend, empowering leadership with informed decision-making
-    capabilities.
-  - Collaborated with product management and design teams to define project scope
-    and requirements, ensuring alignment with customer needs and delivering projects
-    10% faster.
+  - Sourced globally from cost-effective suppliers, ensuring 100% on-time delivery
+    and adherence to quality standards.
+  - Elevated supplier performance monitoring through the implementation of vendor
+    scorecards, providing actionable data visualizations for informed decision-making.
+  - Strengthened stakeholder relationships by implementing efficient communication
+    strategies, improving supplier and sponsor engagement by 12%.
 projects:
-- project_name: Procurement Analytics
-  description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
-    and category spend, providing actionable insights for informed decision-making.
-  keywords:
-  - Power BI
-  - Procurement
-  - Analytics
-  - KPIs
 - project_name: Supply Chain Intelligence
   description: Optimized food delivery logistics and rider efficiency by applying
     ML forecasting, operational analytics, and real-time dashboards to drive data-backed
@@ -86,12 +75,21 @@ projects:
   - Tableau
   - Forecasting
   - Operational Efficiency
-- project_name: SAP Data Automation
-  description: Developed automation solutions to streamline data management of SAP
-    using Excel VBA and SAP automation features. Enabled seamless updates enhancing
-    operational efficiency and data accuracy across departments.
+- project_name: Supply Chain Visibility
+  description: Created a data dashboard to track supplier performance, shipment schedules,
+    and inventory levels in real-time, leveraging ERP system data and data visualization
+    tools.
   keywords:
-  - SAP
-  - Excel VBA
-  - Data Automation
-  - Operational Efficiency
+  - Supply Chain Visibility
+  - Data Visualization
+  - ERP Systems
+  - Tableau
+  - Python
+- project_name: Procurement Analytics
+  description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
+    and category spend, providing actionable insights for informed decision-making.
+  keywords:
+  - Power BI
+  - Procurement
+  - Analytics
+  - KPIs
