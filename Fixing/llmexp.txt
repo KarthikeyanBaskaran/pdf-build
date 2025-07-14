@@ -1,29 +1,38 @@
-summary: Results-driven accounting professional with 3+ years of experience in financial reporting, analysis, and process improvement, leveraging expertise in accounting principles, data analysis, and stakeholder management to drive business growth and ensure compliance.
+summary: Results-driven data analyst and software engineer with 4+ years of professional experience in Python, leveraging strong code-review instincts and attention to detail to drive project efficiency and code quality.
+
 skills:
-- name: Accounting and Finance
-  keywords: [US GAAP, Financial Reporting, Accounting Principles]
+- name: Programming Languages
+  keywords: [Python, Java, C++]
 - name: Data Analysis Tools
-  keywords: [Power BI, Excel, Data Visualization]
-- name: Business Process Improvement
-  keywords: [Process Optimization, Financial Analysis, Cost Savings]
-- name: Communication and Stakeholder Management
-  keywords: [Stakeholder Engagement, Supplier Relations, Auditing]
+  keywords: [PowerBI, ERP, SAP]
+- name: Cloud Platforms
+  keywords: [AWS, Azure, Google Cloud]
 - name: Project Management
-  keywords: [Deadline Management, Independent Work, Fast-Paced Environment]
-- name: Technical Skills
-  keywords: [SAP, ERP, Macros]
+  keywords: [Agile, Scrum, Waterfall]
+- name: Methodologies
+  keywords: [RLHF, Reinforcement Learning, Constraint Programming]
+- name: Soft Skills
+  keywords: [Communication, Team Management, Time Management]
+
 work_experience:
-- title: Senior Procurement Analyst
+- title: Data Analyst
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Developed a comprehensive Power BI procurement dashboard to track KPIs, resulting in informed decision-making capabilities for leadership.
-  - Improved KPI tracking by automating SLA adherence reporting, increasing stakeholder transparency by 12% and reducing manual intervention by 30%.
-  - Identified potential savings of 3M EUR by analyzing supplier costs and payment credit periods, implementing standardized and efficient procurement strategies.
-- title: Procurement Analyst
+  - Developed and deployed Python-based automation tools, achieving $35M in savings by streamlining procurement workflows and enhancing operational efficiency.
+  - Improved engineering workflow efficiency by 25% through the development and deployment of Python-based automation scripts for requirements traceability and interface validation.
+  - Enhanced team efficiency by 30% by integrating ERP tools and optimizing internal workflows.
+- title: Software Engineer
   company: Valeo India
   dates: Jan 2018 - Dec 2019
   achievements:
-  - Performed zero-based costing using advanced Excel, enabling 15% cost savings through data-driven negotiations.
-  - Achieved a 10% reduction in project costs by aligning processes with best-cost practices and manufacturing techniques.
-  - Built interactive dashboards to monitor procurement KPIs and supplier performance, resulting in a 40% decrease in reporting time and faster decision-making.
+  - Reduced project costs by 10% by aligning processes with best-cost practices and implementing manufacturing techniques.
+  - Improved supplier liquidity and streamlined invoice discounting workflows through the implementation of RXIL TReDS.
+  - Increased supply chain efficiency by 20% by inducting vendors, implementing double sourcing, and driving localization.
+- title: Data Analyst
+  company: ManpowerGroup Services
+  dates: Jan 2020 - Dec 2022
+  achievements:
+  - Built Python automation scripts, optimizing internal workflows and reducing manual effort by 25%, enhancing team efficiency.
+  - Integrated ERP tools (SAP) to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
+  - Developed dashboards and reporting tools using Python and PowerBI to monitor KPIs, improving decision-making accuracy by 18%.

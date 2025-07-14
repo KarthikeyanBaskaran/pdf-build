@@ -261,7 +261,7 @@ def apply_hist(job_description,loc, config):
 
     #Check for company name
     if compos['company'] is None:
-        company = input("Enter the position name manually")
+        company = input("Enter the company name manually")
     else:
         company = compos['company'][0]
 
