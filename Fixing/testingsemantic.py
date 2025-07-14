@@ -279,9 +279,15 @@ def apply_hist(job_description,loc, config):
     
     # Construct full destination path
     destination_path = os.path.join(DestPath, new_filename)
+    jd  = 'job_description'
+    JdPath = os.path.join(DestPath, jd)
+
 
     # Copy and rename
     shutil.copy2(SouPath, destination_path)
+
+    with open(JdPath, "w") as file:
+        file.write(job_description)
 
     print(f"File copied and renamed to: {destination_path}")
 

@@ -1,38 +1,38 @@
-summary: Results-driven procurement professional with 5+ years of experience in indirect spend management, supplier relations, and inventory control, leveraging analytical and negotiation skills to drive cost savings and process improvements.
+summary: Results-driven data analyst and engineer with 5+ years of experience in driving business growth through predictive analytics, process improvement, and technical expertise, passionate about leveraging blockchain and crypto technologies to update the financial system.
 
 skills:
-- name: Procurement and Supply Chain
-  keywords: [Supply Chain Management, Purchasing, Indirect Spend]
-- name: Data Analysis and Tools
-  keywords: [Excel, Power BI, Data Visualization]
-- name: Communication and Collaboration
-  keywords: [Stakeholder Engagement, Cross-Functional Teamwork, Negotiation]
-- name: Inventory Management and Control
-  keywords: [Inventory Optimization, MRO Management, Kanban]
-- name: Project Management and Coordination
-  keywords: [Project Planning, PO Creation, Contract Management]
-- name: Technical Skills
-  keywords: [ERP Systems, Procurement Software, Microsoft Office]
+- name: Programming Languages
+  keywords: [Python, JavaScript, SQL]
+- name: Data Analysis Tools
+  keywords: [Power BI, Excel, Tableau]
+- name: Blockchain Technologies
+  keywords: [Blockchain Node Management, Crypto, Decoupling]
+- name: Cloud Platforms
+  keywords: [Amazon Web Services, Microsoft Azure, Google Cloud]
+- name: Methodologies
+  keywords: [Agile, Lean, Zero-Based Costing]
+- name: Soft Skills
+  keywords: [Communication, Collaboration, Problem-Solving]
 
 work_experience:
-- title: Procurement Professional
+- title: Data Analyst
+  company: ManpowerGroup Services - Vestas Wind Technology
+  dates: Jan 2020 - Dec 2022
+  achievements:
+  - Enhanced Agile team efficiency by integrating predictive analytics for backlog prioritization, accelerating sprint delivery by 15%.
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities.
+  - Mitigated supply chain risks by analyzing data and identifying alternative sourcing options, addressing potential delivery bottlenecks.
+- title: Data Analyst
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-    - Developed a comprehensive Power BI procurement dashboard to track KPIs, achieving 15% reduction in procurement cycle time.
-    - Negotiated supplier contracts, resulting in 10% cost savings and 12% improvement in supplier performance.
-    - Implemented efficient communication strategies, enhancing stakeholder relationships by 15%.
-- title: Supply Chain Specialist
+  - Collaborated with product management and design teams to define project scope and requirements, ensuring alignment with customer needs and delivering projects 10% faster.
+  - Strengthened stakeholder relationships by implementing efficient communication strategies, improving supplier and sponsor engagement by 12%.
+  - Improved operational efficiency by 15% by leading cross-functional collaboration and deploying Lean methodologies.
+- title: Data Analyst
   company: Valeo India
   dates: Jan 2018 - Dec 2019
   achievements:
-    - Built and maintained a robust supplier base, driving 20% improvement in supply chain efficiency and 10% reduction in project costs.
-    - Collaborated with cross-functional teams to define project scope and requirements, delivering projects 10% faster.
-    - Managed RFx processes, achieving 10-15% cost reductions through competitive vendor sourcing and procurement strategies.
-- title: Procurement Coordinator
-  company: Vestas Wind Technology
-  dates: Jan 2015 - Dec 2017
-  achievements:
-    - Sourced globally from cost-effective suppliers, ensuring 100% on-time delivery and adherence to quality standards.
-    - Elevated supplier performance monitoring through the implementation of vendor scorecards, providing actionable data visualizations for informed decision-making.
-    - Strengthened stakeholder relationships by implementing efficient communication strategies, improving supplier and sponsor engagement by 12%.
+  - Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier liquidity and streamlining invoice discounting workflows.
+  - Gained expertise in manufacturing techniques, achieving a 10% reduction in project costs by aligning processes with best-cost practices.
+  - Performed zero-based costing using advanced Excel (macros, pivot tables) and analytical tools, enabling 15% cost savings through data-driven negotiations.
