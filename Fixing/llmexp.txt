@@ -1,38 +1,36 @@
-summary: Results-driven data analyst and software engineer with 4+ years of professional experience in Python, leveraging strong code-review instincts and attention to detail to drive project efficiency and code quality.
-
+summary: Results-driven procurement professional with experience in supply chain management, leveraging technology to drive efficiency and cost savings, and possessing strong analytical and relationship-building skills.
 skills:
-- name: Programming Languages
-  keywords: [Python, Java, C++]
+- name: Supply Chain Management
+  keywords: [procurement, purchasing, logistics]
 - name: Data Analysis Tools
-  keywords: [PowerBI, ERP, SAP]
+  keywords: [Power BI, Excel, SAP]
 - name: Cloud Platforms
-  keywords: [AWS, Azure, Google Cloud]
+  keywords: [Oracle Cloud, SharePoint, Microsoft]
 - name: Project Management
-  keywords: [Agile, Scrum, Waterfall]
-- name: Methodologies
-  keywords: [RLHF, Reinforcement Learning, Constraint Programming]
+  keywords: [agile, planning, execution]
 - name: Soft Skills
-  keywords: [Communication, Team Management, Time Management]
-
+  keywords: [communication, customer service, teamwork]
+- name: Technical Skills
+  keywords: [MS Office, ERP, data analysis]
 work_experience:
-- title: Data Analyst
+- title: Procurement Specialist
   company: ManpowerGroup Services
-  dates: Jan 2020 - Dec 2022
+  dates: "Jan 2020 - Dec 2022"
   achievements:
-  - Developed and deployed Python-based automation tools, achieving $35M in savings by streamlining procurement workflows and enhancing operational efficiency.
-  - Improved engineering workflow efficiency by 25% through the development and deployment of Python-based automation scripts for requirements traceability and interface validation.
-  - Enhanced team efficiency by 30% by integrating ERP tools and optimizing internal workflows.
-- title: Software Engineer
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, achieving a 30% reduction in manual efforts and empowering leadership with informed decision-making capabilities.
+  - Negotiated supplier contracts to achieve significant cost savings, ensuring compliance with government policies and reducing procurement costs.
+  - Integrated internal systems and procurement processes, leveraging Microsoft Power Query and SharePoint to automate operations and improve data accuracy.
+- title: Procurement Analyst
+  company: ManpowerGroup Services
+  dates: "Jan 2020 - Dec 2022"
+  achievements:
+  - Identified potential savings of 3M EUR by analyzing supplier costs and payment credit periods, implementing standardized and efficient procurement strategies.
+  - Sourced globally from cost-effective suppliers to meet production demands, ensuring 100% on-time delivery and adherence to quality standards.
+  - Integrated ERP tools to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
+- title: Procurement Specialist
   company: Valeo India
-  dates: Jan 2018 - Dec 2019
+  dates: "Jan 2020 - Dec 2022"
   achievements:
-  - Reduced project costs by 10% by aligning processes with best-cost practices and implementing manufacturing techniques.
-  - Improved supplier liquidity and streamlined invoice discounting workflows through the implementation of RXIL TReDS.
-  - Increased supply chain efficiency by 20% by inducting vendors, implementing double sourcing, and driving localization.
-- title: Data Analyst
-  company: ManpowerGroup Services
-  dates: Jan 2020 - Dec 2022
-  achievements:
-  - Built Python automation scripts, optimizing internal workflows and reducing manual effort by 25%, enhancing team efficiency.
-  - Integrated ERP tools (SAP) to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
-  - Developed dashboards and reporting tools using Python and PowerBI to monitor KPIs, improving decision-making accuracy by 18%.
+  - Implemented RXIL TReDS, improving supplier liquidity and streamlining invoice discounting workflows.
+  - Built and maintained a robust supplier base by inducting vendors, implementing double sourcing, and driving localization, resulting in a 20% improvement in supply chain efficiency.
+  - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.

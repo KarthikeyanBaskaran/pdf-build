@@ -11,10 +11,9 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/karthikeyan-baskaran
   shortname: Karth
-  summary: Results-driven procurement professional with 2+ years of experience in
-    supply chain operations, leveraging data-driven strategies and predictive analytics
-    to drive cost reductions, improve supplier performance, and optimize inventory
-    management.
+  summary: Results-driven Production Planner leveraging analytical skills and data-driven
+    insights to optimize production schedules, enhance operational efficiency, and
+    drive business growth.
 education:
 - area: Diploma in Data Analytics for Business
   endDate: '2025-04-01'
@@ -28,100 +27,89 @@ meta:
   breaks_before:
     education: true
 projects:
-- description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
-    and category spend, providing actionable insights for informed decision-making
-    and driving procurement process improvements.
+- description: Created a Power BI dashboard to track production KPIs, supplier performance,
+    and category spend, providing actionable insights for informed decision-making.
   keywords:
   - Power BI
-  - Procurement
-  - KPIs
-  - Supplier Performance
-  - Data Analysis
-  name: Procurement Insights
-- description: Developed a predictive analytics model to forecast demand and optimize
-    inventory management, resulting in a 10% reduction in inventory costs and a 15%
-    improvement in supply chain efficiency, using Python and Tableau.
+  - production planning
+  - KPI tracking
+  - supplier performance
+  - category spend
+  - data analysis
+  name: Production Planning Dashboard
+- description: Optimized food delivery logistics and rider efficiency by applying
+    ML forecasting, operational analytics, and real-time dashboards to drive data-backed
+    performance improvements.
   keywords:
-  - Supply Chain
-  - Predictive Analytics
-  - Inventory Management
-  - Python
-  - Tableau
-  name: Supply Chain Optimization
-- description: Designed and implemented a supplier scorecard system, utilizing Excel
-    and Power BI, to track and monitor supplier performance, resulting in a 20% improvement
-    in supplier compliance and a 15% reduction in procurement costs.
+  - ML forecasting
+  - operational analytics
+  - real-time dashboards
+  - logistics optimization
+  - rider efficiency
+  - data analysis
+  name: Supply Chain Intelligence
+- description: Developed a Power BI dashboard to track procurement KPIs, supplier
+    performance, and category spend, providing actionable insights for informed decision-making
+    and improving operational efficiency.
   keywords:
-  - Supplier Scorecard
-  - Excel
   - Power BI
-  - Vendor Performance
-  - Compliance
-  name: Vendor Performance Management
+  - procurement analytics
+  - KPI tracking
+  - supplier performance
+  - category spend
+  - data analysis
+  name: Procurement Analytics
 skills:
 - keywords:
-  - Tableau
+  - Production Scheduling
+  - Demand Forecasting
+  - Supply Chain Optimization
+  name: Production Planning
+- keywords:
   - Power BI
-  - Excel
+  - Data Visualization
+  - Predictive Analytics
   name: Data Analysis
 - keywords:
-  - Supplier Management
-  - Cost Reduction
-  - Strategic Sourcing
-  name: Procurement
+  - Stakeholder Management
+  - Team Collaboration
+  - Effective Communication
+  name: Communication
 - keywords:
-  - Predictive Analytics
-  - Inventory Management
-  - Logistics
-  name: Supply Chain Optimization
+  - Root Cause Analysis
+  - Problem Resolution
+  - Decision Making
+  name: Problem-Solving
 - keywords:
-  - Supplier Scorecard
-  - Compliance
-  - Risk Management
-  name: Vendor Performance Management
+  - Deadline Management
+  - Priority Setting
+  - Workflow Optimization
+  name: Time Management
 - keywords:
-  - Data Visualization
-  - KPIs
-  - Dashboards
-  name: Business Intelligence
-- keywords:
+  - Cross-Functional Team Management
   - Process Improvement
-  - Automation
-  - Lean Six Sigma
-  name: Operational Efficiency
+  - Change Management
+  name: Leadership
 work:
 - endDate: '2023-08-01'
   highlights:
-  - Developed and implemented data-driven procurement strategies, resulting in a 15%
-    reduction in procurement costs and a 20% improvement in project delivery capacity,
-    utilizing predictive analytics and supplier performance monitoring.
-  - Analyzed and optimized supply chain operations, achieving a 30% reduction in manual
-    efforts and a 25% improvement in data consistency, through the implementation
-    of automation tools, Excel, and Power BI.
-  - Collaborated with cross-functional teams to develop and deploy scalable software
-    solutions, ensuring seamless integration with existing systems, and mitigated
-    supply chain risks by identifying alternative sourcing options, resulting in a
-    40% reduction in processing time.
+  - Utilized analytical skills to create and manage production schedules, resulting
+    in a 20% improvement in project delivery capacity and a 15% reduction in procurement
+    costs.
+  - Developed and implemented predictive analytics for demand forecasting, accelerating
+    project timelines by 20% and enhancing operational efficiency.
+  - Collaborated with cross-functional teams to optimize production planning, streamlining
+    workflows and reducing manual efforts by 30%, and improving data accuracy.
   name: Vestas Wind Technology, India
   position: Purchaser
   startDate: '2021-11-01'
 - endDate: '2021-11-01'
-  highlights:
-  - Developed predictive analytics models for demand forecasting, improving delivery
-    timelines by 20%.
-  - Automated internal workflows using Python and Power Query, enhancing team efficiency
-    by 30%.
-  - Designed a procurement dashboard using Power BI and Cloud Storage.
+  highlights: null
   name: ManpowerGroup Services, India
   position: Consultant ECM Purchaser, Vestas
   startDate: '2021-01-01'
 - endDate: '2021-01-01'
-  highlights:
-  - Achieved 15% cost reductions through strategic vendor sourcing and procurement
-    strategies.
-  - Built Power BI dashboards for real-time KPI tracking, reducing reporting time
-    by 40%.
-  - Developed Python-based tools for cost analysis, saving $500K annually.
+  highlights: null
   name: Valeo India
   position: Procurement Engineer (Intern)
   startDate: '2019-06-01'
