@@ -1,36 +1,40 @@
-summary: Results-driven procurement professional with experience in supply chain management, leveraging technology to drive efficiency and cost savings, and possessing strong analytical and relationship-building skills.
+summary: Results-driven Data Scientist with expertise in advanced analytics, predictive modeling, and data visualization, driving business growth through data-driven insights and strategic recommendations.
+
 skills:
-- name: Supply Chain Management
-  keywords: [procurement, purchasing, logistics]
+- name: Programming Languages
+  keywords: [Python, SQL, R]
 - name: Data Analysis Tools
-  keywords: [Power BI, Excel, SAP]
+  keywords: [Power BI, Databricks, Azure]
+- name: Machine Learning
+  keywords: [MLFlow, Scikit-learn, TensorFlow]
 - name: Cloud Platforms
-  keywords: [Oracle Cloud, SharePoint, Microsoft]
-- name: Project Management
-  keywords: [agile, planning, execution]
-- name: Soft Skills
-  keywords: [communication, customer service, teamwork]
-- name: Technical Skills
-  keywords: [MS Office, ERP, data analysis]
+  keywords: [Microsoft Azure, Databricks, AWS]
+- name: Data Visualization
+  keywords: [Tableau, Power BI, Matplotlib]
+- name: Methodologies
+  keywords: [Agile, Scrum, Kanban]
+
 work_experience:
-- title: Procurement Specialist
+- title: Data Scientist
   company: ManpowerGroup Services
-  dates: "Jan 2020 - Dec 2022"
+  dates: Jan 2020 - Dec 2022
   achievements:
-  - Developed a comprehensive Power BI procurement dashboard to track KPIs, achieving a 30% reduction in manual efforts and empowering leadership with informed decision-making capabilities.
-  - Negotiated supplier contracts to achieve significant cost savings, ensuring compliance with government policies and reducing procurement costs.
-  - Integrated internal systems and procurement processes, leveraging Microsoft Power Query and SharePoint to automate operations and improve data accuracy.
-- title: Procurement Analyst
-  company: ManpowerGroup Services
-  dates: "Jan 2020 - Dec 2022"
-  achievements:
-  - Identified potential savings of 3M EUR by analyzing supplier costs and payment credit periods, implementing standardized and efficient procurement strategies.
-  - Sourced globally from cost-effective suppliers to meet production demands, ensuring 100% on-time delivery and adherence to quality standards.
-  - Integrated ERP tools to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
-- title: Procurement Specialist
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities and achieving 18% improvement in decision-making accuracy.
+  - Built a comprehensive Power BI dashboard to monitor requirements coverage, system maturity, and integration readiness, supporting stakeholder reporting and reducing production costs by 10% through process optimization analyses.
+  - Created interactive dashboards in Power BI to visualize system component status and performance metrics, supporting data-driven decisions and streamlining operations.
+
+- title: Data Analyst
   company: Valeo India
-  dates: "Jan 2020 - Dec 2022"
+  dates: Jun 2018 - Dec 2019
   achievements:
-  - Implemented RXIL TReDS, improving supplier liquidity and streamlining invoice discounting workflows.
-  - Built and maintained a robust supplier base by inducting vendors, implementing double sourcing, and driving localization, resulting in a 20% improvement in supply chain efficiency.
   - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
+  - Performed zero-based costing using advanced Excel and analytical tools, enabling 15% cost savings through data-driven negotiations.
+  - Led data-driven RFx processes on digital platforms, achieving an 8-12% reduction in part costs by leveraging competitive analysis and strategic sourcing.
+
+- title: Data Scientist
+  company: Various
+  dates: Jan 2023 - Present
+  achievements:
+  - Designed and deployed a recommendation engine to enhance customer adoption of an investment product, contributing to significant growth in retail deposits and proving substantial lift in conversion and offer acceptance rates through A/B testing.
+  - Developed a predictive model to identify members at risk of disengagement, supporting targeted retention strategies and processing tens of millions of records using PySpark on Databricks.
+  - Built a machine learning model for invitation-based credit product campaign, leading to strong conversion rates and communicating insights to technical and business leadership to guide campaign design and execution.
