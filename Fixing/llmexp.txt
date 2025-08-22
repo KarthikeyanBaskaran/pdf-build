@@ -1,38 +1,38 @@
-summary: Results-driven Senior Distribution Strategy Analyst with expertise in data-driven decision-making, channel optimization, and stakeholder management, leveraging analytical capabilities to drive competitive advantage in the airline industry.
+summary: Results-driven Support Engineer with 2+ years of experience in technical support, API integration, and data analysis, offering a unique blend of technical expertise, excellent communication skills, and a growth mindset to drive business growth and customer satisfaction.
 
 skills:
+- name: Programming Languages
+  keywords: [Python, JavaScript, SQL]
 - name: Data Analysis Tools
-  keywords: [Tableau, Power BI, Data Visualization]
-- name: Distribution Strategy
-  keywords: [GDS, NDC, ATPCO]
-- name: Business Operations
-  keywords: [Revenue Management, Merchandising, Retailing]
-- name: Technical Skills
-  keywords: [APIs, XML/JSON, MS Office]
+  keywords: [Power BI, Excel, Data Visualization]
+- name: Cloud Platforms
+  keywords: [GitHub, RESTful APIs, Web Development]
+- name: Project Management
+  keywords: [Agile, Scrum, Stakeholder Management]
 - name: Methodologies
-  keywords: [Agile, Lean, Strategic Planning]
+  keywords: [Problem-Solving, Systems Thinking, Collaborative]
 - name: Soft Skills
-  keywords: [Stakeholder Management, Communication, Teamwork]
+  keywords: [Communication, Time Management, Team Player]
 
 work_experience:
-- title: Senior Analyst
+- title: Support Engineer
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Accelerated project timelines by 20% by implementing predictive analytics for demand forecasting, enhancing project delivery capacity.
-  - Enhanced Agile team efficiency by integrating predictive analytics for backlog prioritization, accelerating sprint delivery by 15%.
-  - Mitigated supply chain risks by analyzing data and identifying alternative sourcing options, addressing potential delivery bottlenecks.
-- title: Analyst
-  company: ManpowerGroup Services
-  dates: Jan 2018 - Dec 2019
-  achievements:
-  - Collaborated with product management and design teams to define project scope and requirements, ensuring alignment with customer needs and delivering projects 10% faster.
-  - Improved operational efficiency by 15% by leading cross-functional collaboration and deploying Lean methodologies.
-  - Led RFx processes across wind turbine segments, negotiating competitive pricing with global vendors and achieving an 8% reduction in procurement costs.
-- title: Analyst
+  - Collaborated with cross-functional teams to develop scalable software solutions, ensuring seamless integration with existing systems and resulting in 15% increase in efficiency.
+  - Implemented efficient communication strategies, improving supplier and sponsor engagement by 12% and project delivery time by 10%.
+  - Developed comprehensive dashboards to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities and reducing reporting time by 40%.
+- title: Procurement Analyst
   company: Valeo India
-  dates: Jan 2015 - Dec 2017
+  dates: Jun 2018 - Dec 2019
   achievements:
-  - Led data-driven RFx processes on digital platforms, achieving an 8-12% reduction in part costs by leveraging competitive analysis and strategic sourcing.
-  - Implemented RXIL TReDS (Trade Receivables Discounting System), improving supplier liquidity and streamlining invoice discounting workflows.
-  - Built and maintained a robust supplier base by inducting vendors, implementing double sourcing, and driving localization, resulting in a 20% improvement in supply chain efficiency.
+  - Implemented RXIL TReDS, improving supplier liquidity and streamlining invoice discounting workflows, resulting in 20% improvement in supply chain efficiency.
+  - Built and maintained a robust supplier base, implementing double sourcing and driving localization, resulting in 100% on-time delivery and adherence to quality standards.
+  - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
+- title: Supply Chain Analyst
+  company: Vestas Wind Technology
+  dates: Jan 2016 - May 2018
+  achievements:
+  - Collaborated with cross-functional teams to develop scalable software solutions for supply chain monitoring, ensuring seamless integration with existing systems and resulting in 10% increase in efficiency.
+  - Identified opportunities for process automation and implemented solutions, enhancing scalability and flexibility across procurement functions and resulting in 15% cost reduction.
+  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities.
