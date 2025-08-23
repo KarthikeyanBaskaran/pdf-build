@@ -1,38 +1,38 @@
-summary: Results-driven Support Engineer with 2+ years of experience in technical support, API integration, and data analysis, offering a unique blend of technical expertise, excellent communication skills, and a growth mindset to drive business growth and customer satisfaction.
+summary: Results-driven data analytics professional with 5+ years of experience in collaborative project management, process improvement, and predictive analytics, leveraging expertise in Power BI, ERP tools, and data-driven decision making to drive business growth and efficiency.
 
 skills:
-- name: Programming Languages
-  keywords: [Python, JavaScript, SQL]
 - name: Data Analysis Tools
-  keywords: [Power BI, Excel, Data Visualization]
-- name: Cloud Platforms
-  keywords: [GitHub, RESTful APIs, Web Development]
+  keywords: [Power BI, Predictive Analytics, Data Visualization]
 - name: Project Management
-  keywords: [Agile, Scrum, Stakeholder Management]
+  keywords: [Project Coordination, Team Collaboration, Process Improvement]
+- name: Cloud Platforms
+  keywords: [Procore, Microsoft Office, SAP]
 - name: Methodologies
-  keywords: [Problem-Solving, Systems Thinking, Collaborative]
+  keywords: [Agile, Scrum, Lean]
 - name: Soft Skills
-  keywords: [Communication, Time Management, Team Player]
+  keywords: [Communication, Leadership, Time Management]
+- name: Technical Skills
+  keywords: [Excel, Word, Outlook, MS Project]
 
 work_experience:
-- title: Support Engineer
+- title: Data Analyst
   company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Collaborated with cross-functional teams to develop scalable software solutions, ensuring seamless integration with existing systems and resulting in 15% increase in efficiency.
-  - Implemented efficient communication strategies, improving supplier and sponsor engagement by 12% and project delivery time by 10%.
-  - Developed comprehensive dashboards to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities and reducing reporting time by 40%.
-- title: Procurement Analyst
+    - Collaborated with cross-functional teams to build scalable tools for requirements management and defect tracking, ensuring alignment with system baselines and achieving a 20% reduction in project timelines.
+    - Built a comprehensive Power BI dashboard to monitor requirements coverage, system maturity, and integration readiness, supporting stakeholder reporting and decision-making.
+    - Accelerated project delivery capacity by 20% through process improvements and predictive analytics for demand forecasting.
+- title: Project Coordinator
+  company: ManpowerGroup Services
+  dates: Jan 2018 - Dec 2019
+  achievements:
+    - Collaborated with product management and design teams to define project scope and requirements, ensuring alignment with customer needs and delivering projects 10% faster.
+    - Enhanced project delivery capacity by 20% through process improvements that freed up resources for handling additional projects.
+    - Integrated ERP tools to streamline procurement workflows, reducing manual effort by 30% and enhancing process accuracy.
+- title: Manufacturing Analyst
   company: Valeo India
-  dates: Jun 2018 - Dec 2019
+  dates: Jan 2015 - Dec 2017
   achievements:
-  - Implemented RXIL TReDS, improving supplier liquidity and streamlining invoice discounting workflows, resulting in 20% improvement in supply chain efficiency.
-  - Built and maintained a robust supplier base, implementing double sourcing and driving localization, resulting in 100% on-time delivery and adherence to quality standards.
-  - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
-- title: Supply Chain Analyst
-  company: Vestas Wind Technology
-  dates: Jan 2016 - May 2018
-  achievements:
-  - Collaborated with cross-functional teams to develop scalable software solutions for supply chain monitoring, ensuring seamless integration with existing systems and resulting in 10% increase in efficiency.
-  - Identified opportunities for process automation and implemented solutions, enhancing scalability and flexibility across procurement functions and resulting in 15% cost reduction.
-  - Developed a comprehensive Power BI procurement dashboard to track KPIs, supplier performance, and category spend, empowering leadership with informed decision-making capabilities.
+    - Gained expertise in manufacturing techniques, achieving a 10% reduction in project costs by aligning processes with best-cost practices.
+    - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
+    - Implemented RXIL TReDS, improving supplier liquidity and streamlining invoice discounting workflows.
