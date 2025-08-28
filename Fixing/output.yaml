@@ -1,91 +1,72 @@
-summary: Results-driven data analytics professional with 5+ years of experience in
-  collaborative project management, process improvement, and predictive analytics,
-  leveraging expertise in Power BI, ERP tools, and data-driven decision making to
-  drive business growth and efficiency.
+summary: Results-driven procurement professional with 3+ years of experience in supply
+  chain management, materials procurement, and logistics, leveraging expertise in
+  ERP systems, data analysis, and vendor management to drive cost savings and process
+  efficiency.
 skills:
-- name: Data Analysis Tools
+- name: Procurement and Sourcing
   keywords:
-  - Power BI
-  - Predictive Analytics
-  - Data Visualization
-- name: Project Management
+  - Strategic Sourcing
+  - Supplier Management
+  - Contract Negotiation
+- name: Enterprise Resource Planning (ERP)
   keywords:
-  - Project Coordination
-  - Team Collaboration
-  - Process Improvement
-- name: Cloud Platforms
-  keywords:
-  - Procore
-  - Microsoft Office
   - SAP
-- name: Methodologies
-  keywords:
-  - Agile
-  - Scrum
-  - Lean
-- name: Soft Skills
-  keywords:
-  - Communication
-  - Leadership
-  - Time Management
-- name: Technical Skills
+  - JD Edwards
+  - Procurement Workflows
+- name: Data Analysis and Visualization
   keywords:
   - Excel
-  - Word
-  - Outlook
-  - MS Project
+  - Power BI
+  - Data Visualization
+- name: Supply Chain Management
+  keywords:
+  - Logistics
+  - Materials Management
+  - Shipbuilding Industry
+- name: Process Improvement
+  keywords:
+  - Process Automation
+  - Efficiency Enhancement
+  - Cost Savings
+- name: Communication and Interpersonal
+  keywords:
+  - Negotiation
+  - Leadership
+  - Problem-Solving
 work_experience:
-- title: Data Analyst
-  company: Vestas Wind Systems
+- title: Procurement Professional
+  company: ManpowerGroup Services
   dates: Jan 2020 - Dec 2022
   achievements:
-  - Collaborated with cross-functional teams to build scalable tools for requirements
-    management and defect tracking, ensuring alignment with system baselines and achieving
-    a 20% reduction in project timelines.
-  - Built a comprehensive Power BI dashboard to monitor requirements coverage, system
-    maturity, and integration readiness, supporting stakeholder reporting and decision-making.
-  - Accelerated project delivery capacity by 20% through process improvements and
-    predictive analytics for demand forecasting.
-- title: Project Coordinator
-  company: ManpowerGroup Services
+  - Identified opportunities for process automation and implemented solutions that
+    enhanced scalability and flexibility across procurement functions, resulting in
+    30% reduction in manual effort.
+  - Negotiated supplier contracts to achieve significant cost savings, ensuring compliance
+    with government policies and resulting in potential savings of 3M EUR.
+  - Elevated supplier performance monitoring through the implementation of vendor
+    scorecards using Excel and Power BI, providing actionable data visualizations
+    for improved decision-making.
+- title: Procurement Specialist
+  company: Valeo India
   dates: Jan 2018 - Dec 2019
   achievements:
-  - Collaborated with product management and design teams to define project scope
-    and requirements, ensuring alignment with customer needs and delivering projects
-    10% faster.
-  - Enhanced project delivery capacity by 20% through process improvements that freed
-    up resources for handling additional projects.
-  - Integrated ERP tools to streamline procurement workflows, reducing manual effort
-    by 30% and enhancing process accuracy.
-- title: Manufacturing Analyst
-  company: Valeo India
-  dates: Jan 2015 - Dec 2017
-  achievements:
-  - Gained expertise in manufacturing techniques, achieving a 10% reduction in project
-    costs by aligning processes with best-cost practices.
+  - Executed e-auctions and sourcing strategies that optimized supplier selection
+    and drove cost efficiency across categories, resulting in 10-15% cost reductions.
   - Built interactive dashboards to monitor procurement KPIs and supplier performance,
     leading to a 40% decrease in reporting time and faster decision-making.
-  - Implemented RXIL TReDS, improving supplier liquidity and streamlining invoice
-    discounting workflows.
+  - Managed RFx processes across castings, sheet metal, and plastic segments, achieving
+    cost reductions through competitive vendor sourcing and procurement strategies.
 projects:
-- project_name: Construction Dashboard
-  description: Developed a Procore-based dashboard to track construction project metrics,
-    including scheduling, budgeting, and safety performance, to enhance project coordination
-    and administration.
+- project_name: Shipbuilding Procurement
+  description: Developed a procurement dashboard to track supplier performance, material
+    availability, and delivery schedules for a shipbuilding company using Excel and
+    Power BI.
   keywords:
-  - Procore
-  - Construction
-  - Project Administration
-  - Dashboard
-- project_name: SAP Data Automation
-  description: Developed automation solutions to streamline data management of SAP
-    using Excel VBA and SAP automation features. Enabled seamless updates enhancing
-    operational efficiency and data accuracy across departments.
-  keywords:
-  - SAP
-  - Excel VBA
-  - Data Automation
-  - Operational Efficiency
+  - Procurement
+  - Shipbuilding
+  - Supply Chain
+  - Excel
+  - Power BI
 - project_name: Procurement Analytics
   description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
     and category spend, providing actionable insights for informed decision-making.
@@ -94,3 +75,14 @@ projects:
   - Procurement
   - Analytics
   - KPIs
+- project_name: Supply Chain Intelligence
+  description: Optimized food delivery logistics and rider efficiency by applying
+    ML forecasting, operational analytics, and real-time dashboards to drive data-backed
+    performance improvements.
+  keywords:
+  - Supply Chain Analytics
+  - Machine Learning
+  - Python
+  - Tableau
+  - Forecasting
+  - Operational Efficiency

@@ -10,6 +10,7 @@ from weasyprint import HTML
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
 import shutil
+from ReportLabs import load_content, build_pdf
 
 # --- Basic Setup ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') # Set up a logger for clear
@@ -204,6 +205,8 @@ def generate_pdf_from_yaml(resume_data: dict, config: dict):
     html_template_file = config['paths']['html_template']
     css_file = config['paths']['css_theme']
     output_pdf_file = config['paths']['output_pdf']
+
+    
     
     logging.info(f"Using theme from directory: '{theme_path}'")
     
@@ -290,10 +293,6 @@ def apply_hist(job_description,loc, config):
         file.write(job_description)
 
     print(f"File copied and renamed to: {destination_path}")
-
-
-
-
 
 
 # ----------- Main Execution Block -----------
@@ -398,7 +397,9 @@ def main():
         with open(output_yaml_path, 'w', encoding='utf-8') as f:
             yaml.dump(resume_data, f, sort_keys=False, default_flow_style=False)
         
-        generate_pdf_from_yaml(resume_data, config)
+        # generate_pdf_from_yaml(resume_data, config)
+        content = load_content("output.yaml")
+        build_pdf(content, "formatted_resume.pdf")
 
     apply_hist(job_description,loc, config)
 
