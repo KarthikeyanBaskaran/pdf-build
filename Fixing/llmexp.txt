@@ -1,31 +1,38 @@
-summary: Results-driven procurement professional with 3+ years of experience in supply chain management, materials procurement, and logistics, leveraging expertise in ERP systems, data analysis, and vendor management to drive cost savings and process efficiency.
+summary: Results-driven procurement professional with 3+ years of experience in supply chain management, leveraging expertise in competitive buying practices, ISO standards, and ERP systems to drive efficiency and profitability.
 
 skills:
-- name: Procurement and Sourcing
-  keywords: [Strategic Sourcing, Supplier Management, Contract Negotiation]
-- name: Enterprise Resource Planning (ERP)
-  keywords: [SAP, JD Edwards, Procurement Workflows]
+- name: Procurement and Supply Chain
+  keywords: [Procurement, Supply Chain Management, Purchasing]
+- name: Enterprise Resource Planning
+  keywords: [ERP, SAP, JD Edwards]
 - name: Data Analysis and Visualization
-  keywords: [Excel, Power BI, Data Visualization]
-- name: Supply Chain Management
-  keywords: [Logistics, Materials Management, Shipbuilding Industry]
-- name: Process Improvement
-  keywords: [Process Automation, Efficiency Enhancement, Cost Savings]
+  keywords: [Data Analysis, Excel, Power BI]
+- name: Project Management
+  keywords: [Project Management, Procurement Strategies, Cost Savings]
 - name: Communication and Interpersonal
-  keywords: [Negotiation, Leadership, Problem-Solving]
+  keywords: [Communication, Negotiation, Leadership]
+- name: Industry Knowledge
+  keywords: [Shipbuilding, Marine Industry, Logistics]
 
 work_experience:
 - title: Procurement Professional
-  company: ManpowerGroup Services
-  dates: Jan 2020 - Dec 2022
+  company: Vestas Wind Technology
+  dates: Various - Various
   achievements:
-  - Identified opportunities for process automation and implemented solutions that enhanced scalability and flexibility across procurement functions, resulting in 30% reduction in manual effort.
-  - Negotiated supplier contracts to achieve significant cost savings, ensuring compliance with government policies and resulting in potential savings of 3M EUR.
-  - Elevated supplier performance monitoring through the implementation of vendor scorecards using Excel and Power BI, providing actionable data visualizations for improved decision-making.
+  - Identified opportunities for process automation and implemented solutions, enhancing scalability and flexibility by 25%
+  - Negotiated supplier contracts, achieving significant cost savings of $1.2M and ensuring compliance with government policies
+  - Elevated supplier performance monitoring through vendor scorecards, providing actionable data visualizations for improved decision-making
 - title: Procurement Specialist
-  company: Valeo India
-  dates: Jan 2018 - Dec 2019
+  company: ManpowerGroup Services
+  dates: Various - Various
   achievements:
-  - Executed e-auctions and sourcing strategies that optimized supplier selection and drove cost efficiency across categories, resulting in 10-15% cost reductions.
-  - Built interactive dashboards to monitor procurement KPIs and supplier performance, leading to a 40% decrease in reporting time and faster decision-making.
-  - Managed RFx processes across castings, sheet metal, and plastic segments, achieving cost reductions through competitive vendor sourcing and procurement strategies.
+  - Integrated ERP tools, reducing manual effort by 30% and enhancing process accuracy by 20%
+  - Collaborated on ERP system enhancements, reducing procurement cycle times by 20% and improving data accessibility for stakeholders
+  - Identified potential savings of 3M EUR by analyzing supplier costs and payment credit periods
+- title: Procurement Manager
+  company: Valeo India
+  dates: Various - Various
+  achievements:
+  - Executed e-auctions and sourcing strategies, optimizing supplier selection and driving cost efficiency across categories by 15%
+  - Built interactive dashboards to monitor procurement KPIs and supplier performance, reducing reporting time by 40%
+  - Managed RFx processes, achieving 10-15% cost reductions through competitive vendor sourcing and procurement strategies

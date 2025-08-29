@@ -130,7 +130,7 @@ def get_tailored_resume_content(vestas: str, manpower:str, valeo:str, job_descri
         - <Action Verb> + <What you did> + <Quantifiable Result>
     ---
     My Resume:
-    Professional Experience:  ManpowerGroup Services:
+    Professional Experience:
     Vestas Wind Technology:{vestas}
 
     ManpowerGroup Services: {manpower}
@@ -197,41 +197,41 @@ def tailored_projects(resume, job_description,projects):
 
 
 
-def generate_pdf_from_yaml(resume_data: dict, config: dict):
-    """
-    Generates a PDF resume from YAML data using a Jinja2 template.
-    """
-    theme_path = config['paths']['theme_dir']
-    html_template_file = config['paths']['html_template']
-    css_file = config['paths']['css_theme']
-    output_pdf_file = config['paths']['output_pdf']
+# def generate_pdf_from_yaml(resume_data: dict, config: dict):
+#     """
+#     Generates a PDF resume from YAML data using a Jinja2 template.
+#     """
+#     theme_path = config['paths']['theme_dir']
+#     html_template_file = config['paths']['html_template']
+#     css_file = config['paths']['css_theme']
+#     output_pdf_file = config['paths']['output_pdf']
 
     
     
-    logging.info(f"Using theme from directory: '{theme_path}'")
+#     logging.info(f"Using theme from directory: '{theme_path}'")
     
-    try:
-        env = jinja2.Environment(loader=jinja2.FileSystemLoader(theme_path))
-        template = env.get_template(html_template_file)
-        html_content = template.render(resume_data, strptime=datetime.strptime)
-        logging.info("HTML content rendered successfully.")
+#     try:
+#         env = jinja2.Environment(loader=jinja2.FileSystemLoader(theme_path))
+#         template = env.get_template(html_template_file)
+#         html_content = template.render(resume_data, strptime=datetime.strptime)
+#         logging.info("HTML content rendered successfully.")
         
-        html_renderer = HTML(string=html_content, base_url=theme_path)
-        css_path = os.path.join(theme_path, css_file)
-        html_renderer.write_pdf(output_pdf_file, stylesheets=[css_path])
+#         html_renderer = HTML(string=html_content, base_url=theme_path)
+#         css_path = os.path.join(theme_path, css_file)
+#         html_renderer.write_pdf(output_pdf_file, stylesheets=[css_path])
         
-        logging.info(f"SUCCESS: PDF resume generated at '{output_pdf_file}'")
-        return output_pdf_file # Return the path on success
+#         logging.info(f"SUCCESS: PDF resume generated at '{output_pdf_file}'")
+#         return output_pdf_file # Return the path on success
 
-    except jinja2.exceptions.TemplateNotFound:
-        logging.error(f"Template '{html_template_file}' not found in '{theme_path}'.")
-        return None # Return None on error
-    except FileNotFoundError:
-        logging.error(f"CSS file '{css_file}' not found in '{theme_path}'.")
-        return None # Return None on error
-    except Exception as e:
-        logging.error(f"An error occurred during PDF generation: {e}")
-        return None # Return None on error
+#     except jinja2.exceptions.TemplateNotFound:
+#         logging.error(f"Template '{html_template_file}' not found in '{theme_path}'.")
+#         return None # Return None on error
+#     except FileNotFoundError:
+#         logging.error(f"CSS file '{css_file}' not found in '{theme_path}'.")
+#         return None # Return None on error
+#     except Exception as e:
+#         logging.error(f"An error occurred during PDF generation: {e}")
+#         return None # Return None on error
     
 def mkfolder(loc,company,position):
     CompPath = os.path.join(loc, company)
@@ -398,8 +398,9 @@ def main():
             yaml.dump(resume_data, f, sort_keys=False, default_flow_style=False)
         
         # generate_pdf_from_yaml(resume_data, config)
+    
         content = load_content("output.yaml")
-        build_pdf(content, "formatted_resume.pdf")
+        build_pdf(content, config['paths']['output_pdf'])
 
     apply_hist(job_description,loc, config)
 

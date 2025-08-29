@@ -1,72 +1,69 @@
 summary: Results-driven procurement professional with 3+ years of experience in supply
-  chain management, materials procurement, and logistics, leveraging expertise in
-  ERP systems, data analysis, and vendor management to drive cost savings and process
-  efficiency.
+  chain management, leveraging expertise in competitive buying practices, ISO standards,
+  and ERP systems to drive efficiency and profitability.
 skills:
-- name: Procurement and Sourcing
+- name: Procurement and Supply Chain
   keywords:
-  - Strategic Sourcing
-  - Supplier Management
-  - Contract Negotiation
-- name: Enterprise Resource Planning (ERP)
+  - Procurement
+  - Supply Chain Management
+  - Purchasing
+- name: Enterprise Resource Planning
   keywords:
+  - ERP
   - SAP
   - JD Edwards
-  - Procurement Workflows
 - name: Data Analysis and Visualization
   keywords:
+  - Data Analysis
   - Excel
   - Power BI
-  - Data Visualization
-- name: Supply Chain Management
+- name: Project Management
   keywords:
-  - Logistics
-  - Materials Management
-  - Shipbuilding Industry
-- name: Process Improvement
-  keywords:
-  - Process Automation
-  - Efficiency Enhancement
+  - Project Management
+  - Procurement Strategies
   - Cost Savings
 - name: Communication and Interpersonal
   keywords:
+  - Communication
   - Negotiation
   - Leadership
-  - Problem-Solving
+- name: Industry Knowledge
+  keywords:
+  - Shipbuilding
+  - Marine Industry
+  - Logistics
 work_experience:
 - title: Procurement Professional
-  company: ManpowerGroup Services
-  dates: Jan 2020 - Dec 2022
+  company: Vestas Wind Technology
+  dates: Various - Various
   achievements:
-  - Identified opportunities for process automation and implemented solutions that
-    enhanced scalability and flexibility across procurement functions, resulting in
-    30% reduction in manual effort.
-  - Negotiated supplier contracts to achieve significant cost savings, ensuring compliance
-    with government policies and resulting in potential savings of 3M EUR.
-  - Elevated supplier performance monitoring through the implementation of vendor
-    scorecards using Excel and Power BI, providing actionable data visualizations
-    for improved decision-making.
+  - Identified opportunities for process automation and implemented solutions, enhancing
+    scalability and flexibility by 25%
+  - Negotiated supplier contracts, achieving significant cost savings of $1.2M and
+    ensuring compliance with government policies
+  - Elevated supplier performance monitoring through vendor scorecards, providing
+    actionable data visualizations for improved decision-making
 - title: Procurement Specialist
-  company: Valeo India
-  dates: Jan 2018 - Dec 2019
+  company: ManpowerGroup Services
+  dates: Various - Various
   achievements:
-  - Executed e-auctions and sourcing strategies that optimized supplier selection
-    and drove cost efficiency across categories, resulting in 10-15% cost reductions.
+  - Integrated ERP tools, reducing manual effort by 30% and enhancing process accuracy
+    by 20%
+  - Collaborated on ERP system enhancements, reducing procurement cycle times by 20%
+    and improving data accessibility for stakeholders
+  - Identified potential savings of 3M EUR by analyzing supplier costs and payment
+    credit periods
+- title: Procurement Manager
+  company: Valeo India
+  dates: Various - Various
+  achievements:
+  - Executed e-auctions and sourcing strategies, optimizing supplier selection and
+    driving cost efficiency across categories by 15%
   - Built interactive dashboards to monitor procurement KPIs and supplier performance,
-    leading to a 40% decrease in reporting time and faster decision-making.
-  - Managed RFx processes across castings, sheet metal, and plastic segments, achieving
-    cost reductions through competitive vendor sourcing and procurement strategies.
+    reducing reporting time by 40%
+  - Managed RFx processes, achieving 10-15% cost reductions through competitive vendor
+    sourcing and procurement strategies
 projects:
-- project_name: Shipbuilding Procurement
-  description: Developed a procurement dashboard to track supplier performance, material
-    availability, and delivery schedules for a shipbuilding company using Excel and
-    Power BI.
-  keywords:
-  - Procurement
-  - Shipbuilding
-  - Supply Chain
-  - Excel
-  - Power BI
 - project_name: Procurement Analytics
   description: Created a Power BI dashboard to track procurement KPIs, supplier performance,
     and category spend, providing actionable insights for informed decision-making.
@@ -75,6 +72,14 @@ projects:
   - Procurement
   - Analytics
   - KPIs
+- project_name: Logistics Optimization
+  description: Applied data analysis and visualization techniques to optimize logistics
+    and warehousing management in the shipbuilding industry.
+  keywords:
+  - Logistics Optimization
+  - Warehousing Management
+  - Data Analysis
+  - Shipbuilding Industry
 - project_name: Supply Chain Intelligence
   description: Optimized food delivery logistics and rider efficiency by applying
     ML forecasting, operational analytics, and real-time dashboards to drive data-backed
